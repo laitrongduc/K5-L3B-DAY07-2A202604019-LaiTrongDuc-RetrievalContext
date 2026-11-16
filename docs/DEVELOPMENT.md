@@ -9,6 +9,7 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements-dev.txt
 .venv/bin/python -m pip install -r requirements-runtime.txt
 docker compose -f infra/docker-compose.yml up -d
+source .venv/bin/activate
 ```
 
 Tạo `.env` cục bộ từ `.env.example`, điền `OPENROUTER_API_KEY` và `DATABASE_URL`. Không ghi secret vào config, trace, fixture hoặc commit.
@@ -16,7 +17,7 @@ Tạo `.env` cục bộ từ `.env.example`, điền `OPENROUTER_API_KEY` và `D
 ## Quality gates
 
 ```bash
-PYTHONPATH=src .venv/bin/python -m agentic_rag verify
+PYTHONPATH=src python -m agentic_rag verify
 ```
 
 Lệnh chạy Ruff format/lint, mypy strict, compileall và toàn bộ `unittest`. Kết quả chất lượng cuối là 54 test pass. Test offline chỉ xác minh hành vi code, không được dùng như chất lượng benchmark.
