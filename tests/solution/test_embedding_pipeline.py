@@ -1,3 +1,5 @@
+"""Kiểm thử bổ sung cho pipeline tạo embedding."""
+
 from __future__ import annotations
 
 import json

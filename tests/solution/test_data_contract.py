@@ -1,4 +1,4 @@
-"""Contract and cross-record tests for Day 7 datasets."""
+"""Kiểm thử bổ sung cho contract dữ liệu Day 7."""
 
 import unittest
 

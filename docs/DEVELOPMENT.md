@@ -1,6 +1,6 @@
 # Quy trình phát triển và tái lập
 
-Code triển khai nằm trong `src/agentic_rag/`; test mới nằm trong các file `tests/test_*.py` riêng. Các file đề bài ở root, `starter/`, test gốc và mẫu báo cáo không được chỉnh sửa. Báo cáo đã điền là `report/individual/2A202604019_LaiTrongDuc.md`.
+Code triển khai nằm trong `src/agentic_rag/`; test bổ sung nằm riêng trong `tests/solution/`. Bốn test gốc được giữ nguyên tại thư mục `tests/` để người chấm nhận diện ngay. Các file đề bài ở root, `starter/`, test gốc và mẫu báo cáo không được chỉnh sửa. Báo cáo đã điền là `report/individual/2A202604019_LaiTrongDuc.md`.
 
 ## Chuẩn bị môi trường
 

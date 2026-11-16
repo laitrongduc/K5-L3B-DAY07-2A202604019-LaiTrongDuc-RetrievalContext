@@ -1,3 +1,5 @@
+"""Kiểm thử bổ sung cho các retrieval method."""
+
 from __future__ import annotations
 
 import json

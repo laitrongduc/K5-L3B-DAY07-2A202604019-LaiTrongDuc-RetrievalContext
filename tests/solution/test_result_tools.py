@@ -1,3 +1,5 @@
+"""Kiểm thử bổ sung cho công cụ xử lý artifact kết quả."""
+
 from __future__ import annotations
 
 import json

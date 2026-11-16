@@ -1,3 +1,5 @@
+"""Kiểm thử bổ sung cho adapter model/controller."""
+
 from __future__ import annotations
 
 import unittest

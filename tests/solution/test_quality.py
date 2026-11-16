@@ -1,4 +1,4 @@
-"""Behavior checks for the deterministic quality orchestrator."""
+"""Kiểm thử bổ sung cho quality gates xác định."""
 
 import sys
 import tempfile

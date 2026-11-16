@@ -1,3 +1,5 @@
+"""Kiểm thử bổ sung cho pgvector store."""
+
 from __future__ import annotations
 
 import json

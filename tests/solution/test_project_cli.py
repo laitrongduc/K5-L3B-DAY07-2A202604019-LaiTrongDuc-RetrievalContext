@@ -1,4 +1,4 @@
-"""End-to-end behavior checks for the reusable project CLI."""
+"""Kiểm thử bổ sung cho CLI tái sử dụng của bài làm."""
 
 import json
 import os
@@ -7,7 +7,7 @@ import sys
 import unittest
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 
 class ProjectCliTests(unittest.TestCase):

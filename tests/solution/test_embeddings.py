@@ -1,3 +1,5 @@
+"""Kiểm thử bổ sung cho OpenRouter embedding adapter."""
+
 from __future__ import annotations
 
 import json

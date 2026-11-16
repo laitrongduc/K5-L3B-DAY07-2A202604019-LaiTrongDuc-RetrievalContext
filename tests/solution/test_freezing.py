@@ -1,4 +1,4 @@
-"""Tests for immutable benchmark manifests."""
+"""Kiểm thử bổ sung cho manifest benchmark bất biến."""
 
 import json
 import tempfile

@@ -1,4 +1,4 @@
-"""Tests for independent PDF corpus preparation."""
+"""Kiểm thử bổ sung cho khâu chuẩn bị corpus PDF."""
 
 import hashlib
 import json
