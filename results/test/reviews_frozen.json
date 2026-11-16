@@ -1,0 +1,9 @@
+[
+  {"query_id": "test-01", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "test-02", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "test-03", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "test-04", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "test-05", "answer_grade": 0, "citation_support": []},
+  {"query_id": "test-u01", "abstention_correct": true, "citation_support": []},
+  {"query_id": "test-u02", "abstention_correct": true, "citation_support": []}
+]

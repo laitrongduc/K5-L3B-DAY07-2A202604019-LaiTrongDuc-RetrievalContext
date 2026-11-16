@@ -1,0 +1,13 @@
+{
+  "chunk_overlap_chars": 180,
+  "chunk_size_chars": 1200,
+  "chunks": 123,
+  "document_id": "btttt-1552-de-an-06-v1.0",
+  "extraction_backend": "pdftotext-layout",
+  "license": "Official public guidance; retain source attribution",
+  "license_url": "https://onetouch.mic.gov.vn/tai-lieu/TaiLieu_Chinh_Phu_So.html",
+  "pages": 48,
+  "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+  "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+  "total_characters": 109112
+}

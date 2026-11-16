@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "frozen_on": "2026-11-16",
+  "selection_split": "dev",
+  "model": "openai/gpt-4o-mini",
+  "temperature": 0,
+  "max_completion_tokens": 700,
+  "max_search_calls": 3,
+  "candidate_k": 20,
+  "context_k": 3,
+  "context_max_characters": 9000,
+  "default_retrieval": "search_lexical",
+  "available_tools": ["search_lexical", "search_dense", "search_hybrid"],
+  "runtime_guardrails": [
+    "citation_must_resolve_uniquely_to_context",
+    "duplicate_search_abstains",
+    "invalid_or_missing_citation_abstains",
+    "provider_failure_is_not_fabricated"
+  ],
+  "config_sha256": "f3e6eb9bcbf586db070fcdbeb95ace4dd4db1b5447ed3860d7660403e324fb2f",
+  "benchmark_questions_sha256": "5593c4f95dff03586d7df988d0b8cd750a26d77a3621c7ce59f87a02222ebb15",
+  "dev_run_sha256": "8e70e0c20c3517039e9881371d36e91e2d334c18f9637de099dbfe2ecbe9227f",
+  "dev_selection_metrics": {
+    "cases": 17,
+    "provider_errors": 0,
+    "answered": 15,
+    "abstained": 2,
+    "grounded_answer_mean": 1.9333333333333333,
+    "citation_validity": {"n": 17, "N": 20},
+    "answer_citation_coverage": {"n": 15, "N": 15},
+    "abstention": {"n": 2, "N": 2},
+    "false_abstention": {"n": 0, "N": 15},
+    "total_tokens": 28108,
+    "cost_usd": 0.0053349,
+    "elapsed_seconds": 264.803911
+  },
+  "test_opened_after_freeze": false
+}

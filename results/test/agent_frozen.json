@@ -1,0 +1,593 @@
+{
+  "cases": 7,
+  "elapsed_seconds": 217.082701,
+  "model": "openai/gpt-4o-mini",
+  "split": "test",
+  "traces": [
+    {
+      "answer": "Dữ liệu gốc được xem là dữ liệu dân cư, các cơ sở dữ liệu khác liên quan đến công dân phải căn cứ vào dữ liệu gốc này và có sự kết nối, chia sẻ để đảm bảo tiết kiệm và tránh lãng phí [4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7].",
+      "citations": [
+        "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7"
+      ],
+      "elapsed_seconds": 38.812801,
+      "events": [
+        {
+          "context_ids": [
+            "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+            "aa83c07df41a49477b1163b3791eb4fbdc991452e294ba57721819846f1645d4",
+            "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7"
+          ],
+          "event": "search",
+          "query": "Theo nguyên tắc áp dụng, dữ liệu nào được xem là dữ liệu gốc?",
+          "results": [
+            {
+              "chunk_id": "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+              "method": "bm25_reference_aware",
+              "page": 10,
+              "rank": 1,
+              "score": 15.043485375157054,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "2. Đối tượng áp dụng\n      a) Các cơ quan nhà nước: Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính\nphủ, Ủy ban nhân dân các cấp.\n      b) Các cơ quan nhà nước khác, các tổ chức chính trị - xã hội cấp Trung\nương, các tổ chức xã hội, các tổ chức xã hội - nghề nghiệp cấp Trung ương, các\ndoanh nghiệp, tổ chức, cá nhân thuộc khu vực tư khi kết nối, chia sẻ dữ liệu với\nCơ sở dữ liệu quốc gia về dân cư phục vụ triển khai Đề án 06 thực hiện áp dụng\ntheo hướng dẫn này.\n3. Nguyên tắc áp dụng\n      a) Tuân thủ quy định của pháp luật.\n      b) Tận dụng tối đa hạ tầng kỹ thuật, ứng dụng, dịch vụ, trang thiết bị đã\nđược đầu tư, chỉ đầu tư mới khi đã hết niên hạn sử dụng, hoặc không đáp yêu cầu\nkỹ thuật trên cơ sở khảo sát, đánh giá hiện trạng được thực hiện tại bước lập đề\nán, dự án, nhiệm vụ ứng dụng công nghệ thông tin phục vụ triển khai Đề án 06.\n      c) Sử dụng thống nhất các nền tảng, ứng dụng, dịch vụ, cơ sở dữ liệu quốc\ngia dùng chung, đặc biệt là Cơ sở dữ liệu quốc gia về dân cư; tuyệt đối không đầu\ntư, mua sắm các hạng mục có chức năng trùng lặp với các nền tảng, ứng dụng,\ndịch vụ, cơ sở dữ liệu dùng chung quốc gia để tránh trùng lặp, gây lãng phí.\n      d) Dữ liệu dân cư là dữ liệu "
+            },
+            {
+              "chunk_id": "aa83c07df41a49477b1163b3791eb4fbdc991452e294ba57721819846f1645d4",
+              "method": "bm25_reference_aware",
+              "page": 3,
+              "rank": 2,
+              "score": 14.002862577318847,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "   HƯỚNG DẪN VỀ CÁC THÀNH PHẦN CÔNG NGHỆ THÔNG TIN\n  THIẾT YẾU CẦN THIẾT VÀ TIÊU CHUẨN, ĐỊNH MỨC PHỤC VỤ\n TRIỂN KHAI ĐỀ ÁN PHÁT TRIỂN ỨNG DỤNG DỮ LIỆU VỀ DÂN CƯ,\n  ĐỊNH DANH VÀ XÁC THỰC ĐIỆN TỬ PHỤC VỤ CHUYỂN ĐỔI SỐ\n    QUỐC GIA GIAI ĐOẠN 2022 - 2025, TẦM NHÌN ĐẾN NĂM 2030\n                            (Phiên bản 1.0)\n   (Kèm theo Công văn số     /BTTTT-THH ngày         tháng năm 2022\n                    của Bộ Thông tin và Truyền thông)\n                                                    Mục lục:\nDANH MỤC TỪ VIẾT TẮT .................................................................................. 3\nDANH MỤC HÌNH VẼ .......................................................................................... 4\nI. CĂN CỨ PHÁP LÝ ............................................................................................. 5\nII. PHẠM VI VÀ ĐỐI TƯỢNG ÁP DỤNG .......................................................... 7\n1. Phạm vi áp dụng .................................................................................................. 7\n2. Đối tượng áp dụng ............................................................................................... 8\n3. Nguyên tắc áp dụng "
+            },
+            {
+              "chunk_id": "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7",
+              "method": "bm25_reference_aware",
+              "page": 10,
+              "rank": 3,
+              "score": 11.85967083626682,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "sắm các hạng mục có chức năng trùng lặp với các nền tảng, ứng dụng,\ndịch vụ, cơ sở dữ liệu dùng chung quốc gia để tránh trùng lặp, gây lãng phí.\n      d) Dữ liệu dân cư là dữ liệu gốc, các cơ sở dữ liệu khác liên quan đến công\ndân đã, đang và sẽ xây dựng phải căn cứ vào dữ liệu gốc và có sự kết nối, chia sẻ\nbảo đảm tiết kiệm, tránh lãng phí, tạo ra các giá trị mới.\n      đ) Người dân và doanh nghiệp là trung tâm của chuyển đổi số, người dân\nchỉ phải cung cấp thông tin, giấy tờ một lần cho các cơ quan nhà nước khi thực\nhiện các thủ tục hành chính.\n       e) Việc kết nối, tích hợp, khai thác Cơ sở dữ liệu quốc gia về dân cư phải\ngắn liền bảo đảm an toàn, an ninh thông tin trên môi trường số.\n\n\n\n\n                                        8"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Theo nguyên tắc áp dụng, dữ liệu nào được xem là dữ liệu gốc?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 33,
+          "cost": 3.69e-05,
+          "elapsed_seconds": 26.105738,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 114,
+          "total_tokens": 147
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Dữ liệu gốc được xem là dữ liệu dân cư, các cơ sở dữ liệu khác liên quan đến công dân phải căn cứ vào dữ liệu gốc này và có sự kết nối, chia sẻ để đảm bảo tiết kiệm và tránh lãng phí [4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7].",
+            "citations": [
+              "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7"
+            ]
+          },
+          "completion_tokens": 158,
+          "cost": 0.0003066,
+          "elapsed_seconds": 12.704847,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1412,
+          "total_tokens": 1570
+        }
+      ],
+      "query_id": "test-01",
+      "status": "answered"
+    },
+    {
+      "answer": "Hệ thống thông tin của Bộ Quốc phòng tham khảo theo Mô hình 03 tại Văn bản số 273/BTTTT-CBĐTW của Bộ Thông tin và Truyền thông ngày 31/01/2020, kết hợp với các yếu tố đặc thù do Bộ Quốc phòng quy định [6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c].",
+      "citations": [
+        "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c"
+      ],
+      "elapsed_seconds": 16.078348,
+      "events": [
+        {
+          "context_ids": [
+            "fbd7dce53325a113b9f39672cc9328d5ffe4811bfa8d25bd4fa22ab2e119ee04",
+            "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c",
+            "69b86a9fb5b26371f55f798b5f5b4f7c66b23a5b697d8a0b8a52543139e303e3"
+          ],
+          "event": "search",
+          "query": "Hệ thống thông tin của Bộ Quốc phòng tham khảo mô hình kết nối nào?",
+          "results": [
+            {
+              "chunk_id": "fbd7dce53325a113b9f39672cc9328d5ffe4811bfa8d25bd4fa22ab2e119ee04",
+              "method": "bm25_reference_aware",
+              "page": 37,
+              "rank": 1,
+              "score": 15.242338945163537,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "    - Cổng kết nối vào mạng TSLCD đáp ứng các yêu cầu an toàn quy định tại\nThông tư số 12/2019/TT-BTTTT ngày 05/11/2019 của Bộ trưởng Bộ Thông tin\nvà Truyền thông sửa đổi, bổ sung một số điều của Thông tư số 27/2017/TT-\nBTTTT ngày 20/10/2017 quy định về quản lý, vận hành, kết nối, sử dụng và bảo\nđảm an toàn thông tin trên mạng Truyền số liệu chuyên dùng của các cơ quan\nĐảng, Nhà nước.\n7.2. Mô hình tham chiếu bảo đảm an toàn thông tin\n\n\n\n\n           Hình vẽ 8: Mô hình tham chiếu bảo đảm an toàn thông tin\n     Mô hình tham chiếu bảo đảm an toàn thông tin bao gồm các thành phần: (1)\nMô hình tổ chức “04 lớp” bảo đảm an toàn thông tin; (2) Mô hình tham chiếu về\nbiện pháp quản lý an toàn thông tin; (3) Mô hình tham chiếu biện pháp kỹ thuật\nbảo đảm an toàn thông tin; (4) Mô hình tham chiếu về giải pháp, công nghệ; (5)\nMô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng.\n     Bộ Thông tin và Truyền thông thiết lập hệ thống tiếp nhận dữ liệu giám sát\nan toàn thông tin tập trung để tiếp nhận dữ liệu chia sẻ từ bộ, ngành, địa phương.\nDữ liệu giám sát sẽ được chia sẻ trực tiếp cho hệ thống kỹ thuật quốc gia của\nBộ Công an và các hệ thống thông tin khác (theo đề nghị) phục vụ triển "
+            },
+            {
+              "chunk_id": "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c",
+              "method": "bm25_reference_aware",
+              "page": 15,
+              "rank": 2,
+              "score": 14.42756436115773,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "      - Đối với các hệ thống thông tin của Bộ Quốc phòng: Tham khảo theo Mô\nhình 03 tại Văn bản số 273/BTTTT-CBĐTW của Bộ Thông tin và Truyền thông\nngày 31/01/2020, kết hợp với các yếu tố đặc thù do Bộ Quốc phòng quy định.\n      b) Đối với các cơ quan, tổ chức, doanh nghiệp thuộc khu vực tư:\n       Kết nối đến Hệ thống định danh và xác thực điện tử phục vụ phát triển kinh\ntế xã hội, công dân số sử dụng kênh truyền riêng, mạng Internet. Căn cứ nhu cầu,\nhiện trạng, các cơ quan, tổ chức, doanh nghiệp chủ động thiết lập kênh truyền để\nkết nối, ưu tiên sử dụng kênh truyền riêng, áp dụng giải pháp xác thực, mã hoá\ntheo hướng dẫn của Bộ Công an và Bộ Thông tin và Truyền thông.\n3. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông\ntin phục vụ giải quyết thủ tục hành chính và cung cấp dịch vụ công trực tuyến\n3.1. Yêu cầu về nghiệp vụ\n       a) Về quy trình tiếp nhận, xử lý thủ tục hành chính: Tuân thủ các quy định\ntại: Nghị định số 45/2020/NĐ-CP của Chính phủ ngày 08/4/2020 về thực hiện thủ\ntục hành chính trên môi trường điện tử; Nghị định số 107/2021/NĐ-CP ngày\n06/12/2021 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số\n61/2018/NĐ-CP ngày 23/4/2018 của "
+            },
+            {
+              "chunk_id": "69b86a9fb5b26371f55f798b5f5b4f7c66b23a5b697d8a0b8a52543139e303e3",
+              "method": "bm25_reference_aware",
+              "page": 39,
+              "rank": 3,
+              "score": 13.239027169640481,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "         Hình vẽ 10: Mô hình các yêu cầu về quản lý an toàn thông tin\n       Các yêu cầu cụ thể được xác định dựa vào cấp độ của hệ thống thông tin tương\nứng cần bảo vệ và được chia ra làm 05 nhóm: (1) Chính sách an toàn thông tin, (2)\nTổ chức bảo đảm an toàn thông tin, (3) Bảo đảm nguồn nhân lực, (4) Quản lý thiết\nkế, xây dựng hệ thống, (5) Quản lý vận hành an toàn hệ thống thông tin.\n7.5. Mô hình tham chiếu biện pháp kỹ thuật bảo đảm an toàn thông tin\n       Mô hình dưới đây mô tả các yêu cầu về kỹ thuật bảo đảm an toàn thông tin\ntheo tiêu chuẩn quốc gia TCVN 11930:2017.\n\n\n\n\n      Hình vẽ 11: Mô hình yêu cầu về kỹ thuật đảm bảo an toàn thông tin\n      Các yêu cầu cụ thể được xác định dựa vào cấp độ của hệ thống thông tin tương\nứng cần bảo vệ và được chia làm 04 nhóm: (1) An toàn hạ tầng mạng, (2) An toàn\nmáy chủ, (3) An toàn ứng dụng, (4) An toàn dữ liệu, chi tiết thảm khảo tại Phụ lục\nhướng dẫn này.\n7.6. Mô hình tham chiếu về giải pháp, công nghệ\n       Các sản phẩm cụ thể được phân chia làm 08 nhóm, bao gồm: (1) Sản phẩm an\ntoàn cho thiết bị đầu cuối; (2) Sản phẩm an toàn lớp mạng; (3) Sản phẩm an toàn lớp\nứng dụng; (4) Sản phẩm bảo vệ dữ liệu; (5) Nhóm giải pháp định hướng "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Hệ thống thông tin của Bộ Quốc phòng tham khảo mô hình kết nối nào?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 32,
+          "cost": 3.615e-05,
+          "elapsed_seconds": 6.852199,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 113,
+          "total_tokens": 145
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Hệ thống thông tin của Bộ Quốc phòng tham khảo theo Mô hình 03 tại Văn bản số 273/BTTTT-CBĐTW của Bộ Thông tin và Truyền thông ngày 31/01/2020, kết hợp với các yếu tố đặc thù do Bộ Quốc phòng quy định [6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c].",
+            "citations": [
+              "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c"
+            ]
+          },
+          "completion_tokens": 168,
+          "cost": 0.0003459,
+          "elapsed_seconds": 9.222609,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1634,
+          "total_tokens": 1802
+        }
+      ],
+      "query_id": "test-02",
+      "status": "answered"
+    },
+    {
+      "answer": "Đối với cấp độ 5, hệ thống dự phòng phải cách hệ thống chính tối thiểu 30km [e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9].",
+      "citations": [
+        "e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9"
+      ],
+      "elapsed_seconds": 110.193491,
+      "events": [
+        {
+          "context_ids": [
+            "e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9",
+            "e61a966f498966de4eb9767c3d8ab4a079dc69605227d4d74e83007daee0b748",
+            "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458"
+          ],
+          "event": "search",
+          "query": "Đối với cấp độ 5, hệ thống dự phòng phải cách hệ thống chính tối thiểu bao xa?",
+          "results": [
+            {
+              "chunk_id": "e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9",
+              "method": "bm25_reference_aware",
+              "page": 47,
+              "rank": 1,
+              "score": 20.991449492677614,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "trong nước\n        khác nhau\n                          Giải pháp/Thiết bị\n        Có phương án quản\n                          PAM     (Privileged\n  14    lý tài khoản đặc\n                          Access\n        quyền\n                          Management).\n        Có phương án dự Xây dựng hệ thống dự Hệ thống dự phòng cách\n  15    phòng hệ thống ở vị phòng cho hệ thống hệ thống chính tối thiểu\n        trí địa lý khác nhau chính             30km.\n        Có phương án dự\n        phòng cho kết nối Có kết nối vật lý theo\n  16    mạng giữa hệ thống hai hướng khác nhau\n        chính và hệ thống dự giữa hai hệ thống.\n        phòng\n8. Yêu cầu hiệu năng, tính năng kỹ thuật khác\n      - Đối với Hệ thống thông tin giải quyết thủ tục hành chính tuân thủ các tiêu\nchí tại Phục lục 4, Phục lục 5 của Thông tư số 22/2019/TT-BTTTT ngày\n31/12/2019 của Bộ trưởng Bộ Thông tin và Truyền thông.\n       - Đối với các hệ thống thông tin, cơ sở dữ liệu khác: khuyến nghị áp dụng\ncác tiêu chí tại Phục lục 4, Phục lục 5 của Thông tư số 22/2019/TT-BTTTT ngày\n31/12/2019 của Bộ trưởng Bộ Thông tin và Truyền thông, trong đó điều chỉnh các\nchỉ tiêu theo nhu cầu thực tế.\n\n\n\n                                       45"
+            },
+            {
+              "chunk_id": "e61a966f498966de4eb9767c3d8ab4a079dc69605227d4d74e83007daee0b748",
+              "method": "bm25_reference_aware",
+              "page": 42,
+              "rank": 2,
+              "score": 15.208269860107954,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "ám sát; Quy trình khôi phục hệ thống sau sự cố.\n       b) Quy trình giám sát, bảo vệ hệ thống thông tin: Giám sát quản lý các sự kiện\nvà cảnh báo an toàn thông tin; Xử lý sự cố an toàn thông tin; Tối ưu cảnh báo: Tối\nưu cảnh báo trên hệ thống giám sát để tăng hiệu quả của việc vận hành, giảm thiểu\ntối đa cảnh báo sai; Điều tra, phân tích các nguy cơ mất an toàn thông tin.\n       7.7.3. Con người\n       Đơn vị vận hành hệ thống SOC cần tổ chức và bố trí nhân sự thực hiện quản\nlý, vận hành hệ thống và giám sát an toàn thông tin, bao gồm các nhóm sau: Nhóm\nquản lý vận hành hệ thống giám sát; Nhóm theo dõi và cảnh báo; Nhóm xử lý sự\ncố; Nhóm điều tra, phân tích.\n7.8. Danh mục phương án, thiết bị tối thiểu phục vụ bảo đảm an toàn, an ninh\nmạng\n            Phương án\n STT                             Giải pháp/thiết bị              Ghi chú\n             yêu cầu\n        Cấp độ 3\n        Có phương án quản                        Yêu cầu cầu có giải\n        lý truy cập, quản trị Giải pháp/Thiết bị pháp/thiết bị VPN hoặc\n   1\n        hệ thống từ xa an VPN.                   chức năng VPN được tích\n        toàn                                     hợp trên FW.\n                                     "
+            },
+            {
+              "chunk_id": "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458",
+              "method": "bm25_reference_aware",
+              "page": 36,
+              "rank": 3,
+              "score": 14.38389406313428,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "thông tin phải được kiểm tra, đánh giá an toàn thông tin bởi các\ncơ quan, đơn vị chức năng của Bộ Công an, Bộ Quốc phòng và Bộ Thông tin và\nTruyền thông trước khi kết nối, chia sẻ dữ liệu với Cơ sở dữ liệu quốc gia về dân\ncư và khi có thay đổi về thiết kế hệ thống. Nội dung kiểm tra, đánh giá tối thiểu\nbao gồm:\n    + Kiểm tra, đánh giá việc thiết lập cấu hình bảo mật trên thiết bị hệ thống,\nmáy chủ và ứng dụng và cơ sở dữ liệu đáp ứng các yêu cầu an toàn theo quy định;\n    + Kiểm tra, đánh giá phát hiện mã độc, lỗ hổng, điểm yếu, thử nghiệm xâm\nnhập hệ thống đối với thiết bị hệ thống, máy chủ và ứng dụng;\n    + Kiểm tra, đánh giá an toàn thông tin cho mã nguồn ứng dụng (code review);\n    + Kiểm tra, đánh giá an toàn, an ninh phần cứng.\n\n                                        34"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Đối với cấp độ 5, hệ thống dự phòng phải cách hệ thống chính tối thiểu bao xa?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 38,
+          "cost": 4.065e-05,
+          "elapsed_seconds": 97.987449,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 119,
+          "total_tokens": 157
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Đối với cấp độ 5, hệ thống dự phòng phải cách hệ thống chính tối thiểu 30km [e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9].",
+            "citations": [
+              "e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9"
+            ]
+          },
+          "completion_tokens": 127,
+          "cost": 0.0002811,
+          "elapsed_seconds": 12.204899,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1366,
+          "total_tokens": 1493
+        }
+      ],
+      "query_id": "test-03",
+      "status": "answered"
+    },
+    {
+      "answer": "QCVN 109:2017/BTTTT quy định về cấu trúc thông điệp dữ liệu công dân trao đổi với cơ sở dữ liệu quốc gia về dân cư [24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c].",
+      "citations": [
+        "24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c"
+      ],
+      "elapsed_seconds": 27.113375,
+      "events": [
+        {
+          "context_ids": [
+            "d14f7f1b05aa46371feebb9805e367cde312b59abe20a46ea48c5f9b97e1ccfd",
+            "24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c",
+            "cead2014d7c8b354f6bf17d24d0ba3d06fbbd68a0e93c7e6aa7281e7468c4a45"
+          ],
+          "event": "search",
+          "query": "QCVN 109:2017/BTTTT quy định về nội dung gì?",
+          "results": [
+            {
+              "chunk_id": "d14f7f1b05aa46371feebb9805e367cde312b59abe20a46ea48c5f9b97e1ccfd",
+              "method": "bm25_reference_aware",
+              "page": 8,
+              "rank": 1,
+              "score": 18.574664192329113,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "ưởng Bộ\nThông tin và Truyền thông ban hành “Quy chuẩn kỹ thuật quốc gia về cấu trúc,\nđịnh dạng dữ liệu gói tin phục vụ kết nối Cổng Dịch vụ công quốc gia với Cổng\nDịch vụ công, hệ thống thông tin một cửa điện tử cấp bộ, cấp tỉnh và các cơ sở dữ\nliệu quốc gia, chuyên ngành” (QCVN 120:2019/BTTTT);\n      - Thông tư số 02/2017/TT-BTTTT ngày 04/4/2017 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành “Quy chuẩn kỹ thuật quốc gia về cấu trúc\nthông điệp dữ liệu công dân trao đổi với cơ sở dữ liệu quốc gia về dân cư” (QCVN\n109:2017/BTTTT);\n      - Thông tư số 10/2016/TT-BTTTT ngày 01/4/2016 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành “Quy chuẩn kỹ thuật quốc gia về cấu trúc\nmã định danh và định dạng dữ liệu gói tin phục vụ kết nối các hệ thống quản lý\nvăn bản và điều hành” (QCVN 102:2016/BTTTT) và Thông tư số 01/2022/TT-\nBTTTT ngày 17/02/2022 của Bộ trưởng Bộ Thông tin và Truyền thông Sửa đổi\n1:2022 QCVN 102:2016/BTTTT “Quy chuẩn kỹ thuật quốc gia về cấu trúc mã\nđịnh danh và định dạng dữ liệu gói tin phục vụ kết nối các hệ thống quản lý văn\nbản và điều hành”;\n      - Thông tư số 02/2021/TT-BTTTT ngày 21/6/2021 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành “Quy chuẩn kỹ "
+            },
+            {
+              "chunk_id": "24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c",
+              "method": "bm25_reference_aware",
+              "page": 48,
+              "rank": 2,
+              "score": 17.58125466796066,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "IV. HƯỚNG DẪN TIÊU CHUẨN, QUY CHUẨN, HƯỚNG DẪN KỸ\nTHUẬT, ĐỊNH MỨC PHỤC VỤ TRIỂN KHAI ĐỀ ÁN 06\n1. Danh mục các tiêu chuẩn, quy chuẩn, hướng dẫn kỹ thuật cần áp dụng\n      a) QCVN 109:2017/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc thông\nđiệp dữ liệu công dân trao đổi với cơ sở dữ liệu quốc gia về dân cư.\n       b) QCVN 102:2016/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc mã\nđịnh danh và định dạng dữ liệu gói tin phục vụ kết nối các hệ thống quản lý văn\nbản và điều hành và Thông tư số 01/2022/TT-BTTTT ngày 17/02/2022 của Bộ\ntrưởng Bộ Thông tin và Truyền thông Sửa đổi 1:2022 QCVN 102:2016/BTTTT\nQuy chuẩn kỹ thuật quốc gia về cấu trúc mã định danh và định dạng dữ liệu gói\ntin phục vụ kết nối các hệ thống quản lý văn bản và điều hành.\n      c) QCVN 120:2019/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc, định\ndạng dữ liệu gói tin phục vụ kết nối Cổng Dịch vụ công quốc gia với Cổng Dịch\nvụ công, hệ thống thông tin một cửa điện tử cấp bộ, cấp tỉnh và các cơ sở dữ liệu\nquốc gia, chuyên ngành.\n      d) QCVN 125:2021/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc, định\ndạng dữ liệu phục vụ kết nối, tích hợp, chia sẻ dữ liệu giữa các hệ thống thông tin\nbáo cáo trong Hệ thống thông tin "
+            },
+            {
+              "chunk_id": "cead2014d7c8b354f6bf17d24d0ba3d06fbbd68a0e93c7e6aa7281e7468c4a45",
+              "method": "bm25_reference_aware",
+              "page": 31,
+              "rank": 3,
+              "score": 13.458269654546864,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "       - Hệ thống định danh và xác thực điện tử thực hiện trao đổi, đồng bộ dữ\nliệu theo quy chuẩn kỹ thuật QCVN 109:2017/BTTTT ban hành kèm Thông tư số\n02/2017/TT-BTTTT ngày 04/4/2017 của Bộ Thông tin và Truyền thông.\n5. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông\ntin phục vụ quản lý, xử lý nghiệp vụ, bổ sung làm giàu dữ liệu dân cư\n5.1. Yêu cầu về nghiệp vụ\n      a) Xác thực, đồng bộ dữ liệu mới phục vụ quản lý, xử lý nghiệp vụ:\nKịch bản điển hình để các CSDL quốc gia, CSDL chuyên ngành, hệ thống thông\ntin phục vụ mục đích quản lý, xử lý nghiệp vụ chuyên ngành, cung cấp dịch vụ\nsố, tiện ích số của cơ quan nhà nước có nhu cầu xác thực thông tin công dân, đồng\nbộ dữ liệu với CSDLQG về dân cư để làm giàu dữ liệu dân cư như sau:\n\n\n\n\n   Hình vẽ 6: Quy trình xác thực, đồng bộ thông tin công dân giữa CSDLQG,\n      CSDL chuyên ngành, HTTT phục vụ quản lý, nghiệp vụ của CQNN\n     Mô tả kịch bản:\n     - Bước 1: Công chức, viên chức, người lao động tại cơ quan, tổ chức, đăng\nnhập hệ thống CSDL quốc gia, CSDL chuyên ngành, phần mềm nghiệp vụ; chọn\nthủ tục nghiệp vụ cần xử lý. Công chức, viên chức, người lao động chọn hồ sơ\ncông dân cần xử lý, nhập các thông tin "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "QCVN 109:2017/BTTTT quy định về nội dung gì?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 33,
+          "cost": 3.69e-05,
+          "elapsed_seconds": 22.333573,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 114,
+          "total_tokens": 147
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "QCVN 109:2017/BTTTT quy định về cấu trúc thông điệp dữ liệu công dân trao đổi với cơ sở dữ liệu quốc gia về dân cư [24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c].",
+            "citations": [
+              "24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c"
+            ]
+          },
+          "completion_tokens": 134,
+          "cost": 0.0003363,
+          "elapsed_seconds": 4.778847,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1706,
+          "total_tokens": 1840
+        }
+      ],
+      "query_id": "test-04",
+      "status": "answered"
+    },
+    {
+      "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+      "citations": [],
+      "elapsed_seconds": 14.239562,
+      "events": [
+        {
+          "context_ids": [
+            "5c52681e5f580f795edd1e93dccfe8d130e16885360ade29e9c7ec14b3234f1c",
+            "b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7",
+            "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458"
+          ],
+          "event": "search",
+          "query": "Văn bản hướng dẫn kiểm thử phần mềm nội bộ",
+          "results": [
+            {
+              "chunk_id": "5c52681e5f580f795edd1e93dccfe8d130e16885360ade29e9c7ec14b3234f1c",
+              "method": "bm25_reference_aware",
+              "page": 49,
+              "rank": 1,
+              "score": 22.720198046047894,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": " cứng\nvà cài đặt phần mềm trong ứng dụng công nghệ thông tin.\n      c) Quyết định số 1595/QĐ-BTTTT ngày 03/10/2011 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành định mức tạo lập cơ sở dữ liệu trong hoạt\nđộng ứng dụng CNTT.\n     d) Quyết định số 2331/QĐ-BTTTT ngày 15/12/2017 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành định mức kinh tế - kỹ thuật trong hoạt động\nchuyển giao ứng dụng CNTT.\n      đ) Quyết định số 1872/QĐ-BTTTT ngày 14/11/2018 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành định mức kinh tế - kỹ thuật triển khai áp\ndụng phần mềm nguồn mở.\n      e) Công văn số 2589/BTTTT-ƯDCNTT ngày 24/8/2011 của Bộ Thông tin và\nTruyền thông hướng dẫn xác định chi phí phát triển, nâng cấp phần mềm nội bộ.\n     f) Công văn số 3787/BTTTT-THH ngày 26/12/2014 của Bộ Thông tin và\nTruyền thông hướng dẫn kiểm thử phần mềm nội bộ.\n      g) Công văn số 1951/BTTTT-ƯDCNTT ngày 04/7/2013 của Bộ Thông tin\nvà Truyền thông hướng dẫn lập dự toán chi phí khảo sát dự án ứng dụng CNTT\nsử dụng nguồn vốn ngân sách nhà nước.\n\n\n                                      47"
+            },
+            {
+              "chunk_id": "b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7",
+              "method": "bm25_reference_aware",
+              "page": 9,
+              "rank": 2,
+              "score": 13.778848317537072,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "Nam\nphiên bản 2.0;\n       - Quyết định số 186/QĐ-BTTTT ngày 11/2/2022 của Bộ trưởng Bộ Thông\ntin và Truyền thông phê duyệt Chương trình thúc đẩy phát triển và sử dụng các\nnền tảng số quốc gia phục vụ chuyển đổi số, phát triển Chính phủ số, kinh tế số,\nxã hội số;\n      - Văn bản số 9318/VPCP-KSTT ngày 21/12/2021 của Văn phòng Chính\nphủ về việc hướng dẫn số hóa hồ sơ, kết quả giải quyết TTHC;\n      - Văn bản số 761/VPCP-KSTT ngày 29/01/2022 của Văn phòng Chính phủ\nvề việc hướng dẫn kết nối, tích hợp, chia sẻ với CSDLQG về dân cư;\n      - Văn bản số 677/BTTTT-THH ngày 03/3/2022 của Bộ Thông tin và\nTruyền thông về hướng dẫn kết nối và chia sẻ dữ liệu thông qua Nền tảng tích\nhợp, chia sẻ dữ liệu quốc gia;\n     - Văn bản số 273/BTTTT-CBĐTW ngày 31/01/2020 của Bộ Thông tin và\nTruyền thông về việc hướng dẫn mô hình tham chiếu về kết nối mạng cho bộ,\nngành, địa phương.\nII. PHẠM VI VÀ ĐỐI TƯỢNG ÁP DỤNG\n      1. Phạm vi áp dụng\n       Tài liệu này hướng dẫn các thành phần công nghệ thông tin thiết yếu cần\nthiết, yêu cầu chức năng, tính năng kỹ thuật, yêu cầu bảo đảm an toàn, an ninh\nmạng; hướng dẫn về áp dụng tiêu chuẩn, định mức triển khai Đề án 06 đáp ứng\n05 nhóm tiện ích: (1) Phục vụ giải "
+            },
+            {
+              "chunk_id": "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458",
+              "method": "bm25_reference_aware",
+              "page": 36,
+              "rank": 3,
+              "score": 12.978253650835999,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "thông tin phải được kiểm tra, đánh giá an toàn thông tin bởi các\ncơ quan, đơn vị chức năng của Bộ Công an, Bộ Quốc phòng và Bộ Thông tin và\nTruyền thông trước khi kết nối, chia sẻ dữ liệu với Cơ sở dữ liệu quốc gia về dân\ncư và khi có thay đổi về thiết kế hệ thống. Nội dung kiểm tra, đánh giá tối thiểu\nbao gồm:\n    + Kiểm tra, đánh giá việc thiết lập cấu hình bảo mật trên thiết bị hệ thống,\nmáy chủ và ứng dụng và cơ sở dữ liệu đáp ứng các yêu cầu an toàn theo quy định;\n    + Kiểm tra, đánh giá phát hiện mã độc, lỗ hổng, điểm yếu, thử nghiệm xâm\nnhập hệ thống đối với thiết bị hệ thống, máy chủ và ứng dụng;\n    + Kiểm tra, đánh giá an toàn thông tin cho mã nguồn ứng dụng (code review);\n    + Kiểm tra, đánh giá an toàn, an ninh phần cứng.\n\n                                        34"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "event": "invalid_or_missing_citations"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Văn bản hướng dẫn kiểm thử phần mềm nội bộ",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 26,
+          "cost": 3.195e-05,
+          "elapsed_seconds": 6.557451,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 109,
+          "total_tokens": 135
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Công văn số 3787/BTTTT-THH ngày 26/12/2014 của Bộ Thông tin và Truyền thông hướng dẫn kiểm thử phần mềm nội bộ [f].",
+            "citations": [
+              "f"
+            ]
+          },
+          "completion_tokens": 69,
+          "cost": 0.00026025,
+          "elapsed_seconds": 7.681259,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1459,
+          "total_tokens": 1528
+        }
+      ],
+      "query_id": "test-05",
+      "status": "abstain"
+    },
+    {
+      "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+      "citations": [],
+      "elapsed_seconds": 3.539677,
+      "events": [
+        {
+          "context_ids": [
+            "b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7",
+            "3a6efb18622bd7eb5c3beabf06fdcea72a0befaf2e47dc6a2cb2e2ecfe3411fa",
+            "7f1ba57a3b4852cf98e584dade02d88ee6fc5867e242916f89b3aa9eb4d1ce5d"
+          ],
+          "event": "search",
+          "query": "Tài liệu yêu cầu triển khai Kubernetes phiên bản nào cho Cổng Dịch vụ công?",
+          "results": [
+            {
+              "chunk_id": "b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7",
+              "method": "bm25_reference_aware",
+              "page": 9,
+              "rank": 1,
+              "score": 13.28547224376415,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "Nam\nphiên bản 2.0;\n       - Quyết định số 186/QĐ-BTTTT ngày 11/2/2022 của Bộ trưởng Bộ Thông\ntin và Truyền thông phê duyệt Chương trình thúc đẩy phát triển và sử dụng các\nnền tảng số quốc gia phục vụ chuyển đổi số, phát triển Chính phủ số, kinh tế số,\nxã hội số;\n      - Văn bản số 9318/VPCP-KSTT ngày 21/12/2021 của Văn phòng Chính\nphủ về việc hướng dẫn số hóa hồ sơ, kết quả giải quyết TTHC;\n      - Văn bản số 761/VPCP-KSTT ngày 29/01/2022 của Văn phòng Chính phủ\nvề việc hướng dẫn kết nối, tích hợp, chia sẻ với CSDLQG về dân cư;\n      - Văn bản số 677/BTTTT-THH ngày 03/3/2022 của Bộ Thông tin và\nTruyền thông về hướng dẫn kết nối và chia sẻ dữ liệu thông qua Nền tảng tích\nhợp, chia sẻ dữ liệu quốc gia;\n     - Văn bản số 273/BTTTT-CBĐTW ngày 31/01/2020 của Bộ Thông tin và\nTruyền thông về việc hướng dẫn mô hình tham chiếu về kết nối mạng cho bộ,\nngành, địa phương.\nII. PHẠM VI VÀ ĐỐI TƯỢNG ÁP DỤNG\n      1. Phạm vi áp dụng\n       Tài liệu này hướng dẫn các thành phần công nghệ thông tin thiết yếu cần\nthiết, yêu cầu chức năng, tính năng kỹ thuật, yêu cầu bảo đảm an toàn, an ninh\nmạng; hướng dẫn về áp dụng tiêu chuẩn, định mức triển khai Đề án 06 đáp ứng\n05 nhóm tiện ích: (1) Phục vụ giải "
+            },
+            {
+              "chunk_id": "3a6efb18622bd7eb5c3beabf06fdcea72a0befaf2e47dc6a2cb2e2ecfe3411fa",
+              "method": "bm25_reference_aware",
+              "page": 36,
+              "rank": 2,
+              "score": 11.772100146495035,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "phủ, Thủ tướng Chính phủ cần tuân thủ Thông tư số 02/2021/TT-BTTTT ngày\n21/6/2021 của Bộ trưởng Bộ Thông tin và Truyền thông, theo yêu cầu của lãnh\nđạo Chính phủ, Thủ tướng Chính phủ. Các chức năng cần bổ sung, hiệu chỉnh\nthực hiện theo hướng dẫn của Văn phòng Chính phủ và Bộ Công an.\n7. Yêu cầu về an toàn, an ninh mạng\n7.1. Yêu cầu chung\n     a) Các hệ thống thông tin, nền tảng dùng chung phục vụ kết nối kết nối, triển\nkhai Đề án 06 gồm: Cơ sở dữ liệu quốc gia về dân cư (CSDLQG về dân cư); Cổng\nDịch vụ công quốc gia; các CSDLQG, CSDL chuyên ngành; Trung tâm thông tin,\nchỉ đạo điều hành của Chính phủ, Thủ tướng Chính phủ; Hệ thống định danh và\nxác thực điện tử; hệ thống thông tin giải quyết thủ tục hành chính cấp bộ, cấp tỉnh;\nCổng, ứng dụng (app) cung cấp dịch vụ trực tuyến khác; hệ thống thông tin quản\nlý/hệ thống thông tin chuyên ngành; Nền tảng tích hợp, chia sẻ dữ liệu quốc gia\n(NDXP; )Trục liên thông văn bản quốc gia; Hệ thống hỗ trợ giám sát, điều hành\nan toàn, an ninh mạng (GovSOC); Mạng Truyền số liệu chuyên dùng cấp I, Mạng\nTruyền số liệu chuyên dùng cấp II có Hồ sơ đề xuất cấp độ (HSĐXCĐ) được thẩm\nđịnh và phê duyệt trước ngày 30/6/2022, triển khai đầy đủ phương án bảo "
+            },
+            {
+              "chunk_id": "7f1ba57a3b4852cf98e584dade02d88ee6fc5867e242916f89b3aa9eb4d1ce5d",
+              "method": "bm25_reference_aware",
+              "page": 18,
+              "rank": 3,
+              "score": 10.789022385396125,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                               12.1. Nâng cấp API đồng bộ thông\n                               tin hồ sơ để cập nhật bổ sung dữ liệu\n                               liên quan tới số hóa hồ sơ, kết quả\n                               giải quyết TTHC.\n                               12.2. Xây dựng API chia sẻ dữ liệu\n        Xây dựng các API       về kho tài liệu của cá nhân cho\n        phục vụ đồng bộ dữ     BNĐP.\n  12    liệu giữa Cổng Dịch    12.3. Xây dựng API cho phép Hệ thống\n        vụ công quốc gia với   BNĐP chia sẻ các dữ liệu, giấy tờ có\n        các BNĐP               tính xác thực để giải quyết hồ sơ\n                               TTHC.\n                               12.4. Xây dựng API cho phép\n                               BNĐP chia sẻ các thuộc tính, thông\n                               tin hỗ trợ điền biểu mẫu hoặc giải\n                               quyết TTHC.\n        XÂY DỰNG MỚI CÁC PHÂN HỆ PHỤC VỤ GIÁM SÁT TÌNH\n III    HÌNH THỰC HIỆN, CUNG CẤP CÁC DỊCH VỤ CÔNG THIẾT\n        YẾU THEO ĐỀ ÁN 06\n        Xây dựng báo cáo\n        về tình hình triển\n  13                                                                Quản trị\n        khai các dịch vụ\n        trong Đề án 06\n"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "event": "model_abstain"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Tài liệu yêu cầu triển khai Kubernetes phiên bản nào cho Cổng Dịch vụ công?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 34,
+          "cost": 3.765e-05,
+          "elapsed_seconds": 1.86484,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 115,
+          "total_tokens": 149
+        },
+        {
+          "action": {
+            "action": "abstain"
+          },
+          "completion_tokens": 11,
+          "cost": 0.0002448,
+          "elapsed_seconds": 1.672123,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1588,
+          "total_tokens": 1599
+        }
+      ],
+      "query_id": "test-u01",
+      "status": "abstain"
+    },
+    {
+      "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+      "citations": [],
+      "elapsed_seconds": 7.089481,
+      "events": [
+        {
+          "context_ids": [
+            "d979f4665f76436902baeb4d35e0d82d1c7869fa7449fd08017f29bdc5c46845",
+            "a3b94320c1b451446a83d187edbdb396fc92b3425d9b5fd164f752d6dd90c040",
+            "2dca3fbff6e6a1115efb51c0dfab8ed300fb66e07d56d11a5fe77917b4b0f0c3"
+          ],
+          "event": "search",
+          "query": "Thuật toán nhận diện khuôn mặt được chỉ định cho VNeID",
+          "results": [
+            {
+              "chunk_id": "d979f4665f76436902baeb4d35e0d82d1c7869fa7449fd08017f29bdc5c46845",
+              "method": "bm25_reference_aware",
+              "page": 28,
+              "rank": 1,
+              "score": 9.910618698761937,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": " Hệ thống định danh và xác\n    liệu công dân\n                  thực điện tử.                                Công      dân,\n    thông     qua\n  3               3.2. Hệ thống của cơ quan, tổ chức, doanh nhân viên tại\n    quét mã QR\n                  nghiệp tiếp nhận, xử lý dữ liệu trả về từ Hệ quầy giao dịch\n    code của ứng\n                  thống định danh và xác thực điện tử và hiển\n    dụng VNeID\n                  thị trên giao diện phần mềm ứng dụng, tự\n                  động điền vào biểu mẫu điện tử… phục vụ\n                  xử lý nghiệp vụ các bước tiếp theo.\n    Chia sẻ dữ 4.1. Hệ thống cho phép tiếp nhận yêu cầu\n    liệu công dân chia sẻ dữ liệu công dân thông qua việc sử Công   dân,\n  4 thông     qua dụng ứng dụng VNeID để quét mã QR code nhân viên tại\n    quét QR code của cơ quan, tổ chức, doanh nghiệp và tự quầy giao dịch\n    của cơ quan, động gửi yêu cầu cung cấp thông tin công\n\n                                     26"
+            },
+            {
+              "chunk_id": "a3b94320c1b451446a83d187edbdb396fc92b3425d9b5fd164f752d6dd90c040",
+              "method": "bm25_reference_aware",
+              "page": 29,
+              "rank": 2,
+              "score": 8.964164275597541,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "       tổ     chức, dân đến Hệ thống định danh và xác thực\n       doanh nghiệp điện tử.\n       bằng    ứng 4.2. Hệ thống của cơ quan, tổ chức, doanh\n       dụng VNeID nghiệp tiếp nhận, xử lý dữ liệu trả về từ Hệ\n                    thống định danh và xác thực điện tử và hiển\n                    thị trên giao diện phần mềm ứng dụng, tự\n                    động điền vào biểu mẫu điện tử phục vụ xử\n                    lý nghiệp vụ các bước tiếp theo.\nb) Trang thiết bị tại quầy giao dịch:\n      Căn cứ nhu cầu thực tế các cơ quan, tổ chức, doanh nghiêp chủ động đầu\ntư, mua sắm trang thiết bị, phương tiện phục vụ hoạt động tại quầy giao dịch:\nThiết bị, phương tiện đọc thẻ mã QR code trên ứng dụng VNeID, thẻ CCCD\ngắn chíp.\n4.3. Mô hình kết nối cho cơ quan tổ chức, doanh nghiệp\n      Căn cứ nhu cầu thực tế, hiện trạng hạ tầng kỹ thuật, việc kết nối các hệ\nthống của cơ quan, tổ chức, doanh nghiệp thuộc khu vực tư vào Hệ thống định\ndanh và xác thực điện tử áp dụng một trong phương án kết nối sau:\n      a) Phương án 1-Sử dụng VPN site to site:\n       Áp dụng đối với các cơ quan, tổ chức, doanh nghiệp có trang thiết bị phục\nvụ thiết lập kênh kết nối VPN site to site theo hướng dẫn của Bộ Công "
+            },
+            {
+              "chunk_id": "2dca3fbff6e6a1115efb51c0dfab8ed300fb66e07d56d11a5fe77917b4b0f0c3",
+              "method": "bm25_reference_aware",
+              "page": 26,
+              "rank": 3,
+              "score": 8.261539533859242,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "ng ứng dụng VNeID, không có thẻ\nCCCD gắn chíp, nhân viên tại quầy giao dịch nhập thông tin trên giấy tờ tuỳ thân\n(thẻ CCCD gắn chíp, CMND…) vào phần mềm ứng dụng và thực hiện tiếp theo\nquy trình thông thường.\n     - Bước 3: Hệ thống định danh và xác thực điện tử tiếp nhận yêu cầu cung\ncấp thông tin công dân từ hệ thống tổ chức, doanh nghiệp; thực hiện gửi câu hỏi\ncho công dân về việc đồng ý cung cấp thông tin của mình cho cơ quan, tổ chức,\ndoanh nghiệp để hiển thị trên ứng dụng VNeID.\n      - Bước 4: Nếu công dân chọn đồng ý chia sẻ thông tin được hiển thị trên ứng\ndụng VNeID, hệ thống định danh và xác thực điện tử thực hiện ký số dữ liệu thông\ntin công dân và gửi thông tin công dân đồng ý chia sẻ tới cơ quan, tổ chức, doanh\nnghiệp. Nếu công dân chọn không đồng ý chia sẻ thông tin, nhân viên tại quầy\ngiao dịch thực hiện nhập thông tin công dân thủ công vào hệ thống và thực hiện\ntheo quy trình thông thường.\n     - Bước 5: Hệ thống cơ quan, tổ chức, doanh nghiệp nhận thông tin công dân\nđồng ý chia sẻ từ Hệ thống định danh và xác thực điện tử, tiếp tục thực hiện các\nquy trình nghiệp vụ của cơ quan, tổ chức, doanh nghiệp.\n\n\n\n\n                                       24"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "event": "model_abstain"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Thuật toán nhận diện khuôn mặt được chỉ định cho VNeID",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 30,
+          "cost": 3.495e-05,
+          "elapsed_seconds": 4.844759,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 113,
+          "total_tokens": 143
+        },
+        {
+          "action": {
+            "action": "abstain"
+          },
+          "completion_tokens": 11,
+          "cost": 0.0002142,
+          "elapsed_seconds": 2.243057,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1384,
+          "total_tokens": 1395
+        }
+      ],
+      "query_id": "test-u02",
+      "status": "abstain"
+    }
+  ]
+}

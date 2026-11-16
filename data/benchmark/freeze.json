@@ -1,0 +1,23 @@
+{
+  "chunks": {
+    "path": "../corpus/chunks.json",
+    "sha256": "f727f1376300e4a5febabcc15eeeda80e2dd4a350c054254e032de6739047954"
+  },
+  "counts": {
+    "chunks": 123,
+    "dev": {
+      "answerable": 15,
+      "unanswerable": 2
+    },
+    "questions": 24,
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  },
+  "questions": {
+    "path": "questions.json",
+    "sha256": "5593c4f95dff03586d7df988d0b8cd750a26d77a3621c7ce59f87a02222ebb15"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-003",
+    "metadata": {
+      "chapter": 0,
+      "chapter_title": "Mục lục",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-003",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 3,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "   HƯỚNG DẪN VỀ CÁC THÀNH PHẦN CÔNG NGHỆ THÔNG TIN\n  THIẾT YẾU CẦN THIẾT VÀ TIÊU CHUẨN, ĐỊNH MỨC PHỤC VỤ\n TRIỂN KHAI ĐỀ ÁN PHÁT TRIỂN ỨNG DỤNG DỮ LIỆU VỀ DÂN CƯ,\n  ĐỊNH DANH VÀ XÁC THỰC ĐIỆN TỬ PHỤC VỤ CHUYỂN ĐỔI SỐ\n    QUỐC GIA GIAI ĐOẠN 2022 - 2025, TẦM NHÌN ĐẾN NĂM 2030\n                            (Phiên bản 1.0)\n   (Kèm theo Công văn số     /BTTTT-THH ngày         tháng năm 2022\n                    của Bộ Thông tin và Truyền thông)\n                                                    Mục lục:\nDANH MỤC TỪ VIẾT TẮT .................................................................................. 3\nDANH MỤC HÌNH VẼ .......................................................................................... 4\nI. CĂN CỨ PHÁP LÝ ............................................................................................. 5\nII. PHẠM VI VÀ ĐỐI TƯỢNG ÁP DỤNG .......................................................... 7\n1. Phạm vi áp dụng .................................................................................................. 7\n2. Đối tượng áp dụng ............................................................................................... 8\n3. Nguyên tắc áp dụng ............................................................................................. 8\nIII. CÁC THÀNH PHẦN CÔNG NGHỆ THÔNG TIN THIẾT YẾU PHỤC VỤ\nTRIỂN KHAI ĐỀ ÁN 06 ........................................................................................ 9\n1. Mô hình tổng thể Đề án 06 phục vụ chuyển đổi số quốc gia .............................. 9\n2. Yêu cầu về hạ tầng mạng, đường truyền kết nối............................................... 12\n3. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông tin\nphục vụ giải quyết thủ tục hành chính và cung cấp dịch vụ công trực tuyến ....... 13\n   3.1. Yêu cầu về nghiệp vụ ................................................................................. 13\n   3.2. Danh sách yêu cầu chức năng cần bổ sung, hiệu chỉnh ............................. 13\n4. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông tin\nphục vụ phát triển kinh tế-xã hội, công dân số ..................................................... 21\n   4.1. Yêu cầu về nghiệp vụ ................................................................................. 22\n   4.2. Danh sách yêu cầu chức năng cần bổ sung, hiệu chỉnh ............................. 26\n   4.3. Mô hình kết nối cho cơ quan tổ chức, doanh nghiệp ................................. 27\n5. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông tin\nphục vụ quản lý, xử lý nghiệp vụ, bổ sung làm giàu dữ liệu dân cư .................... 29\n   5.1. Yêu cầu về nghiệp vụ ................................................................................. 29\n   5.2. Danh sách các yêu cầu chức năng cần bổ sung, hiệu chỉnh ....................... 31\n6. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông tin\nphục vụ chỉ đạo, điều hành của lãnh đạo các cấp ................................................. 32"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-004",
+    "metadata": {
+      "chapter": 0,
+      "chapter_title": "Mục lục",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-004",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 4,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "   6.1. Yêu cầu về nghiệp vụ ................................................................................. 32\n   6.2. Danh sách yêu cầu chức năng cần bổ sung, hiệu chỉnh ............................. 33\n7. Yêu cầu về an toàn, an ninh mạng .................................................................... 34\n   7.1. Yêu cầu chung ............................................................................................ 34\n   7.2. Mô hình tham chiếu bảo đảm an toàn thông tin......................................... 35\n   7.3. Mô hình bảo đảm an toàn thông tin theo mô hình 4 lớp ............................ 36\n   7.4. Mô hình tham chiếu về biện pháp quản lý an toàn thông tin .................... 36\n   7.5. Mô hình tham chiếu biện pháp kỹ thuật bảo đảm an toàn thông tin .......... 37\n   7.6. Mô hình tham chiếu về giải pháp, công nghệ ............................................ 37\n   7.7. Mô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng ............ 38\n   7.8. Danh mục phương án, thiết bị tối thiểu phục vụ bảo đảm an toàn, an ninh\n   mạng .................................................................................................................. 40\n8. Yêu cầu hiệu năng, tính năng kỹ thuật khác ..................................................... 45\nIV. HƯỚNG DẪN TIÊU CHUẨN, QUY CHUẨN, HƯỚNG DẪN KỸ THUẬT,\nĐỊNH MỨC PHỤC VỤ TRIỂN KHAI ĐỀ ÁN 06 .............................................. 46\n1. Danh mục các tiêu chuẩn, quy chuẩn, hướng dẫn kỹ thuật cần áp dụng .......... 46\n2. Các định mức cần áp dụng ................................................................................ 47\nĐẦU MỐI PHỐI HỢP, HỖ TRỢ, HƯỚNG DẪN TRIỂN KHAI ....................... 49"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-005",
+    "metadata": {
+      "chapter": 0,
+      "chapter_title": "Danh mục từ viết tắt và hình vẽ",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-005",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 5,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "DANH MỤC TỪ VIẾT TẮT\nTT Từ viết tắt         Giải thích\n 1    ATTT             An toàn thông tin\n 2    BNĐP             Bộ, ngành, địa phương\n 3    CMND             Chứng minh nhân dân\n 4    CCCD             Căn cước công dân\n 5    CQNN             Cơ quan nhà nước\n 6    CSDL             Cơ sở dữ liệu\n 7    CSDLQG           Cơ sở dữ liệu quốc gia\n 8    HTTT             Hệ thống thông tin\n 9    LGSP             Nền tảng tích hợp, chia sẻ dữ liệu cấp Bộ/cấp tỉnh\n 10   NDXP             Nền tảng tích hợp, chia sẻ dữ liệu quốc gia\n 11   Trục LTVBQG      Trục liên thông văn bản quốc gia\n 12   TSLCD            Mạng Truyền số liệu chuyên dùng của các cơ quan\n                       Đảng, Nhà nước\n 13   TTHC             Thủ tục hành chính"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-006",
+    "metadata": {
+      "chapter": 0,
+      "chapter_title": "Danh mục từ viết tắt và hình vẽ",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-006",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 6,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "DANH MỤC HÌNH VẼ\nHình vẽ 1: Mô hình tổng thể các thành phần công nghệ thông tin của Đề án 06 ...... 9\nHình vẽ 2: Quy trình xác thực thông tin công dân phục vụ phát triển kinh tế-xã hội,\ncông dân số ............................................................................................................... 22\nHình vẽ 3: Quy trình chia sẻ thông tin công dân thông qua việc quét mã QR code\ntrên ứng dụng VNeID ............................................................................................... 23\nHình vẽ 4: Quy trình chia sẻ thông tin công dân thông qua sử dụng ứng dụng\nVNeID để quét mã QR code của cơ quan, tổ chức, doanh nghiệp .......................... 25\nHình vẽ 5: Mô hình kết nối kỹ thuật giữa cơ quan, tổ chức, doanh nghiệp và Hệ\nthống định danh và xác thực điện tử ........................................................................ 27\nHình vẽ 6: Quy trình xác thực, đồng bộ thông tin công dân giữa CSDLQG, CSDL\nchuyên ngành, HTTT phục vụ quản lý, nghiệp vụ của CQNN................................ 29\nHình vẽ 7: Mô hình kết nối CSDLQG về dân cư, Hệ thống định danh và xác thực\nđiện tử với Trung tâm thông tin, chỉ đạo điều hành của Chính phủ, Thủ tướng\nChính phủ ................................................................................................................. 33\nHình vẽ 8: Mô hình tham chiếu bảo đảm an toàn thông tin ..................................... 35\nHình vẽ 9: Mô hình bảo đảm an toàn thông tin theo mô hình 4 lớp ........................ 36\nHình vẽ 10: Mô hình các yêu cầu về quản lý an toàn thông tin ............................... 37\nHình vẽ 11: Mô hình yêu cầu về kỹ thuật đảm bảo an toàn thông tin ..................... 37\nHình vẽ 12: Mô hình tham chiếu về giải pháp và công nghệ .................................. 38\nHình vẽ 13: Mô hình Trung tâm điều hành an toàn, an ninh mạng SOC ................... 38"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-007",
+    "metadata": {
+      "chapter": 1,
+      "chapter_title": "Căn cứ pháp lý",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-007",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 7,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "I. CĂN CỨ PHÁP LÝ\n      - Luật Công nghệ thông tin số 67/2006/QH11 ngày 29/6/2006;\n      - Luật Giao dịch điện tử số 51/2005/QH1 ngày 29/11/2005;\n      - Luật An toàn thông tin mạng số 86/2015/QH13 ngày 19/11/2015;\n      - Luật An ninh mạng số 24/2018/QH14 ngày 12/6/2018;\n      - Nghị định số 61/2018/NĐ-CP ngày 23/4/2018 của Chính phủ về thực hiện\ncơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính (đã được\nsửa đổi, bổ sung một số điều tại Nghị định số 107/2021/NĐ-CP ngày 06/12/2021\ncủa Chính phủ);\n      - Nghị định số 45/2020/NĐ-CP ngày 08/4/2020 của Chính phủ về thực hiện\nthủ tục hành chính trên môi trường điện tử;\n      - Nghị định số 47/2020/NĐ-CP ngày 09/4/2020 của Chính phủ về quản lý,\nkết nối, chia sẻ dữ liệu số của cơ quan nhà nước;\n      - Nghị định số 85/2016/NĐ-CP ngày 01/7/2016 của Chính phủ về bảo đảm\nan toàn hệ thống thông tin theo cấp độ;\n     - Căn cứ Nghị quyết số 50/NQ-CP ngày 08/4/2022 của Chính phủ về phiên\nhọp Chính phủ thường kỳ tháng 3 năm 2022;\n      - Quyết định số 28/2018/QĐ-TTg ngày 12/7/2018 của Thủ tướng Chính\nphủ về gửi, nhận văn bản điện tử giữa cơ quan trong hệ thống hành chính\nnhà nước;\n       - Quyết định số 20/2020/QĐ-TTg ngày 22/7/2020 của Thủ tướng Chính\nphủ về mã định danh điện tử của các cơ quan, tổ chức phục vụ kết nối, chia sẻ dữ\nliệu với các bộ, ngành, địa phương;\n       - Quyết định số 34/2021/QĐ-TTg ngày 08/11/2021 của Thủ tướng Chính\nphủ quy định về định danh và xác thực điện tử trên nền tảng Cơ sở dữ liệu quốc\ngia về dân cư, Cơ sở dữ liệu căn cước công dân và Cơ sở dữ liệu quốc gia về xuất\nnhập cảnh;\n      - Quyết định số 31/2021/QĐ-TTg ngày 11/10/2021 của Thủ tướng Chính\nphủ ban hành quy chế quản lý, vận hành, khai thác Cổng Dịch vụ công quốc gia;\n     - Nghị quyết số 76/NQ-CP ngày 15/7/2021 của Chính phủ ban hành\nChương trình tổng thể cải cách hành chính giai đoạn 2021-2030;\n      - Quyết định số 274/QĐ-TTg ngày 12/3/2019 của Thủ tướng Chính phủ\nphê duyệt Đề án Cổng Dịch vụ công quốc gia;\n      - Quyết định số 1911/QĐ-TTg ngày 15/11/2021 của Thủ tướng Chính phủ\nvề việc thực hiện kết nối, chia sẻ giữa Cơ sở dữ liệu quốc gia quốc gia về dân cư\nvới các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành;\n\n\n\n                                       5"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-008",
+    "metadata": {
+      "chapter": 1,
+      "chapter_title": "Căn cứ pháp lý",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-008",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 8,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "      - Quyết định số 468/QĐ-TTg ngày 27/3/2021 của Thủ tướng Chính phủ\nPhê duyệt Đề án “Đổi mới việc thực hiện cơ chế một cửa, một cửa liên thông\ntrong giải quyết thủ tục hành chính”;\n      - Quyết định số 1498/QĐ-TTg ngày 11/9/2021 của Thủ tướng Chính phủ\nban hành danh mục thông tin, dữ liệu phục vụ chỉ đạo, điều hành của Chính phủ,\nThủ tướng Chính phủ, để bảo đảm thông tin, dữ liệu tổng hợp về dân cư được\nkết nối với Trung tâm thông tin, chỉ đạo điều hành của Chính phủ, Thủ tướng\nChính phủ;\n      - Quyết định số 06/QĐ-TTg ngày 06/01/2022 của Thủ tướng Chính phủ\nphê duyệt Đề án phát triển ứng dụng dữ liệu về dân cư, định danh và xác thực điện\ntử phục vụ chuyển đổi số quốc gia giai đoạn 2022-2025, tầm nhìn đến năm 2030;\n     - Thông tư số 22/2019/TT-BTTTT ngày 31/12/2019 của Bộ trưởng Bộ\nThông tin và Truyền thông quy định về tiêu chí chức năng, tính năng kỹ thuật của\nCổng dịch vụ công và Hệ thống thông tin một cửa điện tử cấp bộ, cấp tỉnh;\n       - Thông tư số 18/2019/TT-BTTTT ngày 25/12/2019 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành “Quy chuẩn kỹ thuật quốc gia về cấu trúc,\nđịnh dạng dữ liệu gói tin phục vụ kết nối Cổng Dịch vụ công quốc gia với Cổng\nDịch vụ công, hệ thống thông tin một cửa điện tử cấp bộ, cấp tỉnh và các cơ sở dữ\nliệu quốc gia, chuyên ngành” (QCVN 120:2019/BTTTT);\n      - Thông tư số 02/2017/TT-BTTTT ngày 04/4/2017 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành “Quy chuẩn kỹ thuật quốc gia về cấu trúc\nthông điệp dữ liệu công dân trao đổi với cơ sở dữ liệu quốc gia về dân cư” (QCVN\n109:2017/BTTTT);\n      - Thông tư số 10/2016/TT-BTTTT ngày 01/4/2016 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành “Quy chuẩn kỹ thuật quốc gia về cấu trúc\nmã định danh và định dạng dữ liệu gói tin phục vụ kết nối các hệ thống quản lý\nvăn bản và điều hành” (QCVN 102:2016/BTTTT) và Thông tư số 01/2022/TT-\nBTTTT ngày 17/02/2022 của Bộ trưởng Bộ Thông tin và Truyền thông Sửa đổi\n1:2022 QCVN 102:2016/BTTTT “Quy chuẩn kỹ thuật quốc gia về cấu trúc mã\nđịnh danh và định dạng dữ liệu gói tin phục vụ kết nối các hệ thống quản lý văn\nbản và điều hành”;\n      - Thông tư số 02/2021/TT-BTTTT ngày 21/6/2021 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành “Quy chuẩn kỹ thuật quốc gia về cấu trúc,\nđịnh dạng dữ liệu phục vụ kết nối, tích hợp, chia sẻ dữ liệu giữa các hệ thống\nthông tin báo cáo trong Hệ thống thông tin báo cáo quốc gia” (QCVN\n125:2021/BTTTT);\n      - Thông tư số 39/2017/TT-BTTTT ngày 15/12/2017 của Bộ trưởng Bộ\nThông tin và Truyền thông về việc ban hành Danh mục tiêu chuẩn kỹ thuật về\nứng dụng công nghệ thông tin trong cơ quan nhà nước;\n\n\n\n                                       6"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-009",
+    "metadata": {
+      "chapter": 2,
+      "chapter_title": "Phạm vi và đối tượng áp dụng",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-009",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 9,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "      - Thông tư số 13/2017/TT-BTTTT ngày 23/6/2017 của Bộ trưởng Bộ\nThông tin và Truyền thông về việc quy định các yêu cầu kỹ thuật về kết nối các\nhệ thống thông tin, cơ sở dữ liệu với cơ sở dữ liệu quốc gia;\n      - Thông tư số 03/2017/TT-BTTTT ngày 24/4/2017 của Bộ trưởng Bộ\nThông tin và Truyền thông về việc Quy định chi tiết và hướng dẫn một số điều\ncủa Nghị định số 85/2016/NĐ-CP và hướng dẫn chi tiết tại Tiêu chuẩn quốc gia\nTCVN 11930:2017 về Công nghệ thông tin - Các kỹ thuật an toàn - Yêu cầu cơ\nbản về an toàn hệ thống thông tin theo cấp độ;\n      - Thông tư số 12/2019/TT-BTTTT ngày 05/11/2019 của Bộ trưởng Bộ\nThông tin và Truyền thông sửa đổi, bổ sung một số điều của Thông tư số\n27/2017/TT-BTTTT ngày 20/10/2017 quy định về quản lý, vận hành, kết nối, sử\ndụng và bảo đảm an toàn thông tin trên mạng Truyền số liệu chuyên dùng của các\ncơ quan Đảng, Nhà nước;\n      - Quyết định số 2323/QĐ-BTTTT ngày 31/12/2019 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành Khung kiến trúc Chính phủ điện tử Việt Nam\nphiên bản 2.0;\n       - Quyết định số 186/QĐ-BTTTT ngày 11/2/2022 của Bộ trưởng Bộ Thông\ntin và Truyền thông phê duyệt Chương trình thúc đẩy phát triển và sử dụng các\nnền tảng số quốc gia phục vụ chuyển đổi số, phát triển Chính phủ số, kinh tế số,\nxã hội số;\n      - Văn bản số 9318/VPCP-KSTT ngày 21/12/2021 của Văn phòng Chính\nphủ về việc hướng dẫn số hóa hồ sơ, kết quả giải quyết TTHC;\n      - Văn bản số 761/VPCP-KSTT ngày 29/01/2022 của Văn phòng Chính phủ\nvề việc hướng dẫn kết nối, tích hợp, chia sẻ với CSDLQG về dân cư;\n      - Văn bản số 677/BTTTT-THH ngày 03/3/2022 của Bộ Thông tin và\nTruyền thông về hướng dẫn kết nối và chia sẻ dữ liệu thông qua Nền tảng tích\nhợp, chia sẻ dữ liệu quốc gia;\n     - Văn bản số 273/BTTTT-CBĐTW ngày 31/01/2020 của Bộ Thông tin và\nTruyền thông về việc hướng dẫn mô hình tham chiếu về kết nối mạng cho bộ,\nngành, địa phương.\nII. PHẠM VI VÀ ĐỐI TƯỢNG ÁP DỤNG\n      1. Phạm vi áp dụng\n       Tài liệu này hướng dẫn các thành phần công nghệ thông tin thiết yếu cần\nthiết, yêu cầu chức năng, tính năng kỹ thuật, yêu cầu bảo đảm an toàn, an ninh\nmạng; hướng dẫn về áp dụng tiêu chuẩn, định mức triển khai Đề án 06 đáp ứng\n05 nhóm tiện ích: (1) Phục vụ giải quyết thủ tục hành chính và cung cấp dịch vụ\ncông trực tuyến; (2) Phục vụ phát triển kinh tế, xã hội; (3) Phục vụ công dân số;\n(4) Hoàn thiện hệ sinh thái phục vụ kết nối, khai thác, bổ sung làm giàu dữ liệu\ndân cư; (5) Phục vụ chỉ đạo, điều hành của lãnh đạo các cấp.\n\n\n                                       7"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-010",
+    "metadata": {
+      "chapter": 2,
+      "chapter_title": "Phạm vi và đối tượng áp dụng",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-010",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 10,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "2. Đối tượng áp dụng\n      a) Các cơ quan nhà nước: Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính\nphủ, Ủy ban nhân dân các cấp.\n      b) Các cơ quan nhà nước khác, các tổ chức chính trị - xã hội cấp Trung\nương, các tổ chức xã hội, các tổ chức xã hội - nghề nghiệp cấp Trung ương, các\ndoanh nghiệp, tổ chức, cá nhân thuộc khu vực tư khi kết nối, chia sẻ dữ liệu với\nCơ sở dữ liệu quốc gia về dân cư phục vụ triển khai Đề án 06 thực hiện áp dụng\ntheo hướng dẫn này.\n3. Nguyên tắc áp dụng\n      a) Tuân thủ quy định của pháp luật.\n      b) Tận dụng tối đa hạ tầng kỹ thuật, ứng dụng, dịch vụ, trang thiết bị đã\nđược đầu tư, chỉ đầu tư mới khi đã hết niên hạn sử dụng, hoặc không đáp yêu cầu\nkỹ thuật trên cơ sở khảo sát, đánh giá hiện trạng được thực hiện tại bước lập đề\nán, dự án, nhiệm vụ ứng dụng công nghệ thông tin phục vụ triển khai Đề án 06.\n      c) Sử dụng thống nhất các nền tảng, ứng dụng, dịch vụ, cơ sở dữ liệu quốc\ngia dùng chung, đặc biệt là Cơ sở dữ liệu quốc gia về dân cư; tuyệt đối không đầu\ntư, mua sắm các hạng mục có chức năng trùng lặp với các nền tảng, ứng dụng,\ndịch vụ, cơ sở dữ liệu dùng chung quốc gia để tránh trùng lặp, gây lãng phí.\n      d) Dữ liệu dân cư là dữ liệu gốc, các cơ sở dữ liệu khác liên quan đến công\ndân đã, đang và sẽ xây dựng phải căn cứ vào dữ liệu gốc và có sự kết nối, chia sẻ\nbảo đảm tiết kiệm, tránh lãng phí, tạo ra các giá trị mới.\n      đ) Người dân và doanh nghiệp là trung tâm của chuyển đổi số, người dân\nchỉ phải cung cấp thông tin, giấy tờ một lần cho các cơ quan nhà nước khi thực\nhiện các thủ tục hành chính.\n       e) Việc kết nối, tích hợp, khai thác Cơ sở dữ liệu quốc gia về dân cư phải\ngắn liền bảo đảm an toàn, an ninh thông tin trên môi trường số.\n\n\n\n\n                                        8"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-011",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-011",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 11,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "III. CÁC THÀNH PHẦN CÔNG NGHỆ THÔNG TIN THIẾT YẾU PHỤC\nVỤ TRIỂN KHAI ĐỀ ÁN 06\n     1. Mô hình tổng thể Đề án 06 phục vụ chuyển đổi số quốc gia\n\n\n\n\nHình vẽ 1: Mô hình tổng thể các thành phần công nghệ thông tin của Đề án 06\n     Danh mục các thành phần công nghệ thông tin thiết yếu cần thiết:\n   Thành phần công                                                   Dùng\nTT nghệ thông tin Mô tả sơ bộ                                        chung\n   thiết yếu                                                        quốc gia\n                      - Mạng Truyền số liệu chuyên dùng của\n                      các cơ quan Đảng, Nhà nước phục vụ\n                      kết nối, tích hợp, chia sẻ dữ liệu giữa các\n                      cơ quan nhà nước, doanh nghiệp, tổng\n     Hạ tầng mạng, công ty nhà nước với CSDLQG về dân\n 1   đường truyền kết cư, Hệ thống định danh và xác thực điện           x\n     nối              tử.\n                      - Mạng Internet do các nhà cung cấp\n                      dịch vụ ISP cung cấp phục vụ kết nối\n                      thuộc tổ chức, doanh nghiệp thuộc khu\n                      vực tư với các cơ quan nhà nước.\n\n\n                                     9"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-012",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-012",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 12,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "                       - Nền tảng tích hợp, chia sẻ dữ liệu quốc\n                       gia (NDXP) do Bộ Thông tin và Truyền\n                       thông quản lý phục vụ kết nối, chia sẻ\n                       dữ liệu giữa các CSDLQG, CSDL\n                       chuyên ngành, hệ thống thông tin giải\n                       quyết thủ tục hành chính, hệ thống thông\n                       tin chuyên ngành của bộ, cơ quan ngang\n                       bộ, cơ quan thuộc Chính phủ, các tỉnh,\n                       thành phố trực thuộc Trung ương, cơ\n                       quan, tổ chức, doanh nghiệp với\n                       CSDLQG về dân cư, Hệ thống định\n                       danh và xác thực điện tử.\n    Kết nối, tích hợp,\n2                      - Trục liên thông văn bản quốc gia do       x\n    chia sẻ dữ liệu\n                       Văn phòng Chính phủ quản lý phục vụ\n                       kết nối Cổng dịch vụ công quốc gia với\n                       Hệ thống thông tin giải quyết thủ tục\n                       hành chính của bộ, ngành, địa phương,\n                       CSDLQG về dân cư, Hệ thống định\n                       danh và xác thực điện tử.\n                       - Nền tảng tích hợp, chia sẻ dữ liệu cấp\n                       Bộ, cấp tỉnh (LGSP) do các bộ, ngành,\n                       địa phương quản lý phục vụ kết nối, tích\n                       hợp, chia sẻ dữ liệu giữa các CSDL, hệ\n                       thống thông tin trong nội bộ của tỉnh và\n                       làm đầu mối kết nối ra bên ngoài.\n                 - Các CSDLQG như: CSDLQG về dân\n                 cư, CSDLQG về đăng ký doanh nghiệp,\n                 CSDLQG về bảo hiểm, CSDL đất đai\n                 quốc gia, CSDL an sinh xã hội…\n    CSDLQG, CSDL\n3\n    chuyên ngành - CSDL dùng chung của ngành như:                  x\n                 CSDL hộ tịch điện tử toàn quốc, CSDL\n                 chuyên ngành giáo dục đào tạo, CSDL\n                 giấy phép lái xe, CSDL đăng kiểm\n                 phương tiện…\n                      Cổng tích hợp thông tin về dịch vụ công\n                      trực tuyến, tình hình giải quyết, kết quả\n                      giải quyết thủ tục hành chính trên cơ sở\n    Cổng Dịch vụ công kết nối, truy xuất dữ liệu từ các Hệ thống\n4                                                                  x\n    quốc gia          thông tin một cửa điện tử cấp bộ, cấp\n                      tỉnh và các giải pháp hỗ trợ nghiệp vụ,\n                      kỹ thuật do Văn phòng Chính phủ thống\n                      nhất xây dựng, quản lý.\n\n                                   10"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-013",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-013",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 13,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "                        Hệ thống thông tin do Bộ Công an xây\n                        dựng và quản lý để xử lý các yêu cầu\n                        đăng ký, cấp, quản lý định danh điện tử\n    Hệ thống định danh và xác thực điện tử. Giao diện/ứng dụng\n5                                                                   x\n    và xác thực điện tử định danh điện tử trên nền tảng di động\n                        (VNeID) là phần mềm do Bộ Công an\n                        tạo lập phục vụ đăng ký, quản lý định\n                        danh điện tử và xác thực điện tử.\n                       Hệ thống thông tin được xây dựng tập\n                       trung, thống nhất, tạo thành trên cơ sở\n                       hợp nhất Cổng Dịch vụ công và Hệ\n    Hệ thống thông tin thống thông tin một cửa điện tử cấp bộ,\n    giải quyết thủ tục cấp tỉnh để tiếp nhận, giải quyết, theo\n6\n    hành chính cấp bộ, dõi, đánh giá chất lượng thực hiện thủ\n    cấp tỉnh           tục hành chính, cung cấp dịch vụ công\n                       trực tuyến thuộc thẩm quyền giải quyết\n                       của bộ, cơ quan ngang bộ, Ủy ban nhân\n                       dân các cấp.\n                        Cổng dịch vụ cung cấp dịch vụ trực\n                        tuyến của cơ quan, tổ chức doanh nghiệp\n                        như: App cung cấp dịch vụ cho đoàn\n    Cổng, ứng dụng\n                        thanh niên của Trung ương đoàn thanh\n7   (app) cung cấp dịch\n                        niên, cổng cung cấp dịch vụ cho người\n    vụ trực tuyến khác\n                        lao động của Tổng Liên đoàn Lao động\n                        Việt Nam, cổng cung cấp dịch vụ viễn\n                        thông, cổng cung cấp dịch vụ tín dụng…\n                       - Hệ thống phục vụ nhu cầu quản lý các\n                       đối tượng là công dân như quản lý cán\n                       bộ, công chức, viên chức, người lao\n                       động, đoàn viên, hội viên...\n                       - Hệ thống phục vụ cán bộ, công chức,\n                       viên chức, người lao động của cơ quan\n    Hệ thống thông tin nhà nước, tổ chức xử lý nghiệp vụ\n    quản lý/ hệ thống chuyên ngành như: Hệ thống thông tin\n    thông tin chuyên đất đai (LIS) của các địa phương, Hệ\n8\n    ngành              thống nghiệp vụ phục vụ thông quan,\n                       quản lý rủi ro của Hải quan…\n                       - Hệ thống thống thông tin có quy mô,\n                       phạm vi từ Trung ương đến địa phương:\n                       Hệ thống được thiết lập phục vụ mục\n                       đích tạo lập, cung cấp, truyền đưa, thu\n                       thập, xử lý, lưu trữ và trao đổi thông tin\n                       từ các cơ quan, tổ chức ở Trung ương\n                                   11"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-014",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-014",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 14,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "                            đến các cơ quan, tổ chức ở địa phương\n                            trong cùng một lĩnh vực như: Hệ thống\n                            cấp phiếu lý lịch tư pháp trực tuyến, Hệ\n                            thống thông tin đăng ký và quản lý hộ\n                            tịch, Hệ thống cấp mã số đơn vị có quan\n                            hệ với ngân sách…\n                           Hệ thống do Bộ Thông tin và Truyền\n                           thông quản lý đáp ứng yêu cầu giám sát,\n       Hệ thống hỗ trợ\n                           điều hành an toàn, an ninh mạng phục\n       giám sát, điều hành\n  9                        vụ quá trình chuyển đổi số quốc gia, hỗ        x\n       an toàn, an ninh\n                           trợ nâng cao năng lực đảm bảo an toàn\n       mạng (GovSOC)\n                           thông tin mạng cho các chủ quản hệ\n                           thống thông tin.\n                            Trung tâm thông tin chỉ đạo, điều hành\n                            của Chính phủ, Thủ tướng Chính phủ là\n                            nền tảng, hạ tầng số cốt lõi trong công\n                            tác xây dựng Chính phủ điện tử, để quản\n       Trung tâm thông\n                            lý, thu thập thông tin, dữ liệu, thực hiện\n       tin, chỉ đạo điều\n                            phân tích, xử lý dữ liệu lớn phục vụ công\n 10    hành của Chính                                                     x\n                            tác chỉ đạo, điều hành của Chính phủ,\n       phủ, Thủ tướng\n                            Thủ tướng Chính phủ nhằm đổi mới,\n       Chính phủ\n                            thay đổi phương thức chỉ đạo, điều hành\n                            từ dựa trên thông tin, số liệu trên văn bản\n                            giấy chuyển sang dựa trên dữ liệu số\n                            theo thời gian thực.\n                        Tổng hợp các giải pháp về quản lý và kỹ\n       An toàn, an ninh thuật để bảo đảm an toàn, an ninh mạng\n 11\n       mạng             khi triển khai kết nối, khai thác cơ sở dữ\n                        liệu quốc gia về dân cư.\n2. Yêu cầu về hạ tầng mạng, đường truyền kết nối\n      a) Đối với cơ quan nhà nước, doanh nghiệp, tổng công ty nhà nước:\n      - Trường hợp hệ thống kết nối CSDLQG về dân cư, Hệ thống định danh và\nxác thực điện tử đặt tại Trung tâm tích hợp dữ liệu của cơ quan, đơn vị: Kết nối\nvào Mạng TSLCD theo Mô hình 03 tại Văn bản số 273/BTTTT-CBĐTW ngày\n31/01/2020 của Bộ Thông tin và Truyền thông.\n      - Trường hợp hệ thống kết nối CSDLQG về dân cư, Hệ thống định danh và\nxác thực điện tử thuê đặt tại Trung tâm tích hợp dữ liệu của doanh nghiệp cung\ncấp dịch vụ: Kết nối vào Mạng TSLCD theo Mô hình 01 hoặc Mô hình 02 tại\nVăn bản số 273/BTTTT-CBĐTW ngày 31/01/2020 của Bộ Thông tin và Truyền\nthông, theo đó, cơ quan, doanh nghiệp, tổng công ty cần thiết lập kênh truyền để\nkết nối vào Mạng TSLCD.\n\n                                       12"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-015",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-015",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 15,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "      - Đối với các hệ thống thông tin của Bộ Quốc phòng: Tham khảo theo Mô\nhình 03 tại Văn bản số 273/BTTTT-CBĐTW của Bộ Thông tin và Truyền thông\nngày 31/01/2020, kết hợp với các yếu tố đặc thù do Bộ Quốc phòng quy định.\n      b) Đối với các cơ quan, tổ chức, doanh nghiệp thuộc khu vực tư:\n       Kết nối đến Hệ thống định danh và xác thực điện tử phục vụ phát triển kinh\ntế xã hội, công dân số sử dụng kênh truyền riêng, mạng Internet. Căn cứ nhu cầu,\nhiện trạng, các cơ quan, tổ chức, doanh nghiệp chủ động thiết lập kênh truyền để\nkết nối, ưu tiên sử dụng kênh truyền riêng, áp dụng giải pháp xác thực, mã hoá\ntheo hướng dẫn của Bộ Công an và Bộ Thông tin và Truyền thông.\n3. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông\ntin phục vụ giải quyết thủ tục hành chính và cung cấp dịch vụ công trực tuyến\n3.1. Yêu cầu về nghiệp vụ\n       a) Về quy trình tiếp nhận, xử lý thủ tục hành chính: Tuân thủ các quy định\ntại: Nghị định số 45/2020/NĐ-CP của Chính phủ ngày 08/4/2020 về thực hiện thủ\ntục hành chính trên môi trường điện tử; Nghị định số 107/2021/NĐ-CP ngày\n06/12/2021 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số\n61/2018/NĐ-CP ngày 23/4/2018 của Chính phủ về thực hiện cơ chế một cửa, một\ncửa liên thông trong giải quyết thủ tục hành chính; Quyết định số 468/QĐ-TTg\nngày 27/3/2021 của Thủ tướng Chính phủ về phê duyệt Đề án đổi mới việc thực\nhiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính; Văn\nbản số 9318/VPCP-KSTT ngày 21/12/2021của Văn phòng Chính phủ về việc\nhướng dẫn số hóa hồ sơ, kết quả giải quyết thủ tục hành chính.\n3.2. Danh sách yêu cầu chức năng cần bổ sung, hiệu chỉnh\na) Cổng dịch vụ công quốc gia:\n                                                                    Đối tượng\n TT     Nhóm chức năng                 Mô tả chức năng\n                                                                     sử dụng\n  I    ĐỊNH DANH VÀ XÁC THỰC ĐIỆN TỬ\n                              1.1. Công dân có thể đăng ký tài\n       Đăng ký, đăng nhập     khoản dịch vụ công thông qua tài\n       bằng tài khoản định    khoản định danh điện tử được cấp\n       danh điện tử được      bởi Hệ thống định danh và xác thực\n  1    cấp bởi Bộ Công an     điện tử của Bộ Công an.             Công dân\n       (cho tất cả các hợp    1.2. Công dân có thể đăng nhập hệ\n       phần của Cổng Dịch     thống bằng tài khoản định danh điện\n       vụ công quốc gia)      tử được cấp bởi Hệ thống định danh\n                              và xác thực điện tử của Bộ Công an.\n\n\n\n\n                                       13"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-016",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-016",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 16,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "     Phân quyền xử lý       2.1. Quản trị hệ thống có thể phân\n     nghiệp vụ đối với      quyền quản trị cho tài khoản định\n     các tài khoản của Hệ   danh điện tử được cấp bởi Bộ Công\n     thống định danh và     an.                                 Quản trị hệ\n2    xác thực điện tử của                                       thống, hệ\n     Bộ Công an (cho tất    2.2. Hệ thống đưa ra cảnh báo nếu thống\n     cả các hợp phần của    không tìm thấy tài khoản của cán bộ\n     Cổng Dịch vụ công      từ Hệ thống định danh và xác thực\n     quốc gia)              của Bộ Công an.\n\n                         3.1. Công dân có thể cập nhật số\n                         CMND đã lưu trên hệ thống sang số\n                         CCCD bằng cách xác thực thông tin\n     Cập nhật thông tin số CMND và số CCCD trong\n3    số CCCD trong CSDLQG về dân cư.                        Công dân\n     thông tin tài khoản\n                         3.2. Hệ thống đưa ra thông báo nếu\n                         thông tin người dùng cần xác thực\n                         không đúng hoặc không có dữ liệu.\n                        4.1. Công dân có thể cập nhật dữ\n                        liệu cho tài khoản từ CSDLQG về\n                        dân cư nếu thông tin cá nhân (bao\n     Cập nhật thông tin gồm số định danh cá nhân) hợp lệ.\n4    tài   khoản     từ                                     Công dân\n     CSDLQG về dân cư   4.2. Công dân  có thể xem thông báo\n                        nếu dữ liệu thông tin cá nhân trong\n                        CSDL dân cư không tìm thấy hoặc\n                        không hợp lệ.\n                            5.1. Công dân, doanh nghiệp, tổ\n                            chức có thể đăng ký tài khoản bằng\n     Đăng ký, đăng nhập     chữ ký số từ xa.\n     bằng chữ ký số từ xa   5.2. Công dân, doanh nghiệp, tổ Công dân,\n5    (cho tất cả các hợp    chức có thể đăng nhập tài khoản doanh\n     phần của Cổng Dịch     bằng chữ ký số từ xa.              nghiệp\n     vụ công quốc gia)      5.3. Công dân, doanh nghiệp có thể\n                            thêm phương thức xác thực của tài\n                            khoản bằng chữ ký số từ xa.\nII   CSDL THỦ TỤC HÀNH CHÍNH\n\n     Quản lý danh mục       Hệ thống cho phép quản trị hệ thống\n     kết quả giải quyết     điều chỉnh danh mục các giấy tờ kho Quản trị hệ\n6    thủ tục hành chính     danh mục; cấu hình thời gian tiến thống, hệ\n     trong kho danh mục     trình đồng bộ kho danh mục về thống\n     giấy tờ                BNĐP; cấu hình danh sách các danh\n                            mục giấy tờ sẽ chia sẻ với các\n                                    14"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-017",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-017",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 17,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "                             BNĐP.\n\n\n\n\n                       Quản trị hệ thống có thể xem, cấu\n                       hình, chỉnh sửa (thêm mới, sửa, xóa,\n      Quản lý danh mục thay đổi trạng thái) các dữ liệu của Quản trị hệ\n7\n      dữ liệu chủ      danh mục dữ liệu chủ trong việc chia thống\n                       sẻ dữ liệu phục vụ nộp hồ sơ, giải\n                       quyết TTHC của các BNĐP.\n                       Cho phép cán bộ có thể xem, cấu\n      Quản lý danh mục hình, chỉnh sửa (thêm mới, sửa, xóa,\n      kết quả TTHC và thay đổi trạng thái) kết quả giải Cán bộ các\n8\n      chuẩn hóa thành quyết TTHC và chuẩn hóa thành BNĐP\n      phần hồ sơ       phần hồ sơ có chứa kết quả thủ tục\n                       hành chính.\nIII   WEBPORTAL\n                        Hệ thống cho phép công dân xem,\n                                                                 Công dân,\n      Danh mục kết quả chỉnh sửa kết quả giải quyết thủ tục\n                                                                 hệ thống,\n      giải quyết TTHC, hành chính (các tài liệu được ký số\n9                                                                cán     bộ,\n      chia sẻ trên toàn bởi công chức hoặc cơ quan nhà\n                                                                 công chức,\n      quốc              nước) vào kho danh mục và chia sẻ\n                                                                 viên chức\n                        với các BNĐP.\n                             Công dân có thể cấu hình liên kết tài\n                             khoản Cổng Dịch vụ công quốc gia\n      Liên kết tài khoản\n                             và tài khoản Hệ thống định danh và\n      của Cổng Dịch vụ\n                             xác thực điện tử của Bộ Công an, khi\n      công quốc gia và tài\n                             đó công dân có thể dùng tài khoản\n10    khoản Hệ thống                                               Công dân\n                             định danh điện tử do Bộ Công an\n      định danh và xác\n                             cung cấp để xem được danh sách hồ\n      thực điện tử của Bộ\n                             sơ, xem được kho quản lý dữ liệu\n      Công an\n                             điện tử của tổ chức, cá nhân đã có\n                             trên Cổng Dịch vụ công quốc gia.\n                           Chức năng cho phép công dân,\n                           doanh nghiệp ký số (bao gồm ký số\n      Ký số (bao gồm ký từ xa) hồ sơ, biểu mẫu đối với các Công dân,\n11    số từ xa) khi nộp hồ dịch vụ công do Cổng Dịch vụ công Doanh\n      sơ                   quốc gia cung cấp (thông báo hoạt nghiệp\n                           động khuyến mại, giải quyết hưởng\n                           trợ cấp thất nghiệp, đăng ký xe…).\n\n\n                                      15"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-018",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-018",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 18,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "                               12.1. Nâng cấp API đồng bộ thông\n                               tin hồ sơ để cập nhật bổ sung dữ liệu\n                               liên quan tới số hóa hồ sơ, kết quả\n                               giải quyết TTHC.\n                               12.2. Xây dựng API chia sẻ dữ liệu\n        Xây dựng các API       về kho tài liệu của cá nhân cho\n        phục vụ đồng bộ dữ     BNĐP.\n  12    liệu giữa Cổng Dịch    12.3. Xây dựng API cho phép Hệ thống\n        vụ công quốc gia với   BNĐP chia sẻ các dữ liệu, giấy tờ có\n        các BNĐP               tính xác thực để giải quyết hồ sơ\n                               TTHC.\n                               12.4. Xây dựng API cho phép\n                               BNĐP chia sẻ các thuộc tính, thông\n                               tin hỗ trợ điền biểu mẫu hoặc giải\n                               quyết TTHC.\n        XÂY DỰNG MỚI CÁC PHÂN HỆ PHỤC VỤ GIÁM SÁT TÌNH\n III    HÌNH THỰC HIỆN, CUNG CẤP CÁC DỊCH VỤ CÔNG THIẾT\n        YẾU THEO ĐỀ ÁN 06\n        Xây dựng báo cáo\n        về tình hình triển\n  13                                                                Quản trị\n        khai các dịch vụ\n        trong Đề án 06\n        Xây dựng các báo\n        cáo về tình hình số\n  14                                                                Quản trị\n        hóa hồ sơ, kết quả\n        giải quyết TTHC\n        Xây dựng các báo\n        cáo về tình hình tái\n        sử dụng kết quả giải\n  15    quyết, thành phần                                           Quản trị\n        hồ sơ đã được số hóa\n        trong thực hiện\n        TTHC\n        Xây dựng các báo\n        cáo về việc ứng\n        dụng CSDLQG dân\n  16                                                                Quản trị\n        cư, tài khoản định\n        danh điện tử do Bộ\n        Công an cung cấp\nb) Hệ thống thông tin giải quyết thủ tục hành chính cấp bộ, cấp tỉnh:\n       Các bộ, ngành, địa phương phát triển hệ thống thông tin giải quyết thủ tục\n                                       16"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-019",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-019",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 19,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "hành chính cấp bộ, cấp tỉnh trên cơ sở hợp nhất Cổng dịch vụ công và Hệ thống\nthông tin một cửa điện tử thành 01 hệ thống thống nhất, bảo đảm tuân thủ các\nnguyên tắc: đáp ứng các yêu cầu chức năng, tính năng kỹ thuật được quy định tại\nThông tư số 22/2019/TT-BTTTT ngày 31/12/2019 của Bộ trưởng Bộ Thông tin\nvà Truyền thông; kế thừa tối đa các nội dung đã đầu tư; loại bỏ các chức năng\ntrùng lặp (nếu có) trên Cổng dịch vụ công và Hệ thống thông tin một cửa điện tử\ncấp bộ/cấp tỉnh.\n       Để triển khai Đề án 06 được hiệu quả, các bộ, ngành, địa phương căn cứ\nhiện trạng, nhu cầu thực tế, thực hiện rà soát, bổ sung, hiệu chỉnh các chức năng\nnhư sau:\n\n                                                                    Đối tượng\n TT Nhóm chức năng                   Mô tả chức năng\n                                                                     sử dụng\n       LIÊN KẾT GIỮA HTTT GIẢI QUYẾT TTHC VỚI CỔNG\n  I\n       DVCQG\n       Đồng bộ danh mục\n       kết quả giải quyết\n                                                               Quản trị hệ\n       thủ tục hành chính Hệ thống cho phép đồng bộ giấy tờ từ\n  1                                                            thống, hệ\n       trong kho quản lý Cổng DVCQG về BNĐP.\n                                                               thống\n       dữ liệu điện tử của\n       tổ chức, cá nhân\n                        Hệ thống có thể đồng bộ các dữ liệu\n       Đồng bộ danh mục                                      Quản trị hệ\n                        trong danh mục dữ liệu chủ trên Cổng\n  2    dữ liệu chủ từ                                        thống, hệ\n                        DVCQG phục vụ giải quyết TTHC của\n       Cổng DVCQG                                            thống\n                        các BNĐP được thống nhất, hiệu quả.\n                       Hệ thống cho phép đồng bộ kết quả giải\n                       quyết thủ tục hành chính từ Cổng\n       Đồng bộ kết quả                                          Quản trị hệ\n                       DVCGQ (các tài liệu được ký số bởi\n  3    giải quyết TTHC                                          thống, hệ\n                       công chức hoặc cơ quan nhà nước) vào\n       từ cổng DVCQG                                            thống\n                       kho quản lý dữ liệu điện tử của tổ chức,\n                       cá nhân để có thể chia sẻ với các BNĐP.\n\n       ĐỊNH DANH VÀ XÁC THỰC ĐIỆN TỬ TRÊN HTTT GIẢI\n  II\n       QUYẾT TTHC CỦA BNĐP\n                          4.1. Công dân có thể đăng ký tài khoản\n       Đăng ký, đăng dịch vụ công thông qua tài khoản định\n       nhập bằng tài danh điện tử được cấp bởi Hệ thống\n  4    khoản định danh định danh và xác thực điện tử của Bộ Công dân\n       điện tử do Bộ Công Công an.\n       an cấp             4.2. Công dân có thể đăng nhập hệ\n                          thống bằng tài khoản định danh điện tử\n                                       17"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-020",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-020",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 20,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "                          được cấp bởi Hệ thống định danh và xác\n                          thực điện tử của Bộ Công an.\n                      Hệ thống cung cấp tính năng ký số đối\n                      với các TTHC có yêu cầu công dân ký\n                      số. Công dân có thể lựa chọn đăng ký\n                      dịch vụ của một trong các tổ chức cung\n                      cấp dịch vụ chứng thực chữ ký số công\n      Công dân nộp hồ\n5                     cộng đã được cấp phép và thực hiện ký Công dân\n      sơ trực tuyến\n                      số. Công dân có thể lựa chọn ký số bằng\n                      một trong các hình thức: USB token,\n                      Sim PKI, Remote Signing hoặc hình\n                      thức ký số hợp lệ khác theo quy định\n                      của pháp luật.\n                      6.1. Cán bộ, công chức, viên chức tiếp\n                      nhận hồ sơ trực tuyến có thể kiểm tra\n                      thông tin công dân thông qua kết nối với Cán    bộ,\n                                                               công chức,\n      Tiếp nhận hồ sơ CSDLQG về dân cư.\n6                                                              viên chức\n      trực tuyến      6.2. Hệ thống thông báo lại kết quả tiếp nhận và\n                      kiểm tra thông tin công dân thành trả kết quả\n                      công/thất bại cho cán bộ công chức,\n                      viên chức tiếp nhận hồ sơ.\n                      Cán bộ, công chức, viên chức có thể tìm Cán       bộ,\n                      kiếm thông tin công dân theo các công chức,\n      Tiếp nhận hồ sơ\n7                     trường: họ và tên, số CMND/CCCD, viên chức\n      trực tiếp\n                      ngày tháng năm sinh, giới tính, thực tiếp nhận và\n                      hiện số hóa biểu mẫu do người dân điền. trả kết quả\n\n      QUẢN LÝ KHO QUẢN LÝ DỮ LIỆU ĐIỆN TỬ CỦA TỔ CHỨC,\nIII\n      CÁ NHÂN\n                          Kho quản lý dữ liệu điện tử của tổ chức,\n                          cá nhân chỉ quản lý và lưu các tài liệu là\n                          kết quả giải quyết thủ tục hành chính\n                          (bao gồm các tài liệu được chứng thực\n                          điện tử) để bảo đảm giá trị pháp lý và\n      Quản lý kho lưu trữ\n                          hạn chế việc cập nhật lên hệ thống các\n8     dữ liệu điện tử của                                            Công dân\n                          tài liệu có thể chứa mã độc, vi rút nhằm\n      tôi\n                          bảo đảm an toàn, an ninh thông tin với\n                          HTTT giải quyết TTHC cấp bộ, cấp\n                          tỉnh, với các chức năng chính:\n                          8.1. Cho phép định nghĩa, hiển thị danh\n                          sách kho dữ liệu/thư mục/giấy tờ của cá\n\n                                      18"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-021",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-021",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 21,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "                        nhân, tổ chức như: kho hồ sơ TTHC,\n                        kho giấy tờ cá nhân, kho cá nhân tự tạo\n                        để lưu trữ các giấy tờ riêng…\n                        8.2. Hiển thị danh sách kho dữ liệu/thư\n                        mục/giấy tờ do cá nhân, tổ chức mới\n                        thao tác gần đây.\n                        8.3. Hiển thị danh sách các kho dữ\n                        liệu/thư mục/giấy tờ do cá nhân, tổ chức\n                        đã chia sẻ cho cơ quan, tổ chức, doanh\n                        nghiệp.\n                        8.4. Hiển thị danh sách các kho dữ\n                        liệu/thư mục/giấy tờ được chia sẽ với cá\n                        nhân, tổ chức theo các quyền: quyền\n                        xem, quyền sửa…\n                        8.5. Hiển thị danh sách các kho dữ\n                        liệu/thư mục/giấy tờ đã xóa. Cá nhân, tổ\n                        chức có thể khôi phục, xóa vĩnh viễn\n                        dữ liệu trong thùng rác.\n                        8.6. Cho phép xem thống kê dung lượng\n                        đã sử dụng của kho lưu trữ dữ liệu điện\n                        tử của tôi.\n                        9.1. Hiển thị danh sách giấy tờ thường\n     Quản lý danh mục xuyên sử dụng phục vụ thực hiện\n     giấy tờ thường TTHC.\n                                                               Người quản\n9    xuyên sử dụng\n                                                               trị\n     phục vụ thực hiện 9.2. Hiển thị danh sách loại giấy tờ\n     thủ tục hành chính thường xuyên sử dụng phục vụ thực\n                        hiện TTHC.\n\n                      10.1. Thống kê tình hình sử dụng kho\n   Thống kê tình hình quản lý dữ liệu điện tử của tổ chức, cá\n   sử dụng kho quản nhân thuộc BNĐP.\n                                                              Người quản\n10 lý dữ liệu điện tử\n   của tổ chức, cá    10.2. Thống kê dung lượng đã sử dụng trị\n   nhân BNĐP          của kho quản lý dữ liệu điện tử của tổ\n                      chức, cá nhân thuộc BNĐP.\n\n     SỬ DỤNG KHO QUẢN LÝ DỮ LIỆU ĐIỆN TỬ CỦA TỔ CHỨC,\nIV\n     CÁ NHÂN\n\n   Thêm giấy tờ vào Khi công dân nộp hồ sơ trực tuyến có\n                        thể lấy các giấy tờ từ kho quản lý dữ liệu\n11 thành phần hồ sơ từ                                             Công dân\n   kho quản lý dữ liệu điện tử của tổ chức, cá nhân để đính\n   điện tử của tổ chức, kèm vào thành phần hồ sơ.\n\n                                     19"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-022",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-022",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 22,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "    cá nhân khi nộp\n    trực tuyến\n                        12.1. Cán bộ, công chức, viên chức tại\n   Lưu thành phần hồ bộ phận một cửa khi tiếp nhận hồ sơ\n   sơ đã ký số vào kho trực tuyến/trực tiếp có thể lưu giấy tờ đã\n   quản lý dữ liệu điện được ký số vào kho quản lý dữ liệu điện Cán      bộ,\n   tử của tổ chức, cá tử của tổ chức, cá nhân.                    công chức,\n12 nhân và lấy giấy tờ 12.2. Hệ thống sẽ dựa vào thông tin viên chức\n   từ kho quản lý dữ người dùng: CMND/CCCD, họ và tên, tại bộ phận\n   liệu điện tử của tổ ngày tháng năm sinh, giới tính để xác một cửa\n   chức, cá nhân để bổ định được kho của công dân và lưu giấy\n   sung vào hồ sơ       tờ đã ký số vào mục kho quản lý dữ liệu\n                        điện tử của người nộp.\n                        13.1. Cán bộ, công chức, viên chức tại\n                        bộ phận một cửa có thể lấy các giấy tờ\n                        từ kho quản lý dữ liệu điện tử của tổ\n   Thêm giấy tờ vào chức, cá nhân để đính kèm vào thành\n                                                               Cán     bộ,\n   thành phần hồ sơ từ phần hồ sơ.\n                                                               công chức,\n   kho quản lý dữ liệu\n                                                               viên chức\n   điện tử của tổ chức, 13.2. Hệ thống sẽ dựa vào thông tin\n13\n                                                               tại bộ phận\n   cá nhân khi công người dùng: CMND/CCCD, ngày,\n                                                               một cửa\n   dân nộp trực tiếp tháng, năm sinh và giới tính để xác định\n                        được kho quản lý dữ liệu điện tử của\n                        công dân đó. Cán bộ chỉ thấy được các\n                        giấy tờ mà công dân đã chia sẻ.\n                        14.1. Cán bộ, công chức, viên chức tại\n                        bộ phận một cửa tiếp nhận hồ sơ trực\n   Thêm giấy tờ vào tuyến có thể lấy các giấy tờ từ kho quản\n                                                               Cán     bộ,\n   thành phần hồ sơ từ lý dữ liệu điện tử của tổ chức, cá nhân\n                                                               công chức,\n   kho quản lý dữ liệu để đính kèm vào thành phần hồ sơ.\n14                                                             viên chức\n   điện tử của tổ chức, 14.2. Hệ thống sẽ dựa vào thông tin\n                                                               tại bộ phận\n   cá nhân khi công người dùng: CMND/CCCD, họ và tên,\n                                                               một cửa\n   dân nộp trực tuyến ngày tháng năm sinh, giới tính để xác\n                        định được kho của công dân và lấy giấy\n                        tờ mà cá nhân, tổ chức đã chia sẻ.\n\n   Đồng bộ kết quả Cho phép thực hiện đồng bộ kết quả giải Cán         bộ,\n   giải quyết TTHC quyết TTHC đã có trong hệ thống vào công chức,\n                        kho quản lý dữ liệu điện tử của tổ chức,\n15 đối với các hồ sơ cũ                                          viên chức\n   (hồ sơ đã tồn tại cá nhân. Có thể đồng bộ một hoặc nhiều tại bộ phận\n   trên hệ thống thông hồ sơ cùng lúc. Chỉ đồng bộ những hồ một cửa\n   tin một cửa điện tử, sơ đã trả kết quả cho công dân.\n\n                                    20"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-023",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-023",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 23,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "      Cổng dịch vụ công\n      của bộ, tỉnh)\n                        16.1. Hệ thống tự động đẩy kết quả giải\n                        quyết TTHC vào kho quản lý dữ liệu\n     Đồng bộ kết quả điện tử của tổ chức, cá nhân sau khi hồ\n                                                                 Cán     bộ,\n     giải quyết TTHC sơ đã hoàn thành xử lý và trả kết quả\n                                                                 công chức,\n     đối với các hồ sơ TTHC.\n  16                                                             viên chức\n     mới phát sinh trên 16.2. Kho quản lý dữ liệu điện tử của tổ\n                                                                 tại bộ phận\n     hệ thống thông tin chức, cá nhân chứa thông tin số hồ sơ\n                                                                 một cửa\n     giải quyết TTHC đã nộp của công dân, bao gồm các thành\n                        phần hồ sơ dạng điện tử đã đính kèm và\n                        kết quả giải quyết TTHC dạng điện tử.\n                          17.1. Cho phép công chức, viên chức xử\n                          lý hồ sơ kiểm tra các giấy tờ công dân,\n                          tổ chức ở dạng điện tử có hợp lệ hay\n     Kiểm ta, xác nhận không (Giấy tờ hợp lệ là giấy tờ có chữ Cán       bộ,\n     tính hợp lệ của giấy ký số của cấp có thẩm quyền và còn công chức,\n  17 tờ điện tử của công hiệu lực).                               viên chức\n     dân khi tiếp nhận 17.2. Cho phép kiểm tra giấy tờ, cần tại bộ phận\n     trực tuyến           kiểm tra chữ ký số trên giấy tờ có hợp một cửa\n                          lệ hay không. Nếu hợp lệ là có các dấu\n                          tích hợp lệ. Nếu không hợp lệ là có dấu\n                          X đỏ.\n\n      c) Trang thiết bị công nghệ thông tin tại Bộ phận một cửa các cấp:\n      Trang thiết bị phục vụ hoạt động của Bộ phận một cửa các cấp: máy scan,\nmáy tính, máy in, màn hình tra cứu, hướng dẫn thông tin, thiết bị chứng thư số,\n… theo quy định tại Điều 13 của Nghị định số 61/2018/NĐ-CP.\n4. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông\ntin phục vụ phát triển kinh tế-xã hội, công dân số\n       Phiên bản 1.0 của Hướng dẫn này tập trung vào việc đưa tài khoản định\ndanh điện tử do Bộ Công an cung cấp, thẻ CCCD gắn chíp vào sử dụng phục vụ\nphát triển kinh tế-xã hội, công dân số. Đây là phương thức mới, được sử dụng\nsong song bên cạnh các phương thức hiện đang được các cơ quan, tổ chức,\ndoanh nghiệp sử dụng để định danh và xác thực phục vụ các giao dịch trong\nkinh tế-xã hội.\n       Mục tiêu hướng đến là công dân không cần phải cung cấp các loại giấy tờ\ntùy thân bản giấy phục vụ xác thực, xác minh danh tính trong thực hiện giao dịch.\nThông tin các loại giấy tờ (như: Thẻ CCCD, thẻ Bảo hiểm y tế, Giấy phép lái xe,\nHộ chiếu…) sẽ được tích hợp vào trong Hệ thống định danh và xác thực điện tử.\n\n\n                                       21"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-024",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-024",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 24,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "Công dân có thể sử dụng ứng dụng VNeID phục vụ xác thực, xác minh danh tính\ntrong thực hiện giao dịch trên môi trường trực tuyến.\n4.1. Yêu cầu về nghiệp vụ\n    a) Xác thực thông tin công dân:\n\n\n\n\n      Hình vẽ 2: Quy trình xác thực thông tin công dân phục vụ phát triển\n                          kinh tế-xã hội, công dân số\n     Công dân đến tổ chức, doanh nghiệp để thực hiện dịch vụ, tiện tích theo nhu\ncầu. Cơ quan, tổ chức, doanh nghiệp thực hiện xác thực thông tin công dân thông\nqua Hệ thống định danh và xác thực điện tử, cụ thể:\n    - Bước 1: Công dân đăng nhập vào ứng dụng VNeID bằng tài khoản định\ndanh điện tử do Bộ Công an cấp. Công dân thực hiện cung cấp mã QR code cá\nnhân trên VNeID hoặc thẻ CCCD gắn chíp cho cơ quan, tổ chức, doanh nghiệp.\n     - Bước 2: Nhân viên của cơ quan, tổ chức, doanh nghiệp quét mã QR code\ncá nhân trên ứng dụng VNeID hoặc thẻ CCCD gắn chíp. Hệ thống của cơ quan,\ntổ chức, doanh nghiệp gửi yêu cầu xác thực thông tin công dân về Hệ thống định\ndanh và xác thực điện tử.\n     + Trường hợp quét thành công mã QR code trên VNeID hoặc thẻ CCCD gắn\nchíp do công dân cung cấp, hệ thống của cơ quan, tổ chức, doanh nghiệp gửi yêu\ncầu xác thực thông tin công dân đến Hệ thống định danh và xác thực điện tử.\n    + Trường hợp quét không thành công QR code hoặc thẻ CCCD gắn chíp do\ncông dân cung cấp, hoặc công dân không sử dụng ứng dụng VNeID, không có thẻ\n\n                                      22"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-025",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-025",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 25,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "CCCD gắn chíp, nhân viên tại quầy giao dịch yêu cầu công dân cung cấp giấy tờ\ntùy thân (như thẻ CCCD gắn chíp, CMND hoặc giấy tờ tuỳ thân khác) để thực\nhiện định danh, xác thực công dân theo quy định.\n     - Bước 3: Hệ thống định danh và xác thực điện tử tiếp nhận yêu cầu xác thực\ntừ hệ thống tổ chức, doanh nghiệp và thực hiện xác thực thông tin công dân.\n     - Bước 4: Hệ thống định danh và xác thực điện tử gửi lại kết quả xác thực về\nhệ thống của cơ quan, tổ chức, doanh nghiệp.\n     - Bước 5: Hệ thống của cơ quan, tổ chức, doanh nghiệp nhận kết quả xác\nthực thông tin công dân từ Hệ thống định danh và xác thực điện tử, hiển thị trên\ngiao diện phần mềm ứng dụng; nhân viên tại quầy thực hiện tiếp các quy trình\nnghiệp vụ của cơ quan, tổ chức, doanh nghiệp theo quy định.\n     b) Cung cấp thông tin công dân:\n     Cách 1:\n\n\n\n\n        Hình vẽ 3: Quy trình chia sẻ thông tin công dân thông qua việc\n                   quét mã QR code trên ứng dụng VNeID\n\n\n                                       23"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-026",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-026",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 26,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "     Cơ quan, tổ chức, doanh nghiệp có nhu cầu khai thác thông tin công dân\n(thông tin cơ bản của công dân, thông tin đăng ký xe, thông tin về bảo hiểm y tế,\nthông tin tiêm chủng…) phục vụ nghiệp vụ của mình.\n     - Bước 1: Công dân đăng nhập vào ứng dụng VNeID bằng tài khoản định\ndanh điện tử do Bộ Công an cấp. Công dân thực hiện cung cấp mã QR code của\ncá nhân trên ứng dụng VNeID hoặc thẻ CCCD gắn chíp cho cơ quan, tổ chức,\ndoanh nghiệp.\n     - Bước 2: Nhân viên tại quầy giao dịch của cơ quan tổ chức, doanh nghiệp\nquét mã QR code trên ứng dụng VNeID hoặc thẻ CCCD gắn chíp. Sau đó gửi yêu\ncầu cung cấp thông tin công dân về Hệ thống định danh và xác thực điện tử.\n     + Trường hợp quét thành công mã QR code trên VNeID hoặc thẻ CCCD gắn\nchíp do công dân cung cấp, hệ thống của cơ quan, tổ chức, doanh nghiệp gửi yêu\ncầu cung cấp thông tin công dân đến Hệ thống định danh và xác thực điện tử.\n     + Trường hợp quét không thành công QR code hoặc thẻ CCCD gắn chíp do\ncông dân cung cấp, hoặc công dân không sử dụng ứng dụng VNeID, không có thẻ\nCCCD gắn chíp, nhân viên tại quầy giao dịch nhập thông tin trên giấy tờ tuỳ thân\n(thẻ CCCD gắn chíp, CMND…) vào phần mềm ứng dụng và thực hiện tiếp theo\nquy trình thông thường.\n     - Bước 3: Hệ thống định danh và xác thực điện tử tiếp nhận yêu cầu cung\ncấp thông tin công dân từ hệ thống tổ chức, doanh nghiệp; thực hiện gửi câu hỏi\ncho công dân về việc đồng ý cung cấp thông tin của mình cho cơ quan, tổ chức,\ndoanh nghiệp để hiển thị trên ứng dụng VNeID.\n      - Bước 4: Nếu công dân chọn đồng ý chia sẻ thông tin được hiển thị trên ứng\ndụng VNeID, hệ thống định danh và xác thực điện tử thực hiện ký số dữ liệu thông\ntin công dân và gửi thông tin công dân đồng ý chia sẻ tới cơ quan, tổ chức, doanh\nnghiệp. Nếu công dân chọn không đồng ý chia sẻ thông tin, nhân viên tại quầy\ngiao dịch thực hiện nhập thông tin công dân thủ công vào hệ thống và thực hiện\ntheo quy trình thông thường.\n     - Bước 5: Hệ thống cơ quan, tổ chức, doanh nghiệp nhận thông tin công dân\nđồng ý chia sẻ từ Hệ thống định danh và xác thực điện tử, tiếp tục thực hiện các\nquy trình nghiệp vụ của cơ quan, tổ chức, doanh nghiệp.\n\n\n\n\n                                       24"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-027",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-027",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 27,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "     Cách 2:\n\n\n\n\n Hình vẽ 4: Quy trình chia sẻ thông tin công dân thông qua sử dụng ứng dụng\n       VNeID để quét mã QR code của cơ quan, tổ chức, doanh nghiệp\n     Tổ chức, doanh nghiệp có nhu cầu khai thác thông tin công dân (thông tin cơ\nbản của công dân, thông tin đăng ký xe, thông tin về bảo hiểm y tế, thông tin tiêm\nchủng…) phục vụ nghiệp vụ của mình.\n     - Bước 1: Cơ quan, tổ chức, doanh nghiệp đăng ký với Bộ Công an (Cục\nCảnh sát Quản lý hành chính về trật tự xã hội) sử dụng dịch vụ định danh và xác\nthực điện tử. Cơ quan, tổ chức, doanh nghiệp được cung cấp mã QR code dịch vụ\nchia sẻ thông tin công dân và đặt tại quầy giao dịch để phục vụ nghiệp vụ của\nmình.\n    - Bước 2: Công dân đăng nhập vào ứng dụng VNeID bằng tài khoản định\ndanh điện tử do Bộ Công an cấp. Công dân thực hiện quét mã QR code của cơ\nquan, tổ chức, doanh nghiệp để thực hiện cung cấp thông tin công dân cho cơ\nquan, tổ chức, doanh nghiệp.\n     - Bước 3: Hệ thống định danh và xác thực điện tử tiếp nhận thông tin công\ndân về việc đồng ý cung cấp thông tin cho hệ thống của cơ quan, tổ chức, doanh\nnghiệp trong quá trình thực hiện dịch vụ, tiện ích.\n    - Bước 4: Hệ thống định danh và xác thực điện tử thực hiện ký số dữ liệu\nthông tin công dân, trả thông tin công dân đồng ý chia sẻ tới cơ quan, tổ chức,\ndoanh nghiệp.\n      - Bước 5: Hệ thống tổ chức, doanh nghiệp nhận thông tin công dân đồng ý\ncung cấp từ hệ thống định danh và xác thực điện tử, thực hiện các quy trình nghiệp\nvụ của cơ quan, tổ chức, doanh nghiệp.\n                                       25"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-028",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-028",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 28,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "4.2. Danh sách yêu cầu chức năng cần bổ sung, hiệu chỉnh\na) Hệ thống cung cấp dịch vụ của cơ quan, tổ chức, doanh nghiệp\n      Nhóm chức                                                   Đối tượng\n TT                             Mô tả chức năng\n        năng                                                       sử dụng\n      ĐỊNH DANH VÀ XÁC THỰC ĐIỆN TỬ BỞI HỆ THỐNG ĐỊNH\n  I\n      DANH VÀ XÁC THỰC ĐIỆN TỬ\n                  1.1. Công dân có thể đăng nhập vào hệ\n    Định danh và thống của cơ quan, tổ chức, doanh nghiệp\n    xác thực công bằng tài khoản định danh điện tử do Bộ\n  1 dân khi nộp Công an cung cấp.                            Công dân\n    hồ sơ trực 1.2. Công dân có thể nộp hồ sơ trực tuyến\n    tuyến         sau khi thông tin tài khoản định danh điện\n                  tử là hợp lệ.\n                  2.1. Hệ thống cho phép đọc mã QR code cá\n                  nhân trên ứng dụng VNeID hoặc thẻ CCCD\n                  gắn chíp và tự động gửi yêu cầu xác thực\n                                                            Nhân viên của\n    Định danh và thông tin công dân đến Hệ thống định danh\n                                                            cơ quan, tổ\n    xác thực công và xác thực điện tử.\n  2                                                         chức, doanh\n    dân nộp hồ sơ 2.2. Hệ thống hiện thị kết quả xác thực\n                                                            nghiệp      tại\n    trực tiếp     thông tin công dân từ Hệ thống định danh\n                                                            quầy giao dịch\n                  và xác thực điện tử để nhân viên của cơ\n                  quan, tổ chức, doanh nghiệp tại quầy giao\n                  dịch thực các nghiệp vụ tiếp theo.\n      CHIA SẺ THÔNG TIN CÔNG DÂN TỪ HỆ THỐNG ĐỊNH DANH\n II\n      VÀ XÁC THỰC ĐIỆN TỬ\n                  3.1. Hệ thống cho phép đọc mã QR code cá\n                  nhân trên ứng dụng VNeID hoặc thẻ CCCD\n                  gắn chíp và gửi yêu cầu cung cấp thông tin\n    Chia sẻ dữ\n                  công dân đến Hệ thống định danh và xác\n    liệu công dân\n                  thực điện tử.                                Công      dân,\n    thông     qua\n  3               3.2. Hệ thống của cơ quan, tổ chức, doanh nhân viên tại\n    quét mã QR\n                  nghiệp tiếp nhận, xử lý dữ liệu trả về từ Hệ quầy giao dịch\n    code của ứng\n                  thống định danh và xác thực điện tử và hiển\n    dụng VNeID\n                  thị trên giao diện phần mềm ứng dụng, tự\n                  động điền vào biểu mẫu điện tử… phục vụ\n                  xử lý nghiệp vụ các bước tiếp theo.\n    Chia sẻ dữ 4.1. Hệ thống cho phép tiếp nhận yêu cầu\n    liệu công dân chia sẻ dữ liệu công dân thông qua việc sử Công   dân,\n  4 thông     qua dụng ứng dụng VNeID để quét mã QR code nhân viên tại\n    quét QR code của cơ quan, tổ chức, doanh nghiệp và tự quầy giao dịch\n    của cơ quan, động gửi yêu cầu cung cấp thông tin công\n\n                                     26"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-029",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-029",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 29,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "       tổ     chức, dân đến Hệ thống định danh và xác thực\n       doanh nghiệp điện tử.\n       bằng    ứng 4.2. Hệ thống của cơ quan, tổ chức, doanh\n       dụng VNeID nghiệp tiếp nhận, xử lý dữ liệu trả về từ Hệ\n                    thống định danh và xác thực điện tử và hiển\n                    thị trên giao diện phần mềm ứng dụng, tự\n                    động điền vào biểu mẫu điện tử phục vụ xử\n                    lý nghiệp vụ các bước tiếp theo.\nb) Trang thiết bị tại quầy giao dịch:\n      Căn cứ nhu cầu thực tế các cơ quan, tổ chức, doanh nghiêp chủ động đầu\ntư, mua sắm trang thiết bị, phương tiện phục vụ hoạt động tại quầy giao dịch:\nThiết bị, phương tiện đọc thẻ mã QR code trên ứng dụng VNeID, thẻ CCCD\ngắn chíp.\n4.3. Mô hình kết nối cho cơ quan tổ chức, doanh nghiệp\n      Căn cứ nhu cầu thực tế, hiện trạng hạ tầng kỹ thuật, việc kết nối các hệ\nthống của cơ quan, tổ chức, doanh nghiệp thuộc khu vực tư vào Hệ thống định\ndanh và xác thực điện tử áp dụng một trong phương án kết nối sau:\n      a) Phương án 1-Sử dụng VPN site to site:\n       Áp dụng đối với các cơ quan, tổ chức, doanh nghiệp có trang thiết bị phục\nvụ thiết lập kênh kết nối VPN site to site theo hướng dẫn của Bộ Công an.\n\n                                                                           Hệ thống định danh và\n Tổ chức, Doanh nghiệp                       VPN\n                                                                              xác thực điện tử\n\n\n\n                                                        2. Xác thực tài khoản\n                   1. Gửi yêu cầu tích hợp                    tích hợp\n\n                                                          3. Kết quả xác thực\n\n\n                                                        4. Gửi yêu cầu tích hợp          5. Xử lý dữ liệu\n\n\n\n                   7. Trả về kết quả xử lý              6. Trả về kết quả xử lý\n\n\n\n\n  Hình vẽ 5: Mô hình kết nối kỹ thuật giữa cơ quan, tổ chức, doanh nghiệp và\n                   Hệ thống định danh và xác thực điện tử\n       Trình tự thực hiện kết nối:\n      - Bước 1: Cơ quan, tổ chức, doanh nghiệp khi kết nối tới Hệ thống định\ndanh và xác thực điện tử cần cài đặt VPN Site to site để bảo đảm xác thực và an\nninh an toàn bảo mật. Khi có nhu cầu xác thực hoặc chia sẻ thông tin công dân thì\n\n                                                   27"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-030",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-030",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 30,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "thực hiện gửi yêu cầu tới Hệ thống định danh và xác thực điện tử theo cơ chế kết\nnối VPN do Bộ Công an quy định.\n     - Bước 2: Hệ thống định danh và xác thực điện tử thông qua kết nối VPN,\nkèm theo thông tin đăng nhập mà Hệ thống định danh và xác thực điện tử cung\ncấp.\n      - Bước 3: Hệ thống định danh và xác thực điện tử tiến hành xác thực và trả\nkết quả tài khoản kết nối của phần mềm nghiệp vụ.\n      - Bước 4: Thông qua kết nối VPN, tổ chức, doanh nghiệp gửi yêu cầu xác\nthực thông tin công dân, cung cấp thông tin công dân tới Hệ thống định danh và\nxác thực điện tử.\n      - Bước 5: Hệ thống định danh và xác thực điện tử tiến hành xử lý yêu cầu\nxác thực thông tin công dân, cung cấp thông tin công dân đã được ký số.\n      - Bước 6: Hệ thống định danh và xác thực điện tử trả lại kết quả xử lý cho\ntổ chức, doanh nghiệp thông qua kết nối VPN.\n       b) Phương án 2-Sử dụng DXL Node thuộc Nền tảng tích hợp, chia sẻ dữ\nliệu quốc gia trên mạng Internet:\n       - Áp dụng đối với các cơ quan, tổ chức, doanh nghiệp có nhu cầu khai thác\nHệ thống định danh và xác thực điện tử thường xuyên, hàng ngày, khối lượng giao\ndịch lớn, yêu cầu ổn định cao, hoặc chưa có thiết bị chuyên dụng để thiết lập kênh\nVPN site to site.\n      - Cơ quan, tổ chức, doanh nghiệp chuẩn bị hạ tầng kỹ thuật (khuyến nghị\nđể hoạt động ổn định), cài đặt, sử dụng máy chủ DXL Node theo hướng dẫn của\nBộ Công an, hướng dẫn tại Phục lục 2 của Văn bản số 677/BTTTT-THH ngày\n03/3/2022 của Bộ Thông tin và Truyền thông.\n      - Yêu cầu phần cứng tối thiểu để cài đặt DXL Node:\n      + Phần cứng của máy chủ/máy tính để bàn (bo mạch chủ, CPU, card giao\ndiện mạng, hệ thống lưu trữ) phải được hỗ trợ bởi Ubuntu; khuyến nghị sử dụng\nmáy chủ để đảm bảo sự ổn định; trường hợp chưa đủ điều kiện trang bị máy chủ,\nnhu cầu khai thác không nhiều thì có thể sử dụng máy tính để bàn.\n      + CPU lõi kép 64-bit Intel, AMD hoặc CPU tương thích; hỗ trợ hướng dẫn\nAES; 2 CPU; RAM 4 GB; 10 GB dung lượng đĩa trống (phân vùng hệ điều hành),\n20-40 GB dung lượng đĩa trống (phân vùng /var); card mạng 100 Mbps.\n      c) Tiêu chuẩn kỹ thuật áp dụng:\n      - Kỹ thuật xác thực: HTTP Basic Authentication;\n      - Cách thức thực hiện giao dịch trao đổi dữ liệu: thực hiện xác thực trực tiếp\nđối với từng giao dịch.\n\n\n                                        28"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-031",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-031",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 31,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "       - Hệ thống định danh và xác thực điện tử thực hiện trao đổi, đồng bộ dữ\nliệu theo quy chuẩn kỹ thuật QCVN 109:2017/BTTTT ban hành kèm Thông tư số\n02/2017/TT-BTTTT ngày 04/4/2017 của Bộ Thông tin và Truyền thông.\n5. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông\ntin phục vụ quản lý, xử lý nghiệp vụ, bổ sung làm giàu dữ liệu dân cư\n5.1. Yêu cầu về nghiệp vụ\n      a) Xác thực, đồng bộ dữ liệu mới phục vụ quản lý, xử lý nghiệp vụ:\nKịch bản điển hình để các CSDL quốc gia, CSDL chuyên ngành, hệ thống thông\ntin phục vụ mục đích quản lý, xử lý nghiệp vụ chuyên ngành, cung cấp dịch vụ\nsố, tiện ích số của cơ quan nhà nước có nhu cầu xác thực thông tin công dân, đồng\nbộ dữ liệu với CSDLQG về dân cư để làm giàu dữ liệu dân cư như sau:\n\n\n\n\n   Hình vẽ 6: Quy trình xác thực, đồng bộ thông tin công dân giữa CSDLQG,\n      CSDL chuyên ngành, HTTT phục vụ quản lý, nghiệp vụ của CQNN\n     Mô tả kịch bản:\n     - Bước 1: Công chức, viên chức, người lao động tại cơ quan, tổ chức, đăng\nnhập hệ thống CSDL quốc gia, CSDL chuyên ngành, phần mềm nghiệp vụ; chọn\nthủ tục nghiệp vụ cần xử lý. Công chức, viên chức, người lao động chọn hồ sơ\ncông dân cần xử lý, nhập các thông tin về công dân hoặc lấy trong hệ thống phần\nmềm để thực hiện xác thực, đồng bộ thông tin công dân với hệ thống CSDLQG\nvề dân cư. Hệ thống sẽ gọi tới API mà CSDLQG về dân cư cung cấp để gửi các\nthông tin công dân cần xác thực, đồng bộ.\n\n                                       29"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-032",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-032",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 32,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "    - Bước 2: Hệ thống CSDLQG về dân cư xử lý yêu cầu đồng bộ, xác thực\nthông tin công dân và trả lại kết quả xác thực thông tin của công dân cho hệ thống\nCSDL quốc gia, CSDL chuyên ngành, phần mềm nghiệp vụ của cơ quan nhà\nnước, tổ chức.\n     - Bước 3: Hệ thống CSDL quốc gia, CSDL chuyên ngành, phần mềm nghiệp\nvụ của cơ quan nhà nước, tổ chức nhận gói tin, xử lý và hiển thị kết quả xác thực\nthông tin công dân trên giao diện phần mềm ứng dụng. Cán bộ, công chức, viên\nchức tại cơ quan nhà nước, tổ chức kiểm tra kết quả, tiếp tục xử lý nghiệp vụ trên\nhệ thống phần mềm nghiệp vụ của mình. Trường hợp có sai lệch sau khi xác thực\nvới dữ liệu trong CSDLQG về dân cư, công chức, viên chức, người lao động sẽ\nxử lý theo quy định, như: từ chối tiếp nhận hồ sơ, không đồng ý cho phép tạo tài\nkhoản, yêu cầu công dân làm rõ, yêu cầu công dân hoàn thiện bổ sung hồ sơ, yêu\ncầu công dân cập nhật thông tin…\n      - Bước 4: Hoàn thành xử lý nghiệp vụ, lưu kết quả vào hệ thống. Với các\ntrường hợp xác thực thành công với CSLDQG về dân cư, sau khi hoàn thành quá\ntrình xử lý nghiệp vụ, hệ thống của bộ, ngành, địa phương, tổ chức tự động đồng\nbộ kết quả để làm giàu dữ liệu dân cư. Cán bộ, công chức, viên chức quản lý, vận\nhành CSDLQG về dân cư xét duyệt dữ liệu được đồng bộ trước khi cập nhật dữ\nliệu vào hệ thống theo quy định của Bộ Công an.\n      b) Xác thực, đồng bộ dữ liệu đã có phục vụ làm sạch dữ liệu của cơ quan\nnhà nước đồng thời làm giàu CSDLQG về dân cư thông qua kết nối tự động:\n     Mô tả kịch bản:\n     - Bước 1: CSDL quốc gia, CSDL chuyên ngành, phần mềm nghiệp vụ\ntự động gọi tới API mà hệ thống CSDLQG về dân cư cung cấp để gửi các thông\ntin công dân đã có trong hệ thống cần được xác thực, đồng bộ với CSDLQG về\ndân cư.\n     - Bước 2: Hệ thống CSDLQG về dân cư xử lý yêu cầu xác thực, đồng bộ\nthông tin công dân và trả lại kết quả xác thực, đồng bộ thông tin của công dân cho\nhệ thống CSDL quốc gia, CSDL chuyên ngành, phần mềm nghiệp vụ của cơ quan\nnhà nước.\n     - Bước 3: Hệ thống CSDL quốc gia, CSDL chuyên ngành, phần mềm nghiệp\nvụ của cơ quan nhà nước nhận gói tin, xử lý kết quả xác thực với CSDLQG về\ndân cư, lưu tạm vào hệ thống.\n      - Bước 4: Cán bộ, công chức, viên chức tại cơ quan nhà nước kiểm tra kết\nquả xác thực, đồng bộ với CSDLQG về DC trên phần mềm ứng dụng. Trường\nhợp có sai lệch sau khi xác thực với dữ liệu trong CSDLQG về dân cư, cán bộ,\ncông chức, viên chức của cơ quan, tổ chức, doanh nghiệp sẽ xử lý theo quy định,\nnhư: yêu cầu công dân làm rõ, yêu cầu công dân hoàn thiện bổ sung hồ sơ, yêu\ncầu công dân cập nhật thông tin… Cán bộ, công chức, viên chức quản lý, vận\nhành CSDLQG về dân cư xét duyệt dữ liệu được đồng bộ trước khi cập nhật dữ\nliệu vào hệ thống theo quy định của Bộ Công an.\n\n                                       30"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-033",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-033",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 33,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "    c) Xác thực, đồng bộ dữ liệu đã có phục vụ làm sạch dữ liệu của cơ quan nhà\nnước đồng thời làm giàu CSDLQG về dân cư thông qua hình thức ngoại tuyến:\n    Trường hợp hạ tầng kỹ thuật kết nối, chia sẻ dữ liệu của cơ quan chủ quản\nchưa sẵn sàng đáp ứng yêu cầu xác thực, đồng bộ khối lượng lớn dữ liệu với\nCSDLQG về dân cư trong thời gian ngắn, Bộ Công an và cơ quan chủ quản\nCSDLQG, CSDL chuyên ngành, hệ thống thông tin quản lý có thể xem xét lựa\nchọn phương án xác thực, làm sạch dữ liệu thông qua hình thức ngoại tuyến.\n5.2. Danh sách các yêu cầu chức năng cần bổ sung, hiệu chỉnh\n    Căn cứ vào hiện trạng, nhu cầu thực tế, các bộ, ngành, địa phương, tổ chức,\ndoanh nghiệp rà soát, thực hiện bổ sung, hiệu chỉnh ứng dụng nhằm đáp ứng các\nchức năng sau:\n\n        Nhóm                                                     Đối tượng\n TT                            Mô tả chức năng\n      chức năng                                                   sử dụng\n               1.1. Hệ thống cho phép cán bộ, công chức,\n               viên chức, người lao động chọn công dân/hồ\n               sơ cần xác thực, đồng bộ trên giao diện phần\n               mềm ứng dụng.\n               1.2. Hệ thống cho phép cán bộ, công chức,\n               viên chức, người lao động thực hiện kiểm tra\n               thông tin công dân (với các trường thông tin\n               đầu vào là các trường thông tin: họ và tên, số\n               CMND/CCCD, ngày tháng năm sinh, giới\n                                                              Cán bộ, công\n    Xác thực, tính) thông qua kết nối với CSDLQG về dân\n                                                              chức,    viên\n  1 đồng bộ dữ cư.\n                                                              chức, người\n    liệu mới   1.3. Hệ thống hiển thị thông báo kết quả xác lao động\n               thực thông tin công dân trên giao diện phần\n               mềm ứng dụng để cán bộ công chức, viên\n               chức, người lao động để xử lý theo quy định.\n               1.4. Đối với các trường hợp xác thực thành\n               công với CSDLQG về dân cư, sau khi hoàn\n               thành việc xử lý nghiệp vụ theo quy định, hệ\n               thống đồng bộ dữ liệu của công dân với\n               CSDLQG về dân cư, phục vụ làm giàu dữ liệu\n               dân cư.\n\n               2.1. Hệ thống tự động kiểm tra thông tin công\n                                                             Cán bộ, công\n    Xác thực, dân (với các trường thông tin đầu vào là các\n                                                             chức,    viên\n  2 đồng bộ dữ trường thông tin: họ và tên, số CMND/CCCD,\n                                                             chức, người\n    liệu đã có ngày tháng năm sinh, giới tính) thông qua kết\n                                                             lao động\n               nối với CSDLQG về dân cư.\n\n\n                                      31"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-034",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-034",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 34,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "                  2.2. Hệ thống hiển thị kết quả kiểm tra thông\n                  tin công dân trên giao diện phần mềm cho cán\n                  bộ công chức, viên chức, người lao động xử\n                  lý.\n                  2.3. Đối với các trường hợp xác thực thành\n                  công với CSDLQG về dân cư, sau khi hoàn\n                  thành việc xử lý nghiệp vụ theo quy định, hệ\n                  thống đồng bộ dữ liệu của công dân với\n                  CSDLQG về dân cư phục vụ làm giàu dữ liệu\n                  dân cư.\n\n     Việc kết nối, tích hợp, chia sẻ dữ liệu giữa các bộ, ngành, địa phương, tổ\nchức, doanh nghiệp với CSDLQG về dân cư thông qua Nền tảng tích hợp, chia sẻ\ndữ liệu quốc gia cần áp dụng theo hướng dẫn tại Văn bản số 677/BTTTT-THH\nngày 03/3/2022 của Bộ Thông tin và Truyền thông, các tài liệu hướng dẫn kỹ thuật\ndo Bộ Công an và Bộ Thông tin và Truyền thông phối hợp cung cấp.\n     Các chức năng cần bổ sung, hiệu chỉnh, phát triển các dịch vụ chia sẻ dữ liệu\ncủa CSDLQG về dân cư, CSDL quốc gia, CSDL chuyên ngành, hệ thống thông\ntin phục vụ quản lý, xử lý nghiệp vụ chuyên ngành thông qua Nền tảng tích hợp,\nchia sẻ dữ liệu quốc gia, Nền tảng tích hợp, chia sẻ dữ liệu cấp Bộ, cấp tỉnh thực\nhiện theo các hướng dẫn kỹ thuật kết nối do Bộ Công an và Bộ Thông tin và\nTruyền thông phối hợp cung cấp theo từng kết nối cụ thể.\n6. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông\ntin phục vụ chỉ đạo, điều hành của lãnh đạo các cấp\n6.1. Yêu cầu về nghiệp vụ\n     Mục đích: Tổng hợp, phân tích, dự báo các thông tin về dân cư phục vụ chỉ\nđạo, điều hành Chính phủ, Thủ tướng Chính phủ và yêu cầu nghiệp vụ của lực\nlượng Công an nhân dân. Hoạch định chính sách kinh tế, xã hội; đáp ứng yêu cầu\nnghiệp vụ của lực lượng Công an nhân dân và nhu cầu của các cơ quan nhà nước,\ntổ chức, doanh nghiệp.\n     Các thông tin chỉ đạo đạo điều hành, bao gồm:\n     - Các chỉ số phân tích chuyên sâu về tình hình lao động, nghề nghiệp, tình\nhình dư thừa hoặc thiếu lao động, nguy cơ mất cân đối về cung-cầu lao động.\n      - Các chỉ số về số lượng tham gia Bảo hiểm y tế, Bảo hiểm xã hội theo độ\ntuổi, giới tính, dân tộc, tôn giáo, tình trạng hôn nhân: Chỉ số người lao động tham\ngia Bảo hiểm y tế, Bảo hiểm xã hội; Chỉ số người cao tuổi, trẻ em tham gia Bảo\nhiểm y tế, Bảo hiểm xã hội; Chỉ số theo dõi phân tích về thời gian kết thúc; Chỉ\nsố theo dõi phân tích về thời gian bắt đầu tham gia Bảo hiểm y tế, Bảo hiểm xã\nhội của dân cư. Phân tích tỷ lệ người dân tham gia Bảo hiểm xã hội trên toàn quốc\nvà từng địa phương, từng địa bàn kinh tế trọng điểm.\n     - Các chỉ số liên quan tới cán bộ: Chỉ số về độ tuổi, giới tính, dân tộc, tôn\ngiáo, tình trạng hôn nhân của cán bộ; Chỉ số tình trạng quốc tịch của cán bộ.\n                                        32"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-035",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-035",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 35,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "    - Các chỉ số liên quan tới hoạt động kinh doanh có điều kiện: Số lượng Số\nchứng chỉ kinh doanh vũ khí, vật liệu nổ, công cụ hỗ trợ theo tỉnh, huyện, xã (quy\nmô, phân bố, mật độ); phân tích theo thời gian hành nghề; số lượng số giấy xác\nnhận kinh doanh dịch vụ phòng cháy chữa cháy theo tỉnh, huyện, xã (quy mô,\nphân bố, mật độ); phân tích theo thời gian hành nghề; số lượng số chứng chỉ hành\nnghề kinh doanh có điều kiện về an ninh thông tin theo tỉnh, huyện, xã (quy mô,\nphân bố, mật độ); phân tích theo thời gian hành nghề.\n      - Các chỉ số liên quan tới tài sản, đất đai, nhà ở: Chỉ số phân tích chủ sở hữu\nđất, nhà ở, tài sản gắn liền với đất theo độ: tuổi, giới tính, dân tộc, tôn giáo, tình\ntrạng hôn nhân; chỉ số phân tích tổng thể về nhà ở, đất đai giữa các đơn vị tỉnh,\nhuyện, xã; tỷ lệ nhà ở giữa với các loại đất khác.\n    - Các chỉ số liên quan tới cấp phép lái xe theo dân cư: Chỉ số quy mô, phân\nbố về giấy phép lái xe theo độ tuổi, giới tính, dân tộc, tôn giáo, tình trạng hôn\nnhân; Phân tích chuyên sâu hạng giấy phép, ngày hết hạn…\n     - Các chỉ số liên quan tới nghề nghiệp dân cư: Chỉ số về nghề nghiệp theo\nđộ tuổi, giới tính, dân tộc, tôn giáo, tình trạng hôn nhân; Chỉ số về người thuộc\ndiện hưởng trợ cấp theo độ tuổi, giới tính, dân tộc, tôn giáo, tình trạng hôn nhân.\n     - Các chỉ số liên quan tới thuế, trách nhiệm tài chính của công dân: Chỉ số\nquy mô, phân bố, mật độ thuế theo độ tuổi, giới tính, dân tộc, tôn giáo, tình trạng\nhôn nhân; phân tích chuyên sâu về trạng thái hoạt động; theo cơ quan quản lý\nthuế; chỉ số phân tích về thuế đối với người lao động.\n      - Các chỉ số phân tích độ bao phủ thông tin tiêm chủng vắc xin COVID-19\ntrên toàn quốc, từng địa phương theo từng nhóm tuổi.\n6.2. Danh sách yêu cầu chức năng cần bổ sung, hiệu chỉnh\n\n\n\n\nHình vẽ 7: Mô hình kết nối CSDLQG về dân cư, Hệ thống định danh và xác thực\n      điện tử với Trung tâm thông tin, chỉ đạo điều hành của Chính phủ,\n                            Thủ tướng Chính phủ\n      CSDLQG về dân cư Hệ thống định danh và xác thực điện tử thực hiện kết\nnối, chia sẻ dữ liệu dữ liệu với Trung tâm thông tin, chỉ đạo điều hành của Chính\n                                         33"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-036",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-036",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 36,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "phủ, Thủ tướng Chính phủ cần tuân thủ Thông tư số 02/2021/TT-BTTTT ngày\n21/6/2021 của Bộ trưởng Bộ Thông tin và Truyền thông, theo yêu cầu của lãnh\nđạo Chính phủ, Thủ tướng Chính phủ. Các chức năng cần bổ sung, hiệu chỉnh\nthực hiện theo hướng dẫn của Văn phòng Chính phủ và Bộ Công an.\n7. Yêu cầu về an toàn, an ninh mạng\n7.1. Yêu cầu chung\n     a) Các hệ thống thông tin, nền tảng dùng chung phục vụ kết nối kết nối, triển\nkhai Đề án 06 gồm: Cơ sở dữ liệu quốc gia về dân cư (CSDLQG về dân cư); Cổng\nDịch vụ công quốc gia; các CSDLQG, CSDL chuyên ngành; Trung tâm thông tin,\nchỉ đạo điều hành của Chính phủ, Thủ tướng Chính phủ; Hệ thống định danh và\nxác thực điện tử; hệ thống thông tin giải quyết thủ tục hành chính cấp bộ, cấp tỉnh;\nCổng, ứng dụng (app) cung cấp dịch vụ trực tuyến khác; hệ thống thông tin quản\nlý/hệ thống thông tin chuyên ngành; Nền tảng tích hợp, chia sẻ dữ liệu quốc gia\n(NDXP; )Trục liên thông văn bản quốc gia; Hệ thống hỗ trợ giám sát, điều hành\nan toàn, an ninh mạng (GovSOC); Mạng Truyền số liệu chuyên dùng cấp I, Mạng\nTruyền số liệu chuyên dùng cấp II có Hồ sơ đề xuất cấp độ (HSĐXCĐ) được thẩm\nđịnh và phê duyệt trước ngày 30/6/2022, triển khai đầy đủ phương án bảo đảm an\ntoàn HTTT theo cấp độ trước ngày 15/11/2022.\n     b) Hệ thống thông tin kết nối với CSDLQG về dân cư phục vụ triển khai Đề\nán 06 đáp ứng các yêu cầu an toàn sau:\n      - Hồ sơ đề xuất cấp độ của hệ thống được thẩm định và phê duyệt theo quy\nđịnh; Phương án bảo đảm an toàn thông tin trong Hồ sơ đề xuất cấp độ phải được\ntriển khai đáp ứng các yêu cầu an toàn theo quy định trước khi kết nối, chia sẻ dữ\nliệu với Cơ sở dữ liệu quốc gia về dân cư.\n     - Phương án bảo đảm an toàn thông tin phải đáp ứng các yêu cầu an toàn cấp\nđộ 3 trở lên, theo quy định tại Điều 19 Nghị định số 85/2016/NĐ-CP, Thông tư\nsố 03/2017/TT-BTTTT ngày 24/4/2017 của Bộ Thông tin và Truyền thông và\nTiêu chuẩn quốc gia TCVN 11930:2017 về Công nghệ thông tin - Các kỹ thuật\nan toàn - Yêu cầu cơ bản về an toàn hệ thống thông tin theo cấp độ.\n    - Hệ thống thông tin phải được kiểm tra, đánh giá an toàn thông tin bởi các\ncơ quan, đơn vị chức năng của Bộ Công an, Bộ Quốc phòng và Bộ Thông tin và\nTruyền thông trước khi kết nối, chia sẻ dữ liệu với Cơ sở dữ liệu quốc gia về dân\ncư và khi có thay đổi về thiết kế hệ thống. Nội dung kiểm tra, đánh giá tối thiểu\nbao gồm:\n    + Kiểm tra, đánh giá việc thiết lập cấu hình bảo mật trên thiết bị hệ thống,\nmáy chủ và ứng dụng và cơ sở dữ liệu đáp ứng các yêu cầu an toàn theo quy định;\n    + Kiểm tra, đánh giá phát hiện mã độc, lỗ hổng, điểm yếu, thử nghiệm xâm\nnhập hệ thống đối với thiết bị hệ thống, máy chủ và ứng dụng;\n    + Kiểm tra, đánh giá an toàn thông tin cho mã nguồn ứng dụng (code review);\n    + Kiểm tra, đánh giá an toàn, an ninh phần cứng.\n\n                                        34"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-037",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-037",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 37,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "    - Cổng kết nối vào mạng TSLCD đáp ứng các yêu cầu an toàn quy định tại\nThông tư số 12/2019/TT-BTTTT ngày 05/11/2019 của Bộ trưởng Bộ Thông tin\nvà Truyền thông sửa đổi, bổ sung một số điều của Thông tư số 27/2017/TT-\nBTTTT ngày 20/10/2017 quy định về quản lý, vận hành, kết nối, sử dụng và bảo\nđảm an toàn thông tin trên mạng Truyền số liệu chuyên dùng của các cơ quan\nĐảng, Nhà nước.\n7.2. Mô hình tham chiếu bảo đảm an toàn thông tin\n\n\n\n\n           Hình vẽ 8: Mô hình tham chiếu bảo đảm an toàn thông tin\n     Mô hình tham chiếu bảo đảm an toàn thông tin bao gồm các thành phần: (1)\nMô hình tổ chức “04 lớp” bảo đảm an toàn thông tin; (2) Mô hình tham chiếu về\nbiện pháp quản lý an toàn thông tin; (3) Mô hình tham chiếu biện pháp kỹ thuật\nbảo đảm an toàn thông tin; (4) Mô hình tham chiếu về giải pháp, công nghệ; (5)\nMô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng.\n     Bộ Thông tin và Truyền thông thiết lập hệ thống tiếp nhận dữ liệu giám sát\nan toàn thông tin tập trung để tiếp nhận dữ liệu chia sẻ từ bộ, ngành, địa phương.\nDữ liệu giám sát sẽ được chia sẻ trực tiếp cho hệ thống kỹ thuật quốc gia của\nBộ Công an và các hệ thống thông tin khác (theo đề nghị) phục vụ triển khai\nĐề án 06.\n\n                                       35"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-038",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-038",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 38,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "7.3. Mô hình bảo đảm an toàn thông tin theo mô hình 4 lớp\n\n                                    1. Lực lượng tại chỗ\n       4 lớp\n        bảo                 2. Giám sát, bảo vệ chuyên nghiệp\n     đảm an\n       toàn            3. Kiểm tra, đánh giá an toàn thông tin chuyên nghiệp\n      thông\n        tin\n                    4. Kết nối, chia sẻ thông tin với hệ thống kỹ thuật quốc gia\n\n\n       Hình vẽ 9: Mô hình bảo đảm an toàn thông tin theo mô hình 4 lớp\n       Lớp 1: Lực lượng tại chỗ Chỉ định, kiện toàn đầu mối đơn vị chuyên trách về\nATTT mạng để làm tốt công tác tham mưu, tổ chức thực thi và kiểm tra, đôn đốc\nthực hiện các quy định của pháp luật về bảo đảm an toàn, an ninh mạng.\n       Lớp 2: Tổ chức hoặc thuê doanh nghiệp giám sát, bảo vệ chuyên nghiệp Tự\nthực hiện giám sát, ứng cứu sự cố ATTT mạng, bảo vệ hệ thống thông tin thuộc quyền\nquản lý hoặc lựa chọn/thuê tổ chức, doanh nghiệp có đủ năng lực để thực hiện cung\ncấp dịch vụ giám sát, ứng cứu sự cố, bảo vệ ATTT mạng.\n       Lớp 3: Tổ chức hoặc thuê doanh nghiệp độc lập kiểm tra, đánh giá định kỳ\nLựa chọn/thuê tổ chức, doanh nghiệp độc lập với tổ chức, doanh nghiệp giám sát,\nbảo vệ để định kỳ kiểm tra, đánh giá ATTT mạng đối với hệ thống thông tin cấp độ\n3 trở lên thuộc quyền quản lý hoặc kiểm tra, đánh giá đột xuất khi có yêu cầu theo\nquy định của pháp luật; Đối với các hệ thống thông tin cấp độ 3 và cấp độ 4, định kỳ\nhàng năm thực hiện kiểm tra, đánh giá và báo cáo Bộ Thông tin và Truyền thông\ntrước ngày 14 tháng 12 hằng năm để tổng hợp, báo cáo Thủ tướng Chính phủ; Đối\nvới hệ thống thông tin quan trọng quốc gia (cấp độ 5), định kỳ 06 tháng một lần thực\nhiện kiểm tra, đánh giá và báo cáo Bộ Thông tin và Truyền thông trước ngày 14 tháng\n6 và ngày 14 tháng 12 hàng năm để tổng hợp, báo cáo Thủ tướng Chính phủ.\n       Lớp 4: Kết nối, chia sẻ thông tin với hệ thống giám sát quốc gia Kết nối, chia\nsẻ thông tin giám sát an toàn thông tin với Trung tâm Giám sát an toàn không gian\nmạng quốc gia trực thuộc Cục An toàn thông tin, Bộ Thông tin và Truyền thông; và\ncung cấp các dải địa chỉ IP Public của các hệ thống thông tin trong cơ quan, tổ chức\nnhà nước thuộc phạm vi quản lý.\n7.4. Mô hình tham chiếu về biện pháp quản lý an toàn thông tin\n      Mô hình dưới đây mô tả các yêu cầu về quản lý an toàn thông tin theo tiêu\nchuẩn quốc gia TCVN 11930:2017.\n\n\n\n\n                                           36"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-039",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-039",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 39,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "         Hình vẽ 10: Mô hình các yêu cầu về quản lý an toàn thông tin\n       Các yêu cầu cụ thể được xác định dựa vào cấp độ của hệ thống thông tin tương\nứng cần bảo vệ và được chia ra làm 05 nhóm: (1) Chính sách an toàn thông tin, (2)\nTổ chức bảo đảm an toàn thông tin, (3) Bảo đảm nguồn nhân lực, (4) Quản lý thiết\nkế, xây dựng hệ thống, (5) Quản lý vận hành an toàn hệ thống thông tin.\n7.5. Mô hình tham chiếu biện pháp kỹ thuật bảo đảm an toàn thông tin\n       Mô hình dưới đây mô tả các yêu cầu về kỹ thuật bảo đảm an toàn thông tin\ntheo tiêu chuẩn quốc gia TCVN 11930:2017.\n\n\n\n\n      Hình vẽ 11: Mô hình yêu cầu về kỹ thuật đảm bảo an toàn thông tin\n      Các yêu cầu cụ thể được xác định dựa vào cấp độ của hệ thống thông tin tương\nứng cần bảo vệ và được chia làm 04 nhóm: (1) An toàn hạ tầng mạng, (2) An toàn\nmáy chủ, (3) An toàn ứng dụng, (4) An toàn dữ liệu, chi tiết thảm khảo tại Phụ lục\nhướng dẫn này.\n7.6. Mô hình tham chiếu về giải pháp, công nghệ\n       Các sản phẩm cụ thể được phân chia làm 08 nhóm, bao gồm: (1) Sản phẩm an\ntoàn cho thiết bị đầu cuối; (2) Sản phẩm an toàn lớp mạng; (3) Sản phẩm an toàn lớp\nứng dụng; (4) Sản phẩm bảo vệ dữ liệu; (5) Nhóm giải pháp định hướng phát triển\ntheo hình thức cung cấp dịch vụ; (6) Sản phẩm trình duyệt; (7) Sản phẩm nền tảng\n\n                                        37"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-040",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-040",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 40,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "tích hợp, chia sẻ dữ liệu; (8) Sản phẩm nền tảng điện toán đám mây phục vụ chính\nphủ điện tử.\n\n\n\n\n           Hình vẽ 12: Mô hình tham chiếu về giải pháp và công nghệ\n7.7. Mô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng\n     Mô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng (SOC) bao\ngồm 03 thành phần cơ bản:\n\n\n\n\n      Hình vẽ 13: Mô hình Trung tâm điều hành an toàn, an ninh mạng SOC\n      7.7.1. Công nghệ\n      Công nghệ, giải pháp kỹ thuật được sử dụng trong SOC cần phải đáp ứng yêu\ncầu kỹ thuật theo quy định tại Điều 5, khoản 1 Thông tư số 31/2017/TT-BTTTT bao\ngồm nhưng không giới hạn các chức năng sau:\n      a) Chức năng quản trị: Chức năng phân tích tương quan (Correlation); Chức\nnăng lọc (Filters); Tạo các luật (Rules), Chức năng hiển thị (Dashboards), Chức năng\n                                        38"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-041",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-041",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 41,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "cảnh báo và báo cáo (Alerts and Reports), Chức năng cảnh báo thời gian thực (Real\nTime Alert).\n       b) Chức năng nhận log: Cho phép nhận log từ các nguồn với nhiều định dạng\nkhác nhau từ các thiết bị mạng, máy chủ và ứng dụng; định dạng, chuẩn hóa log nhận\nđược theo các trường thông tin tùy biến theo nhu cầu sử dụng; nhận log trực tiếp qua\ncác giao thức mạng như: Syslog, Netflow, SNMP và các giao thức có chức năng\ntương đương theo thiết kế của từng hãng cụ thể. Giao thức truyền, nhận log qua môi\ntrường mạng cần hỗ trợ chức năng mã hóa dữ liệu, nén dữ liệu; tải các tệp tin log\ntheo các định dạng khác nhau lên hệ thống để chuẩn hóa và phân tích.\n       c) Yêu cầu về chức năng giám sát hệ thống: (1) Giám sát lớp mạng là việc thu\nthập, quản lý và giám sát các sự kiện từ các thiết bị mạng, thiết bị bảo mật như:\nRouter, Switch, Firewall/IPS/IDS, Sandbox, WAF, Network APT...; (2) Giám sát lớp\nmáy chủ là việc thu thập, quản lý và giám sát các sự kiện từ các máy chủ hệ thống\n(cả máy chủ vật lý và ảo hóa) trên các nền tảng khác nhau như: Windows, Linux,\nUnix…; (3) Giám sát lớp ứng dụng là việc thu thập, quản lý và giám sát các sự kiện\ntừ các ứng dụng như: Ứng dụng phục vụ hoạt động của hệ thống: DHCP, DNS, NTP,\nVPN, Proxy Server…; Ứng dụng cung cấp dịch vụ: Web, Mail, FPT, TFTP và các\nhệ quản trị cơ sở dữ liệu Oracle, SQL, MySQL ...; (4) Giám sát lớp thiết bị đầu cuối\nlà việc thu thập, quản lý và giám sát các sự kiện từ các thiết bị như: Máy tính người\nsử dụng, máy in, máy fax, IP Phone, IP Camera…; (5) Giám sát trên đường truyền\nlà việc thu thập, quản lý và giám sát các sự kiện từ: Điểm giám sát biên tại giao diện\nkết nối của thiết bị định tuyến biên với các mạng bên ngoài; điểm giám sát tại mỗi\nvùng mạng của hệ thống.\n      d) Yêu cầu về lưu trữ: Yêu cầu lưu trữ đối với hệ thống quản lý tập trung cần\nbảo đảm thời gian tối thiểu để lưu trữ nhật ký hệ thống căn cứ vào cấp độ (Điều 9\nThông tư số 03/2017/TT-BTTTT) của hệ thống thông tin được triển khai giám sát,\nbảo vệ, cụ thể: Hệ thống thông tin cấp độ 1 hoặc 2 là 01 tháng; Hệ thống thông tin\ncấp độ 3 là 03 tháng; Hệ thống thông tin cấp độ 4 là 06 tháng; Hệ thống cấp độ 5 là\n12 tháng.\n      đ) Chức năng mở rộng: Quản lý điểm yếu an toàn thông tin; Quản lý quy trình\nnghiệp vụ xử lý sự cố an toàn thông tin; Tích hợp, tổng hợp và phân tích thông tin từ\nhệ thống Threat Intelligence; Tự động tương tác với thiết bị mạng và máy chủ để\n\n\n                                         39"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-042",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-042",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 42,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "ngăn chặn tấn công; Hỗ trợ và tích hợp các công nghệ Big data & Machine learning,\nKill-chain, Advanced malware analysis, AI.\n       7.7.2. Quy trình\n       Quy trình trong một hệ thống SOC cơ bản bao gồm 02 nhóm quy trình: quy\ntrình quản lý, vận hành hệ thống và quy trình giám sát bảo vệ các hệ thống cần được\nbảo vệ như dưới đây.\n       a) Quy trình quản lý, vận hành bảo đảm an toàn thông tin cho hệ thống SOC\n       Các quy định, quy trình liên quan đến quản lý, vận hành hoạt động bình\nthường của hệ thống giám sát là các quy định, quy trình nhằm bảo đảm hệ thống\ngiám sát hoạt động ổn định, có tính chịu lỗi cao và sẵn sàng khôi phục lại trạng thái\nbình thường khi xảy ra sự cố. Các quy định, quy trình cần tối thiểu bao gồm các nội\ndung: Khởi động và tắt hệ thống giám sát; Thay đổi cấu hình và các thành phần của\nhệ thống giám sát; Quy trình xử lý các sự cố liên quan đến hoạt động của hệ thống\ngiám sát; Quy trình sao lưu, dự phòng cấu hình hệ thống và log của hệ thống; Quy\ntrình bảo trì, nâng cấp hệ thống giám sát; Quy trình khôi phục hệ thống sau sự cố.\n       b) Quy trình giám sát, bảo vệ hệ thống thông tin: Giám sát quản lý các sự kiện\nvà cảnh báo an toàn thông tin; Xử lý sự cố an toàn thông tin; Tối ưu cảnh báo: Tối\nưu cảnh báo trên hệ thống giám sát để tăng hiệu quả của việc vận hành, giảm thiểu\ntối đa cảnh báo sai; Điều tra, phân tích các nguy cơ mất an toàn thông tin.\n       7.7.3. Con người\n       Đơn vị vận hành hệ thống SOC cần tổ chức và bố trí nhân sự thực hiện quản\nlý, vận hành hệ thống và giám sát an toàn thông tin, bao gồm các nhóm sau: Nhóm\nquản lý vận hành hệ thống giám sát; Nhóm theo dõi và cảnh báo; Nhóm xử lý sự\ncố; Nhóm điều tra, phân tích.\n7.8. Danh mục phương án, thiết bị tối thiểu phục vụ bảo đảm an toàn, an ninh\nmạng\n            Phương án\n STT                             Giải pháp/thiết bị              Ghi chú\n             yêu cầu\n        Cấp độ 3\n        Có phương án quản                        Yêu cầu cầu có giải\n        lý truy cập, quản trị Giải pháp/Thiết bị pháp/thiết bị VPN hoặc\n   1\n        hệ thống từ xa an VPN.                   chức năng VPN được tích\n        toàn                                     hợp trên FW.\n                                         40"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-043",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-043",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 43,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "     Có phương án quản                               Yêu cầu cầu có giải\n     lý truy cập giữa các                            Tường lửa; hệ thống\n                          Tường lửa; hệ thống\n2    vùng     mạng     và                            IDS/IPS hoặc chức năng\n                          IDS/IPS.\n     phòng chống xâm                                 IDS/IPS được tích hợp\n     nhập                                            trên FW.\n     Có phương án\n                                         Yêu cầu có thiết bị/giải\n     phòng, chống tấn Tường lửa ứng dụng\n3                                        pháp tường lửa ứng dụng\n     công mạng cho ứng Web.\n                                         web.\n     dụng web\n     Có phương án cân        Các thiết bị mạng\n     bằng tải, dự phòng      chính phải được đầu Có HA/AA cho thiết bị\n4\n     nóng cho các thiết bị   tư theo cặp để dự mạng chính.\n     mạng chính              phòng lẫn nhau.\n                                        Có thuyết minh phương\n     Có phương án bảo                   án bảo đảm an toàn cho\n     đảm an toàn cho Giải pháp/Thiết bị máy chủ cơ sở dữ liệu phù\n5\n     máy chủ cơ sở dữ tường lửa CSDL.   hợp trong HSĐXCĐ\n     liệu                               (trong trường hợp không\n                                        đầu tư giải pháp/thiết bị).\n     Có phương án chặn       Giải pháp/Thiết bị\n                                                Có thể đầu tư FW có chức\n     lọc phần mềm độc        phát hiện và ngăn\n6                                               năng chống mã độc lớp\n     hại trên môi trường     chặn mã độc lớp\n                                                mạng\n     mạng                    mạng.\n     Có phương án                            Có thể thuê dịch vụ hoặc\n                          Giải pháp/Thiết bị\n7    phòng chống tấn                         đầu tư hệ thống chuyên\n                          chống DdoS.\n     công từ chối dịch vụ                    dụng.\n                        Đầu tư giải pháp giám        Giải pháp này dùng để\n     Có phương án giám\n                        sát hệ thống thông tin       giám sát hiệu năng, trạng\n8    sát hệ thống thông\n                        tập trung (Network           thái các thiết bị trong hệ\n     tin tập trung\n                        monitoring).                 thống.\n                                                    Thành phần SIEM này\n                                                    phục vụ bảo vệ hệ thống\n     Có phương án giám                              SOC, không phải SIEM\n                          Đầu tư         hệ   thống\n9    sát an toàn hệ thống                           cho SOC. Tuy nhiên có\n                          SIEM.\n     thông tin tập trung                            thể đầu tư SIEM có đủ\n                                                    hiệu năng để thực hiện hai\n                                                    chức năng cùng một lúc.\n     Có phương án quản                        Chú ý các máy chủ dùng\n                         Đầu tư hệ thống SAN,\n10   lý sao lưu dự phòng                      SAN phải có Card kết nối\n                         SAN Switch\n     tập trung                                vào SAN Switch.\n\n                                    41"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-044",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-044",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 44,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "     Có phương án quản\n     lý phần mềm phòng       Đầu tư giải pháp\n     chống mã độc trên       AntiVirus có chức\n11\n     các máy chủ/máy         năng quản lý tập trung\n     tính người dùng tập     hoặc hệ thống EDR.\n     trung\n                                          Có thuyết minh phương\n                                          án phòng, chống thất\n     Có phương án Giải pháp/Thiết bị\n                                          thoát dữ liệu phù hợp\n12   phòng, chống thất DLP     (Data loss\n                                          trong HSĐXCĐ (trong\n     thoát dữ liệu     prevention).\n                                          trường hợp không đầu tư\n                                          giải pháp/thiết bị).\n     Có phương án duy\n     trì ít nhất 02 kết nối\n     mạng Internet từ các Có kết nối mạng Yêu cầu có kết nối dự\n13\n     ISP sử dụng hạ tầng Internet dự phòng. phòng.\n     kết nối trong nước\n     khác nhau\n     Cấp độ 4\n     Có phương án quản                        Yêu cầu cần có giải\n     lý truy cập, quản trị Giải pháp/Thiết bị pháp/thiết bị VPN hoặc\n1\n     hệ thống từ xa an VPN.                   chức năng VPN được tích\n     toàn                                     hợp trên FW.\n     Có phương án quản                                Yêu cầu cần có giải\n     lý truy cập giữa các                             Tường lửa; hệ thống\n                          Tường lửa; hệ thống\n2    vùng     mạng     và                             IDS/IPS hoặc chức năng\n                          IDS/IPS.\n     phòng chống xâm                                  IDS/IPS được tích hợp\n     nhập                                             trên FW.\n     Có phương án\n                                         Yêu cầu cần có thiết\n     phòng, chống tấn Tường lửa ứng dụng\n3                                        bị/giải pháp tường lửa\n     công mạng cho ứng Web.\n                                         ứng dụng web.\n     dụng web\n     Có phương án cân        Các thiết bị mạng\n     bằng tải, dự phòng      chính phải được đầu Có HA/AA cho thiết bị\n4\n     nóng cho các thiết bị   tư theo cặp để dự mạng chính.\n     mạng chính              phòng lẫn nhau.\n     Có phương án bảo\n                                        Có thể đầu tư giải pháp\n     đảm an toàn cho Giải pháp/Thiết bị\n5                                       phần mềm hoặc thiết bị\n     máy chủ cơ sở dữ tường lửa CSDL\n                                        chuyên dụng.\n     liệu\n\n                                      42"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-045",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-045",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 45,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "     Có phương án chặn     Giải pháp/Thiết bị\n                                              Có thể đầu tư FW có chức\n     lọc phần mềm độc      phát hiện và ngăn\n6                                             năng chống mã độc lớp\n     hại trên môi trường   chặn mã độc lớp\n                                              mạng.\n     mạng                  mạng.\n     Có phương án                            Có thể thuê dịch vụ hoặc\n                          Giải pháp/Thiết bị\n7    phòng chống tấn                         đầu tư hệ thống chuyên\n                          chống DdoS.\n     công từ chối dịch vụ                    dụng.\n                        Đầu tư giải pháp giám        Giải pháp này dùng để\n     Có phương án giám\n                        sát hệ thống thông tin       giám sát hiệu năng, trạng\n8    sát hệ thống thông\n                        tập trung (Network           thái các thiết bị trong hệ\n     tin tập trung\n                        monitoring).                 thống\n                                                    Thành phần SIEM này\n                                                    phục vụ bảo vệ hệ thống\n     Có phương án giám                              SOC, không phải SIEM\n                          Đầu tư         hệ   thống\n9    sát an toàn hệ thống                           cho SOC. Tuy nhiên có\n                          SIEM.\n     thông tin tập trung                            thể đầu tư SIEM có đủ\n                                                    hiệu năng để thực hiện hai\n                                                    chức năng cùng một lúc.\n     Có phương án quản                        Chú ý các máy chủ dùng\n                         Đầu tư hệ thống SAN,\n10   lý sao lưu dự phòng                      SAN phải có Card kết nối\n                         SAN Switch.\n     tập trung                                vào SAN Switch.\n     Có phương án quản\n     lý phần mềm phòng     Đầu tư giải pháp\n     chống mã độc trên     AntiVirus có chức\n11\n     các máy chủ/máy       năng quản lý tập trung\n     tính người dùng tập   hoặc hệ thống EDR.\n     trung\n     Có phương án Giải pháp/Thiết bị\n12   phòng, chống thất DLP     (Data loss\n     thoát dữ liệu     prevention).\n     Có phương án duy\n     trì ít nhất 02 kết nối\n                                            Yêu cầu có kết nối dự\n     mạng Internet từ các Có kết nối mạng\n13                                          phòng từ 02 ISP khác\n     ISP sử dụng hạ tầng Internet dự phòng.\n                                            nhau.\n     kết nối trong nước\n     khác nhau\n                       Giải pháp/Thiết bị\n     Có phương án quản\n                       PAM     (Privileged\n14   lý tài khoản đặc\n                       Access\n     quyền\n                       Management).\n     Cấp độ 5\n                                    43"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-046",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-046",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 46,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "    Có phương án quản                        Yêu cầu cần có giải\n    lý truy cập, quản trị Giải pháp/Thiết bị pháp/thiết bị VPN hoặc\n1\n    hệ thống từ xa an VPN.                   chức năng VPN được tích\n    toàn                                     hợp trên FW.\n    Có phương án quản                              Yêu cầu cần có giải\n    lý truy cập giữa các                           Tường lửa; hệ thống\n                         Tường lửa; hệ thống\n2   vùng     mạng     và                           IDS/IPS hoặc chức năng\n                         IDS/IPS.\n    phòng chống xâm                                IDS/IPS được tích hợp\n    nhập                                           trên FW.\n    Có phương án\n                                        Yêu cầu có thiết bị/giải\n    phòng, chống tấn Tường lửa ứng dụng\n3                                       pháp tường lửa ứng dụng\n    công mạng cho ứng Web.\n                                        web.\n    dụng web\n    Có phương án cân\n                          Các thiết bị mạng phải\n    bằng tải, dự phòng                           Có HA/AA cho thiết bị\n4                         được đầu tư theo cặp\n    nóng cho các thiết bị                        mạng chính.\n                          để dự phòng lẫn nhau.\n    mạng\n    Có phương án bảo\n                                       Có thể đầu tư giải pháp\n    đảm an toàn cho Giải pháp/Thiết bị\n5                                      phần mềm hoặc thiết bị\n    máy chủ cơ sở dữ tường lửa CSDL.\n                                       chuyên dụng.\n    liệu\n    Có phương án chặn     Giải pháp/Thiết bị\n                                             Có thể đầu tư FW có chức\n    lọc phần mềm độc      phát hiện và ngăn\n6                                            năng chống mã độc lớp\n    hại trên môi trường   chặn mã độc lớp\n                                             mạng.\n    mạng                  mạng.\n    Có phương án                            Có thể thuê dịch vụ hoặc\n                         Giải pháp/Thiết bị\n7   phòng chống tấn                         đầu tư hệ thống chuyên\n                         chống DdoS.\n    công từ chối dịch vụ                    dụng.\n                       Đầu tư giải pháp giám       Giải pháp này dùng để\n    Có phương án giám\n                       sát hệ thống thông tin      giám sát hiệu năng, trạng\n8   sát hệ thống thông\n                       tập trung (Network          thái các thiết bị trong hệ\n    tin tập trung\n                       monitoring).                thống.\n                                                  Thành phần SIEM này\n                                                  phục vụ bảo vệ hệ thống\n    Có phương án giám                             SOC, không phải SIEM\n                         Đầu tư        hệ   thống\n9   sát an toàn hệ thống                          cho SOC. Tuy nhiên có\n                         SIEM.\n    thông tin tập trung                           thể đầu tư SIEM có đủ\n                                                  hiệu năng để thực hiện hai\n                                                  chức năng cùng một lúc.\n\n\n\n                                  44"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-047",
+    "metadata": {
+      "chapter": 3,
+      "chapter_title": "Các thành phần công nghệ thông tin thiết yếu",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-047",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 47,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "        Có phương án quản                        Chú ý các máy chủ dùng\n                            Đầu tư hệ thống SAN,\n  10    lý sao lưu dự phòng                      SAN phải có Card kết nối\n                            SAN Switch.\n        tập trung                                vào SAN Switch.\n        Có phương án quản\n        lý phần mềm phòng     Đầu tư giải pháp\n        chống mã độc trên     AntiVirus có chức\n  11\n        các máy chủ/máy       năng quản lý tập trung\n        tính người dùng tập   hoặc hệ thống EDR.\n        trung\n        Có phương án Giải pháp/Thiết bị\n  12    phòng, chống thất DLP     (Data loss\n        thoát dữ liệu     prevention).\n        Có phương án duy\n        trì ít nhất 02 kết nối\n                                               Yêu cầu có kết nối dự\n        mạng Internet từ các Có kết nối mạng\n  13                                           phòng từ 02 ISP khác\n        ISP sử dụng hạ tầng Internet dự phòng.\n                                               nhau.\n        kết nối trong nước\n        khác nhau\n                          Giải pháp/Thiết bị\n        Có phương án quản\n                          PAM     (Privileged\n  14    lý tài khoản đặc\n                          Access\n        quyền\n                          Management).\n        Có phương án dự Xây dựng hệ thống dự Hệ thống dự phòng cách\n  15    phòng hệ thống ở vị phòng cho hệ thống hệ thống chính tối thiểu\n        trí địa lý khác nhau chính             30km.\n        Có phương án dự\n        phòng cho kết nối Có kết nối vật lý theo\n  16    mạng giữa hệ thống hai hướng khác nhau\n        chính và hệ thống dự giữa hai hệ thống.\n        phòng\n8. Yêu cầu hiệu năng, tính năng kỹ thuật khác\n      - Đối với Hệ thống thông tin giải quyết thủ tục hành chính tuân thủ các tiêu\nchí tại Phục lục 4, Phục lục 5 của Thông tư số 22/2019/TT-BTTTT ngày\n31/12/2019 của Bộ trưởng Bộ Thông tin và Truyền thông.\n       - Đối với các hệ thống thông tin, cơ sở dữ liệu khác: khuyến nghị áp dụng\ncác tiêu chí tại Phục lục 4, Phục lục 5 của Thông tư số 22/2019/TT-BTTTT ngày\n31/12/2019 của Bộ trưởng Bộ Thông tin và Truyền thông, trong đó điều chỉnh các\nchỉ tiêu theo nhu cầu thực tế.\n\n\n\n                                       45"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-048",
+    "metadata": {
+      "chapter": 4,
+      "chapter_title": "Tiêu chuẩn, quy chuẩn và định mức",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-048",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 48,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "IV. HƯỚNG DẪN TIÊU CHUẨN, QUY CHUẨN, HƯỚNG DẪN KỸ\nTHUẬT, ĐỊNH MỨC PHỤC VỤ TRIỂN KHAI ĐỀ ÁN 06\n1. Danh mục các tiêu chuẩn, quy chuẩn, hướng dẫn kỹ thuật cần áp dụng\n      a) QCVN 109:2017/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc thông\nđiệp dữ liệu công dân trao đổi với cơ sở dữ liệu quốc gia về dân cư.\n       b) QCVN 102:2016/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc mã\nđịnh danh và định dạng dữ liệu gói tin phục vụ kết nối các hệ thống quản lý văn\nbản và điều hành và Thông tư số 01/2022/TT-BTTTT ngày 17/02/2022 của Bộ\ntrưởng Bộ Thông tin và Truyền thông Sửa đổi 1:2022 QCVN 102:2016/BTTTT\nQuy chuẩn kỹ thuật quốc gia về cấu trúc mã định danh và định dạng dữ liệu gói\ntin phục vụ kết nối các hệ thống quản lý văn bản và điều hành.\n      c) QCVN 120:2019/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc, định\ndạng dữ liệu gói tin phục vụ kết nối Cổng Dịch vụ công quốc gia với Cổng Dịch\nvụ công, hệ thống thông tin một cửa điện tử cấp bộ, cấp tỉnh và các cơ sở dữ liệu\nquốc gia, chuyên ngành.\n      d) QCVN 125:2021/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc, định\ndạng dữ liệu phục vụ kết nối, tích hợp, chia sẻ dữ liệu giữa các hệ thống thông tin\nbáo cáo trong Hệ thống thông tin báo cáo quốc gia.\n       đ) TCVN 11930:2017: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn - Yêu cầu cơ bản về an toàn hệ thống thông tin theo cấp độ (bắt\nbuộc áp dụng).\n      e) Thông tư số 39/2017/TT-BTTTT ngày 15/12/2017 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành Danh mục tiêu chuẩn kỹ thuật về ứng dụng\ncông nghệ thông tin trong cơ quan nhà nước.\n       f) TCVN ISO/IEC 27001:2019: Tiêu chuẩn quốc gia về Công nghệ thông\ntin - Các kỹ thuật an toàn - Hệ thống quản lý an toàn thông tin - Các yêu cầu.\n       g) TCVN ISO/IEC 27002:2020 về Công nghệ thông tin - Các kỹ thuật an\ntoàn - Quy tắc thực hành Quản lý an toàn thông tin.\n      h) TCVN 9801-2:2015: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn mạng - Phần 2: Hướng dẫn thiết kế và triển kahi an toàn mạng\n(ISO/IEC 27033-2:2012).\n      i) TCVN 9801-2:2014: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn mạng - Phần 3: Các kịch bản kết nối mạng tham chiếu - Nguy cơ,\nkỹ thuật thiết kế và các vấn đề kiểm soát (ISO/IEC 27033-3:2010).\n      k) TCVN 11239:2015: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn - Quản lý sự cố an toàn thông tin.\n      l) TCVN 27017:2020: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn - Quy tắc thực hành cho biện pháp kiểm soát an toàn thông tin\ndựa trên ISO/IEC 27002 cho các dịch vụ đám mây.\n\n                                        46"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-049",
+    "metadata": {
+      "chapter": 4,
+      "chapter_title": "Tiêu chuẩn, quy chuẩn và định mức",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-049",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 49,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "      m) Văn bản số 761/VPCP-KSTT ngày 29/01/2022 của Văn phòng Chính\nphủ về việc hướng dẫn kết nối, tích hợp, chia sẻ với CSDLQG về dân cư.\n       n) Văn bản số 677/BTTTT-THH ngày 03/3/2022 của Bộ trưởng Bộ Thông\ntin và Truyền thông về hướng dẫn kết nối và chia sẻ dữ liệu thông qua Nền tảng\ntích hợp, chia sẻ dữ liệu quốc gia.\n      o) Các hướng dẫn kỹ thuật kết nối đến CSDLQG về dân cư thông qua\nNền tảng tích hợp, chia sẻ dữ liệu quốc gia do Bộ Thông tin và Truyền thông phối\nhợp Bộ Công an cung cấp.\n2. Các định mức cần áp dụng\n      a) Quyết định số 2378/QĐ-BTTTT ngày 30/12/2016 và Quyết định\n1688/QĐ-BTTTT ngày 11/10/2019 của Bộ trưởng Bộ Thông tin và Truyền thông\nban hành định mức chi phí quản lý dự án, chi phí tư vấn đầu tư ứng dụng công\nnghệ thông tin sử dụng nguồn vốn ngân sách nhà nước.\n       b) Quyết định số 1601/QĐ-BTTTT ngày 03/10/2011 của Bộ trưởng Bộ\nThông tin và Truyền thông và Quyết định 1235/QĐ-BTTTT ngày 04/9/2014 của\nBộ trưởng Bộ Thông tin và Truyền thông ban hành định mức lắp đặt phần cứng\nvà cài đặt phần mềm trong ứng dụng công nghệ thông tin.\n      c) Quyết định số 1595/QĐ-BTTTT ngày 03/10/2011 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành định mức tạo lập cơ sở dữ liệu trong hoạt\nđộng ứng dụng CNTT.\n     d) Quyết định số 2331/QĐ-BTTTT ngày 15/12/2017 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành định mức kinh tế - kỹ thuật trong hoạt động\nchuyển giao ứng dụng CNTT.\n      đ) Quyết định số 1872/QĐ-BTTTT ngày 14/11/2018 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành định mức kinh tế - kỹ thuật triển khai áp\ndụng phần mềm nguồn mở.\n      e) Công văn số 2589/BTTTT-ƯDCNTT ngày 24/8/2011 của Bộ Thông tin và\nTruyền thông hướng dẫn xác định chi phí phát triển, nâng cấp phần mềm nội bộ.\n     f) Công văn số 3787/BTTTT-THH ngày 26/12/2014 của Bộ Thông tin và\nTruyền thông hướng dẫn kiểm thử phần mềm nội bộ.\n      g) Công văn số 1951/BTTTT-ƯDCNTT ngày 04/7/2013 của Bộ Thông tin\nvà Truyền thông hướng dẫn lập dự toán chi phí khảo sát dự án ứng dụng CNTT\nsử dụng nguồn vốn ngân sách nhà nước.\n\n\n                                      47"
+  },
+  {
+    "id": "btttt-1552-de-an-06-v1.0:pdf-050",
+    "metadata": {
+      "chapter": 4,
+      "chapter_title": "Tiêu chuẩn, quy chuẩn và định mức",
+      "language": "vi",
+      "page_id": "btttt-1552-de-an-06-v1.0:pdf-050",
+      "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+      "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)"
+    },
+    "page": 50,
+    "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+    "source_id": "btttt-1552-de-an-06-v1.0",
+    "text": "      h) Quyết định số 129/QĐ-BTTTT ngày 03/02/2021 của Bộ trưởng Bộ\nThông tin và Truyền thông hướng dẫn xác định đơn giá nhân công trong quản lý\nchi phí đầu tư ứng dụng công nghệ thông tin sử dụng nguồn vốn ngân sách\nnhà nước.\n      i) Thông tư số 194/2012/TT-BTC ngày 15/11/2012 của Bộ trưởng Bộ Tài\nchính hướng dẫn mức chi tạo lập thông tin điện tử nhằm duy trì hoạt động thường\nxuyên của các cơ quan, đơn vị sử dụng ngân sách nhà nước.\n      k) Thông tư số 04/2020/TT-BTTTT của Bộ trưởng Bộ Thông tin và\nTruyền thông quy định về lập và quản lý chi phí dự án đầu tư ứng dụng công nghệ\nthông tin.\n      l) Các định mức liên quan do các bộ chuyên ngành ban hành.\n\n\n\n\n                                      48"
+  }
+]

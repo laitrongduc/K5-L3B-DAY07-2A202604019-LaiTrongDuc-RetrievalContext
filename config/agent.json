@@ -1,0 +1,14 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "base_url": "https://openrouter.ai/api/v1",
+  "temperature": 0,
+  "max_completion_tokens": 700,
+  "max_search_calls": 3,
+  "candidate_k": 20,
+  "context_k": 3,
+  "context_max_characters": 9000,
+  "default_retrieval": "search_lexical",
+  "available_tools": ["search_lexical", "search_dense", "search_hybrid"],
+  "require_citations": true,
+  "abstain_without_evidence": true
+}

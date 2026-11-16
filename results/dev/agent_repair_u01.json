@@ -1,0 +1,89 @@
+{
+  "cases": 1,
+  "elapsed_seconds": 3.456715,
+  "model": "openai/gpt-4o-mini",
+  "split": "dev",
+  "traces": [
+    {
+      "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+      "citations": [],
+      "elapsed_seconds": 3.45566,
+      "events": [
+        {
+          "context_ids": [
+            "94d1990fa807aef71abfd0be3a2544332f99d37c6df15b1274365b85178b7b69",
+            "c7294c2d128725df0fb8b0c8b39365dc7f1fc432931e9c7003d2879ada865670",
+            "a45dfe3840eb11ee96ef55e0f775f07debd6690d32bc855959db7f11715071a0"
+          ],
+          "event": "search",
+          "query": "Tài liệu quy định blockchain lưu lịch sử định danh điện tử",
+          "results": [
+            {
+              "chunk_id": "94d1990fa807aef71abfd0be3a2544332f99d37c6df15b1274365b85178b7b69",
+              "method": "bm25_reference_aware",
+              "page": 21,
+              "rank": 1,
+              "score": 9.513560925113234,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                        8.6. Cho phép xem thống kê dung lượng\n                        đã sử dụng của kho lưu trữ dữ liệu điện\n                        tử của tôi.\n                        9.1. Hiển thị danh sách giấy tờ thường\n     Quản lý danh mục xuyên sử dụng phục vụ thực hiện\n     giấy tờ thường TTHC.\n                                                               Người quản\n9    xuyên sử dụng\n                                                               trị\n     phục vụ thực hiện 9.2. Hiển thị danh sách loại giấy tờ\n     thủ tục hành chính thường xuyên sử dụng phục vụ thực\n                        hiện TTHC.\n\n                      10.1. Thống kê tình hình sử dụng kho\n   Thống kê tình hình quản lý dữ liệu điện tử của tổ chức, cá\n   sử dụng kho quản nhân thuộc BNĐP.\n                                                              Người quản\n10 lý dữ liệu điện tử\n   của tổ chức, cá    10.2. Thống kê dung lượng đã sử dụng trị\n   nhân BNĐP          của kho quản lý dữ liệu điện tử của tổ\n                      chức, cá nhân thuộc BNĐP.\n\n     SỬ DỤNG KHO QUẢN LÝ DỮ LIỆU ĐIỆN TỬ CỦA TỔ CHỨC,\nIV\n     CÁ NHÂN\n\n   Thêm giấy tờ vào Khi công dân nộp hồ sơ trực tuyến có\n                        "
+            },
+            {
+              "chunk_id": "c7294c2d128725df0fb8b0c8b39365dc7f1fc432931e9c7003d2879ada865670",
+              "method": "bm25_reference_aware",
+              "page": 20,
+              "rank": 2,
+              "score": 9.465738611748458,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                kết quả giải quyết thủ tục hành chính\n                          (bao gồm các tài liệu được chứng thực\n                          điện tử) để bảo đảm giá trị pháp lý và\n      Quản lý kho lưu trữ\n                          hạn chế việc cập nhật lên hệ thống các\n8     dữ liệu điện tử của                                            Công dân\n                          tài liệu có thể chứa mã độc, vi rút nhằm\n      tôi\n                          bảo đảm an toàn, an ninh thông tin với\n                          HTTT giải quyết TTHC cấp bộ, cấp\n                          tỉnh, với các chức năng chính:\n                          8.1. Cho phép định nghĩa, hiển thị danh\n                          sách kho dữ liệu/thư mục/giấy tờ của cá\n\n                                      18"
+            },
+            {
+              "chunk_id": "a45dfe3840eb11ee96ef55e0f775f07debd6690d32bc855959db7f11715071a0",
+              "method": "bm25_reference_aware",
+              "page": 16,
+              "rank": 3,
+              "score": 9.185613570437779,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "     Phân quyền xử lý       2.1. Quản trị hệ thống có thể phân\n     nghiệp vụ đối với      quyền quản trị cho tài khoản định\n     các tài khoản của Hệ   danh điện tử được cấp bởi Bộ Công\n     thống định danh và     an.                                 Quản trị hệ\n2    xác thực điện tử của                                       thống, hệ\n     Bộ Công an (cho tất    2.2. Hệ thống đưa ra cảnh báo nếu thống\n     cả các hợp phần của    không tìm thấy tài khoản của cán bộ\n     Cổng Dịch vụ công      từ Hệ thống định danh và xác thực\n     quốc gia)              của Bộ Công an.\n\n                         3.1. Công dân có thể cập nhật số\n                         CMND đã lưu trên hệ thống sang số\n                         CCCD bằng cách xác thực thông tin\n     Cập nhật thông tin số CMND và số CCCD trong\n3    số CCCD trong CSDLQG về dân cư.                        Công dân\n     thông tin tài khoản\n                         3.2. Hệ thống đưa ra thông báo nếu\n                         thông tin người dùng cần xác thực\n                         không đúng hoặc không có dữ liệu.\n                        4.1. Công dân có thể cập nhật dữ\n                        liệu cho tài khoản từ CSDLQG về\n              "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "event": "duplicate_search"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Tài liệu quy định blockchain lưu lịch sử định danh điện tử",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 28,
+          "cost": 3.36e-05,
+          "elapsed_seconds": 1.400615,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 112,
+          "total_tokens": 140
+        },
+        {
+          "action": {
+            "action": "search",
+            "query": "Tài liệu quy định blockchain lưu lịch sử định danh điện tử",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 29,
+          "cost": 0.0001113,
+          "elapsed_seconds": 2.052622,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1202,
+          "total_tokens": 1231
+        }
+      ],
+      "query_id": "dev-u01",
+      "status": "abstain"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {"query_id": "test-01", "bm25_baseline_grade": 2, "selected_grade": 2, "reason": "Top-3 chứa đúng câu dữ liệu dân cư là dữ liệu gốc, có nguồn và trang."},
+  {"query_id": "test-02", "bm25_baseline_grade": 2, "selected_grade": 2, "reason": "Top-3 chứa Mô hình 03 và điều kiện đặc thù của Bộ Quốc phòng."},
+  {"query_id": "test-03", "bm25_baseline_grade": 2, "selected_grade": 2, "reason": "Top-3 chứa đầy đủ yêu cầu khoảng cách tối thiểu 30 km."},
+  {"query_id": "test-04", "bm25_baseline_grade": 2, "selected_grade": 2, "reason": "Top-3 chứa đầy đủ tên và nội dung QCVN 109:2017/BTTTT."},
+  {"query_id": "test-05", "bm25_baseline_grade": 2, "selected_grade": 2, "reason": "Query gốc đưa Công văn 3787/BTTTT-THH vào top-3; lỗi agent đến từ query viết lại."}
+]

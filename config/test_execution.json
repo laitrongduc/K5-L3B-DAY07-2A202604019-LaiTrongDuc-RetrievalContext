@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "executed_on": "2026-11-16",
+  "agent_config": "config/agent.json",
+  "agent_frozen_manifest": "config/agent_frozen.json",
+  "retrieval_frozen_manifest": "config/retrieval_frozen.json",
+  "test_run": "results/test/agent_frozen.json",
+  "test_run_sha256": "9b5bf6f7c853b94979c73253f5e74f2ce9ff836974482217d96733de85940835",
+  "retrieval_run": "results/test/retrieval_frozen.json",
+  "retrieval_run_sha256": "d746fc89300083dba6485293d61725bacffa9b076578dc6bc36e46f4b8809194",
+  "policy": "single_pass_no_test_tuning"
+}

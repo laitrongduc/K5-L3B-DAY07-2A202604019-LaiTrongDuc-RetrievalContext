@@ -1,0 +1,198 @@
+[
+  {
+    "id": "dev-01",
+    "split": "dev",
+    "question": "Theo tài liệu phiên bản 1.0, Đề án 06 đáp ứng bao nhiêu nhóm tiện ích?",
+    "answerable": true,
+    "expected_answer": "05 nhóm tiện ích.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 9, "evidence": "Đề án 06 đáp ứng\n05 nhóm tiện ích"}]
+  },
+  {
+    "id": "dev-02",
+    "split": "dev",
+    "question": "Những chủ thể khu vực tư nào thuộc đối tượng áp dụng khi kết nối, chia sẻ dữ liệu với CSDL quốc gia về dân cư?",
+    "answerable": true,
+    "expected_answer": "Doanh nghiệp, tổ chức và cá nhân thuộc khu vực tư.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 10, "evidence": "các\ndoanh nghiệp, tổ chức, cá nhân thuộc khu vực tư khi kết nối, chia sẻ dữ liệu với\nCơ sở dữ liệu quốc gia về dân cư"}]
+  },
+  {
+    "id": "dev-03",
+    "split": "dev",
+    "question": "Khi nào tài liệu cho phép đầu tư mới hạ tầng hoặc trang thiết bị?",
+    "answerable": true,
+    "expected_answer": "Chỉ khi tài sản đã hết niên hạn sử dụng hoặc không đáp ứng yêu cầu kỹ thuật, dựa trên khảo sát và đánh giá hiện trạng.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 10, "evidence": "chỉ đầu tư mới khi đã hết niên hạn sử dụng, hoặc không đáp yêu cầu\nkỹ thuật trên cơ sở khảo sát, đánh giá hiện trạng"}]
+  },
+  {
+    "id": "dev-04",
+    "split": "dev",
+    "question": "Người dân phải cung cấp thông tin, giấy tờ bao nhiêu lần khi thực hiện thủ tục hành chính?",
+    "answerable": true,
+    "expected_answer": "Một lần.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 10, "evidence": "người dân\nchỉ phải cung cấp thông tin, giấy tờ một lần cho các cơ quan nhà nước khi thực\nhiện các thủ tục hành chính"}]
+  },
+  {
+    "id": "dev-05",
+    "split": "dev",
+    "question": "Khu vực tư có thể dùng các loại kênh nào để kết nối tới Hệ thống định danh và xác thực điện tử?",
+    "answerable": true,
+    "expected_answer": "Kênh truyền riêng hoặc mạng Internet, ưu tiên kênh truyền riêng.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 15, "evidence": "sử dụng kênh truyền riêng, mạng Internet"}]
+  },
+  {
+    "id": "dev-06",
+    "split": "dev",
+    "question": "Tài liệu liệt kê những hình thức ký số nào khi công dân nộp hồ sơ trực tuyến?",
+    "answerable": true,
+    "expected_answer": "USB token, Sim PKI, Remote Signing hoặc hình thức ký số hợp lệ khác.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 20, "evidence": "USB token,\n                      Sim PKI, Remote Signing hoặc hình\n                      thức ký số hợp lệ khác"}]
+  },
+  {
+    "id": "dev-07",
+    "split": "dev",
+    "question": "Kho quản lý dữ liệu điện tử của tổ chức, cá nhân chỉ lưu loại tài liệu nào?",
+    "answerable": true,
+    "expected_answer": "Các tài liệu là kết quả giải quyết thủ tục hành chính, gồm cả tài liệu được chứng thực điện tử.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 20, "evidence": "chỉ quản lý và lưu các tài liệu là\n                          kết quả giải quyết thủ tục hành chính\n                          (bao gồm các tài liệu được chứng thực\n                          điện tử)"}]
+  },
+  {
+    "id": "dev-08",
+    "split": "dev",
+    "question": "Khi lấy giấy tờ từ kho dữ liệu điện tử để bổ sung hồ sơ, cán bộ được nhìn thấy những giấy tờ nào?",
+    "answerable": true,
+    "expected_answer": "Chỉ những giấy tờ công dân đã chia sẻ.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 22, "evidence": "Cán bộ chỉ thấy được các\n                        giấy tờ mà công dân đã chia sẻ"}]
+  },
+  {
+    "id": "dev-09",
+    "split": "dev",
+    "question": "Theo Hình 3, ứng dụng nào được dùng để quét mã QR khi chia sẻ thông tin công dân?",
+    "answerable": true,
+    "expected_answer": "Ứng dụng VNeID.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 25, "evidence": "quét mã QR code trên ứng dụng VNeID"}]
+  },
+  {
+    "id": "dev-10",
+    "split": "dev",
+    "question": "Trung tâm thông tin, chỉ đạo điều hành của Chính phủ hướng tới chuyển phương thức điều hành từ văn bản giấy sang gì?",
+    "answerable": true,
+    "expected_answer": "Sang điều hành dựa trên dữ liệu số theo thời gian thực.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 14, "evidence": "chuyển sang dựa trên dữ liệu số\n                            theo thời gian thực"}]
+  },
+  {
+    "id": "dev-11",
+    "split": "dev",
+    "question": "GovSOC do cơ quan nào quản lý theo tài liệu?",
+    "answerable": true,
+    "expected_answer": "Bộ Thông tin và Truyền thông.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 14, "evidence": "Hệ thống do Bộ Thông tin và Truyền\n                           thông quản lý"}]
+  },
+  {
+    "id": "dev-12",
+    "split": "dev",
+    "question": "Trong mô hình bảo đảm an toàn thông tin 4 lớp, lớp 2 yêu cầu tổ chức hoặc thuê chủ thể nào?",
+    "answerable": true,
+    "expected_answer": "Doanh nghiệp giám sát, bảo vệ chuyên nghiệp.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 38, "evidence": "Lớp 2: Tổ chức hoặc thuê doanh nghiệp giám sát, bảo vệ chuyên nghiệp"}]
+  },
+  {
+    "id": "dev-13",
+    "split": "dev",
+    "question": "Mô hình tham chiếu SOC gồm bao nhiêu thành phần cơ bản?",
+    "answerable": true,
+    "expected_answer": "03 thành phần cơ bản.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 40, "evidence": "Mô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng (SOC) bao\ngồm 03 thành phần cơ bản"}]
+  },
+  {
+    "id": "dev-14",
+    "split": "dev",
+    "question": "Giải pháp nào được nêu cho phương án phòng, chống thất thoát dữ liệu?",
+    "answerable": true,
+    "expected_answer": "DLP (Data loss prevention).",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 45, "evidence": "phòng, chống thất DLP     (Data loss\n     thoát dữ liệu     prevention)"}]
+  },
+  {
+    "id": "dev-15",
+    "split": "dev",
+    "question": "Tiêu chuẩn nào về yêu cầu cơ bản an toàn hệ thống thông tin theo cấp độ được ghi là bắt buộc áp dụng?",
+    "answerable": true,
+    "expected_answer": "TCVN 11930:2017.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 48, "evidence": "TCVN 11930:2017: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn - Yêu cầu cơ bản về an toàn hệ thống thông tin theo cấp độ (bắt\nbuộc áp dụng)"}]
+  },
+  {
+    "id": "dev-u01",
+    "split": "dev",
+    "question": "Tài liệu quy định blockchain nào để lưu lịch sử định danh điện tử?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Toàn bộ 48 trang corpus không đề cập blockchain hoặc một blockchain được chỉ định.",
+    "absence_terms": ["blockchain"]
+  },
+  {
+    "id": "dev-u02",
+    "split": "dev",
+    "question": "Thuật toán mã hóa lượng tử nào được bắt buộc cho kết nối CSDL dân cư?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus đề cập xác thực và mã hóa nói chung nhưng không quy định mã hóa lượng tử.",
+    "absence_terms": ["mã hóa lượng tử"]
+  },
+  {
+    "id": "test-01",
+    "split": "test",
+    "question": "Theo nguyên tắc áp dụng, dữ liệu nào được xem là dữ liệu gốc?",
+    "answerable": true,
+    "expected_answer": "Dữ liệu dân cư.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 10, "evidence": "Dữ liệu dân cư là dữ liệu gốc"}]
+  },
+  {
+    "id": "test-02",
+    "split": "test",
+    "question": "Hệ thống thông tin của Bộ Quốc phòng tham khảo mô hình kết nối nào?",
+    "answerable": true,
+    "expected_answer": "Mô hình 03, kết hợp các yếu tố đặc thù do Bộ Quốc phòng quy định.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 15, "evidence": "Tham khảo theo Mô\nhình 03"}]
+  },
+  {
+    "id": "test-03",
+    "split": "test",
+    "question": "Đối với cấp độ 5, hệ thống dự phòng phải cách hệ thống chính tối thiểu bao xa?",
+    "answerable": true,
+    "expected_answer": "Tối thiểu 30 km.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 47, "evidence": "Hệ thống dự phòng cách\n  15    phòng hệ thống ở vị phòng cho hệ thống hệ thống chính tối thiểu\n        trí địa lý khác nhau chính             30km"}]
+  },
+  {
+    "id": "test-04",
+    "split": "test",
+    "question": "QCVN 109:2017/BTTTT quy định về nội dung gì?",
+    "answerable": true,
+    "expected_answer": "Cấu trúc thông điệp dữ liệu công dân trao đổi với Cơ sở dữ liệu quốc gia về dân cư.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 48, "evidence": "QCVN 109:2017/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc thông\nđiệp dữ liệu công dân trao đổi với cơ sở dữ liệu quốc gia về dân cư"}]
+  },
+  {
+    "id": "test-05",
+    "split": "test",
+    "question": "Văn bản nào hướng dẫn kiểm thử phần mềm nội bộ?",
+    "answerable": true,
+    "expected_answer": "Công văn số 3787/BTTTT-THH ngày 26/12/2014.",
+    "gold": [{"source_id": "btttt-1552-de-an-06-v1.0", "page": 49, "evidence": "Công văn số 3787/BTTTT-THH ngày 26/12/2014 của Bộ Thông tin và\nTruyền thông hướng dẫn kiểm thử phần mềm nội bộ"}]
+  },
+  {
+    "id": "test-u01",
+    "split": "test",
+    "question": "Tài liệu yêu cầu triển khai Kubernetes phiên bản nào cho Cổng Dịch vụ công?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Không có Kubernetes hoặc phiên bản Kubernetes nào trong corpus.",
+    "absence_terms": ["Kubernetes"]
+  },
+  {
+    "id": "test-u02",
+    "split": "test",
+    "question": "Thuật toán nhận diện khuôn mặt nào được chỉ định cho VNeID?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus không chỉ định thuật toán nhận diện khuôn mặt.",
+    "absence_terms": ["nhận diện khuôn mặt"]
+  }
+]

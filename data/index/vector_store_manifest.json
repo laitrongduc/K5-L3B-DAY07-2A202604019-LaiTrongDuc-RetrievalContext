@@ -1,0 +1,13 @@
+{
+  "database": "day7_rag",
+  "dimensions": 1024,
+  "embedding_model": "baai/bge-m3",
+  "pgvector_version": "0.8.7",
+  "postgresql_version": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "reopen_probe_chunk_id": "aa83c07df41a49477b1163b3791eb4fbdc991452e294ba57721819846f1645d4",
+  "reopen_probe_score": 1.0,
+  "rows": 123,
+  "table": "corpus_chunks",
+  "unique_chunk_ids": 123,
+  "duplicate_reload_check": "rejected_non_empty_table"
+}

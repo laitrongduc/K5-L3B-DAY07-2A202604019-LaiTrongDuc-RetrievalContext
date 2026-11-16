@@ -1,0 +1,151 @@
+{
+  "cases": 2,
+  "elapsed_seconds": 37.665016,
+  "model": "openai/gpt-4o-mini",
+  "split": "dev",
+  "traces": [
+    {
+      "answer": "Giải pháp phòng, chống thất thoát dữ liệu được nêu là sử dụng DLP (Data Loss Prevention) và duy trì ít nhất 02 kết nối mạng Internet từ các ISP khác nhau để đảm bảo tính dự phòng [1fc49bc752877894c54312c26], [ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26]. [1fc49bc752877894c54312c26d95e22f27ab10b8fb97cad2a1c3148273c0f2be]",
+      "citations": [
+        "1fc49bc752877894c54312c26d95e22f27ab10b8fb97cad2a1c3148273c0f2be",
+        "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26"
+      ],
+      "elapsed_seconds": 13.545761,
+      "events": [
+        {
+          "context_ids": [
+            "1fc49bc752877894c54312c26d95e22f27ab10b8fb97cad2a1c3148273c0f2be",
+            "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26",
+            "c3a2e02ec2d9814c086216c042ee1cda4b549d0795207c93bd9cf0c18e16f1c1"
+          ],
+          "event": "search",
+          "query": "Giải pháp phòng chống thất thoát dữ liệu",
+          "results": [
+            {
+              "chunk_id": "1fc49bc752877894c54312c26d95e22f27ab10b8fb97cad2a1c3148273c0f2be",
+              "method": "bm25_reference_aware",
+              "page": 44,
+              "rank": 1,
+              "score": 21.81164953892382,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "     Có phương án quản\n     lý phần mềm phòng       Đầu tư giải pháp\n     chống mã độc trên       AntiVirus có chức\n11\n     các máy chủ/máy         năng quản lý tập trung\n     tính người dùng tập     hoặc hệ thống EDR.\n     trung\n                                          Có thuyết minh phương\n                                          án phòng, chống thất\n     Có phương án Giải pháp/Thiết bị\n                                          thoát dữ liệu phù hợp\n12   phòng, chống thất DLP     (Data loss\n                                          trong HSĐXCĐ (trong\n     thoát dữ liệu     prevention).\n                                          trường hợp không đầu tư\n                                          giải pháp/thiết bị).\n     Có phương án duy\n     trì ít nhất 02 kết nối\n     mạng Internet từ các Có kết nối mạng Yêu cầu có kết nối dự\n13\n     ISP sử dụng hạ tầng Internet dự phòng. phòng.\n     kết nối trong nước\n     khác nhau\n     Cấp độ 4\n     Có phương án quản                        Yêu cầu cần có giải\n     lý truy cập, quản trị Giải pháp/Thiết bị pháp/thiết bị VPN hoặc\n1\n     hệ thống từ xa an VPN.                   chức năng VPN được tích\n     toàn                                    "
+            },
+            {
+              "chunk_id": "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26",
+              "method": "bm25_reference_aware",
+              "page": 45,
+              "rank": 2,
+              "score": 18.540180211167648,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": " trung\n     tính người dùng tập   hoặc hệ thống EDR.\n     trung\n     Có phương án Giải pháp/Thiết bị\n12   phòng, chống thất DLP     (Data loss\n     thoát dữ liệu     prevention).\n     Có phương án duy\n     trì ít nhất 02 kết nối\n                                            Yêu cầu có kết nối dự\n     mạng Internet từ các Có kết nối mạng\n13                                          phòng từ 02 ISP khác\n     ISP sử dụng hạ tầng Internet dự phòng.\n                                            nhau.\n     kết nối trong nước\n     khác nhau\n                       Giải pháp/Thiết bị\n     Có phương án quản\n                       PAM     (Privileged\n14   lý tài khoản đặc\n                       Access\n     quyền\n                       Management).\n     Cấp độ 5\n                                    43"
+            },
+            {
+              "chunk_id": "c3a2e02ec2d9814c086216c042ee1cda4b549d0795207c93bd9cf0c18e16f1c1",
+              "method": "bm25_reference_aware",
+              "page": 47,
+              "rank": 3,
+              "score": 17.993526266118376,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "        Có phương án quản                        Chú ý các máy chủ dùng\n                            Đầu tư hệ thống SAN,\n  10    lý sao lưu dự phòng                      SAN phải có Card kết nối\n                            SAN Switch.\n        tập trung                                vào SAN Switch.\n        Có phương án quản\n        lý phần mềm phòng     Đầu tư giải pháp\n        chống mã độc trên     AntiVirus có chức\n  11\n        các máy chủ/máy       năng quản lý tập trung\n        tính người dùng tập   hoặc hệ thống EDR.\n        trung\n        Có phương án Giải pháp/Thiết bị\n  12    phòng, chống thất DLP     (Data loss\n        thoát dữ liệu     prevention).\n        Có phương án duy\n        trì ít nhất 02 kết nối\n                                               Yêu cầu có kết nối dự\n        mạng Internet từ các Có kết nối mạng\n  13                                           phòng từ 02 ISP khác\n        ISP sử dụng hạ tầng Internet dự phòng.\n                                               nhau.\n        kết nối trong nước\n        khác nhau\n                          Giải pháp/Thiết bị\n        Có phương án quản\n                          PAM     (Privileged\n  14    lý tài khoản đặc\n         "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [
+            "1fc49bc752877894c54312c26d95e22f27ab10b8fb97cad2a1c3148273c0f2be"
+          ],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Giải pháp phòng chống thất thoát dữ liệu",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 25,
+          "cost": 3.225e-05,
+          "elapsed_seconds": 6.535861,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 115,
+          "total_tokens": 140
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Giải pháp phòng, chống thất thoát dữ liệu được nêu là sử dụng DLP (Data Loss Prevention) và duy trì ít nhất 02 kết nối mạng Internet từ các ISP khác nhau để đảm bảo tính dự phòng [1fc49bc752877894c54312c26], [ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26].",
+            "citations": [
+              "1fc49bc752877894c54312c26",
+              "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26"
+            ]
+          },
+          "completion_tokens": 173,
+          "cost": 0.0002013,
+          "elapsed_seconds": 7.008155,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1162,
+          "total_tokens": 1335
+        }
+      ],
+      "query_id": "dev-14",
+      "status": "answered"
+    },
+    {
+      "citations": [],
+      "elapsed_seconds": 24.117409,
+      "error": "model search requires registered tool and non-empty query",
+      "error_type": "ContractError",
+      "events": [],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Tài liệu quy định blockchain lưu lịch sử định danh điện tử",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 28,
+          "cost": 3.36e-05,
+          "elapsed_seconds": 9.751473,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 112,
+          "total_tokens": 140
+        },
+        {
+          "action": {
+            "action": "search",
+            "query": "Tài liệu quy định blockchain lưu lịch sử định danh điện tử",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 29,
+          "cost": 0.0001977,
+          "elapsed_seconds": 8.145886,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1202,
+          "total_tokens": 1231
+        },
+        {
+          "action": {
+            "action": "search",
+            "query": "Tài liệu quy định blockchain lưu lịch sử định danh điện tử",
+            "tool": "query"
+          },
+          "completion_tokens": 35,
+          "cost": 0.0001149,
+          "elapsed_seconds": 6.216445,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1202,
+          "total_tokens": 1237
+        }
+      ],
+      "query_id": "dev-u01",
+      "status": "error"
+    }
+  ]
+}

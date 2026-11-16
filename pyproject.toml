@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "day7-agentic-rag"
+version = "0.1.0"
+description = "Deterministic evaluation scaffold for the Day 7 Agentic RAG lab"
+requires-python = ">=3.11"
+
+[project.scripts]
+agentic-rag = "agentic_rag.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+files = ["src/agentic_rag"]
+warn_unreachable = true
+show_error_codes = true
+

@@ -1,0 +1,19 @@
+[
+  {"query_id": "dev-01", "answer_grade": 2, "citation_support": [true, true]},
+  {"query_id": "dev-02", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-03", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-04", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-05", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-06", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-07", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-08", "answer_grade": 2, "citation_support": [false, true, false]},
+  {"query_id": "dev-09", "answer_grade": 2, "citation_support": [true, false]},
+  {"query_id": "dev-10", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-11", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-12", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-13", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-14", "answer_grade": 1, "citation_support": [true, true]},
+  {"query_id": "dev-15", "answer_grade": 2, "citation_support": [true]},
+  {"query_id": "dev-u01", "abstention_correct": true, "citation_support": []},
+  {"query_id": "dev-u02", "abstention_correct": true, "citation_support": []}
+]

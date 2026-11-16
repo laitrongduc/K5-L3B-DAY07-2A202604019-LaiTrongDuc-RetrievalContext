@@ -1,0 +1,18 @@
+{
+  "candidate_k": 20,
+  "context_k": 3,
+  "dense_model": "baai/bge-m3",
+  "dense_similarity": "cosine",
+  "hybrid": {
+    "rrf_k": 60,
+    "selected": false
+  },
+  "reference_aware": {
+    "exclude_chapter_zero_when_body_caption_exists": true,
+    "figure_reference_pattern": "\\bhình\\s+(\\d+)\\b"
+  },
+  "selected_method": "bm25_reference_aware",
+  "selection_split": "dev",
+  "selection_reason": "Highest dev Evidence Hit@3 and Context Evidence Rate: 15/15",
+  "test_opened": false
+}

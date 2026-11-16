@@ -1,0 +1,1479 @@
+{
+  "cases": 17,
+  "elapsed_seconds": 264.803911,
+  "model": "openai/gpt-4o-mini",
+  "source_runs": [
+    "results/dev/agent_config_b.json",
+    "results/dev/agent_repairs.json",
+    "results/dev/agent_repair_u01.json"
+  ],
+  "split": "dev",
+  "traces": [
+    {
+      "answer": "Theo tài liệu phiên bản 1.0, Đề án 06 đáp ứng 05 nhóm tiện ích: (1) Phục vụ giải quyết thủ tục hành chính và cung cấp dịch vụ công trực tuyến; (2) Phục vụ phát triển kinh tế, xã hội; (3) Phục vụ công dân số; (4) Hoàn thiện hệ sinh thái phục vụ kết nối, khai thác, bổ sung làm giàu dữ liệu dân cư; (5) Phục vụ chỉ đạo, điều hành của lãnh đạo các cấp. [b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7], [12f4add7a9ac293262e0fb414cc239c408a111f2552e96f731050fc6d0574923]",
+      "citations": [
+        "b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7",
+        "12f4add7a9ac293262e0fb414cc239c408a111f2552e96f731050fc6d0574923"
+      ],
+      "elapsed_seconds": 16.71907,
+      "events": [
+        {
+          "context_ids": [
+            "b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7",
+            "12f4add7a9ac293262e0fb414cc239c408a111f2552e96f731050fc6d0574923",
+            "aa83c07df41a49477b1163b3791eb4fbdc991452e294ba57721819846f1645d4"
+          ],
+          "event": "search",
+          "query": "Đề án 06 đáp ứng bao nhiêu nhóm tiện ích phiên bản 1.0?",
+          "results": [
+            {
+              "chunk_id": "b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7",
+              "method": "bm25_reference_aware",
+              "page": 9,
+              "rank": 1,
+              "score": 21.550414490150295,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "Nam\nphiên bản 2.0;\n       - Quyết định số 186/QĐ-BTTTT ngày 11/2/2022 của Bộ trưởng Bộ Thông\ntin và Truyền thông phê duyệt Chương trình thúc đẩy phát triển và sử dụng các\nnền tảng số quốc gia phục vụ chuyển đổi số, phát triển Chính phủ số, kinh tế số,\nxã hội số;\n      - Văn bản số 9318/VPCP-KSTT ngày 21/12/2021 của Văn phòng Chính\nphủ về việc hướng dẫn số hóa hồ sơ, kết quả giải quyết TTHC;\n      - Văn bản số 761/VPCP-KSTT ngày 29/01/2022 của Văn phòng Chính phủ\nvề việc hướng dẫn kết nối, tích hợp, chia sẻ với CSDLQG về dân cư;\n      - Văn bản số 677/BTTTT-THH ngày 03/3/2022 của Bộ Thông tin và\nTruyền thông về hướng dẫn kết nối và chia sẻ dữ liệu thông qua Nền tảng tích\nhợp, chia sẻ dữ liệu quốc gia;\n     - Văn bản số 273/BTTTT-CBĐTW ngày 31/01/2020 của Bộ Thông tin và\nTruyền thông về việc hướng dẫn mô hình tham chiếu về kết nối mạng cho bộ,\nngành, địa phương.\nII. PHẠM VI VÀ ĐỐI TƯỢNG ÁP DỤNG\n      1. Phạm vi áp dụng\n       Tài liệu này hướng dẫn các thành phần công nghệ thông tin thiết yếu cần\nthiết, yêu cầu chức năng, tính năng kỹ thuật, yêu cầu bảo đảm an toàn, an ninh\nmạng; hướng dẫn về áp dụng tiêu chuẩn, định mức triển khai Đề án 06 đáp ứng\n05 nhóm tiện ích: (1) Phục vụ giải "
+            },
+            {
+              "chunk_id": "12f4add7a9ac293262e0fb414cc239c408a111f2552e96f731050fc6d0574923",
+              "method": "bm25_reference_aware",
+              "page": 9,
+              "rank": 2,
+              "score": 20.781140373088604,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": " cầu chức năng, tính năng kỹ thuật, yêu cầu bảo đảm an toàn, an ninh\nmạng; hướng dẫn về áp dụng tiêu chuẩn, định mức triển khai Đề án 06 đáp ứng\n05 nhóm tiện ích: (1) Phục vụ giải quyết thủ tục hành chính và cung cấp dịch vụ\ncông trực tuyến; (2) Phục vụ phát triển kinh tế, xã hội; (3) Phục vụ công dân số;\n(4) Hoàn thiện hệ sinh thái phục vụ kết nối, khai thác, bổ sung làm giàu dữ liệu\ndân cư; (5) Phục vụ chỉ đạo, điều hành của lãnh đạo các cấp.\n\n\n                                       7"
+            },
+            {
+              "chunk_id": "aa83c07df41a49477b1163b3791eb4fbdc991452e294ba57721819846f1645d4",
+              "method": "bm25_reference_aware",
+              "page": 3,
+              "rank": 3,
+              "score": 14.188681829291083,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "   HƯỚNG DẪN VỀ CÁC THÀNH PHẦN CÔNG NGHỆ THÔNG TIN\n  THIẾT YẾU CẦN THIẾT VÀ TIÊU CHUẨN, ĐỊNH MỨC PHỤC VỤ\n TRIỂN KHAI ĐỀ ÁN PHÁT TRIỂN ỨNG DỤNG DỮ LIỆU VỀ DÂN CƯ,\n  ĐỊNH DANH VÀ XÁC THỰC ĐIỆN TỬ PHỤC VỤ CHUYỂN ĐỔI SỐ\n    QUỐC GIA GIAI ĐOẠN 2022 - 2025, TẦM NHÌN ĐẾN NĂM 2030\n                            (Phiên bản 1.0)\n   (Kèm theo Công văn số     /BTTTT-THH ngày         tháng năm 2022\n                    của Bộ Thông tin và Truyền thông)\n                                                    Mục lục:\nDANH MỤC TỪ VIẾT TẮT .................................................................................. 3\nDANH MỤC HÌNH VẼ .......................................................................................... 4\nI. CĂN CỨ PHÁP LÝ ............................................................................................. 5\nII. PHẠM VI VÀ ĐỐI TƯỢNG ÁP DỤNG .......................................................... 7\n1. Phạm vi áp dụng .................................................................................................. 7\n2. Đối tượng áp dụng ............................................................................................... 8\n3. Nguyên tắc áp dụng "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Đề án 06 đáp ứng bao nhiêu nhóm tiện ích phiên bản 1.0?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 35,
+          "cost": 3.9e-05,
+          "elapsed_seconds": 6.565688,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 120,
+          "total_tokens": 155
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Theo tài liệu phiên bản 1.0, Đề án 06 đáp ứng 05 nhóm tiện ích: (1) Phục vụ giải quyết thủ tục hành chính và cung cấp dịch vụ công trực tuyến; (2) Phục vụ phát triển kinh tế, xã hội; (3) Phục vụ công dân số; (4) Hoàn thiện hệ sinh thái phục vụ kết nối, khai thác, bổ sung làm giàu dữ liệu dân cư; (5) Phục vụ chỉ đạo, điều hành của lãnh đạo các cấp. [b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7], [12f4add7a9ac293262e0fb414cc239c408a111f2552e96f731050fc6d0574923]",
+            "citations": [
+              "b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7",
+              "12f4add7a9ac293262e0fb414cc239c408a111f2552e96f731050fc6d0574923"
+            ]
+          },
+          "completion_tokens": 280,
+          "cost": 0.000375,
+          "elapsed_seconds": 10.151192,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1380,
+          "total_tokens": 1660
+        }
+      ],
+      "query_id": "dev-01",
+      "status": "answered"
+    },
+    {
+      "answer": "Các chủ thể khu vực tư thuộc đối tượng áp dụng khi kết nối, chia sẻ dữ liệu với CSDL quốc gia về dân cư bao gồm các doanh nghiệp, tổ chức, cá nhân thuộc khu vực tư [fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5].",
+      "citations": [
+        "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5"
+      ],
+      "elapsed_seconds": 5.487064,
+      "events": [
+        {
+          "context_ids": [
+            "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+            "7e607cb1283efac17817cc8199422d2f2050734a06ea760bb7e4f99c49aec8f7",
+            "41863abd56d1985924495c0e6307dd9fc80bacbecbd4252aa8d9782cf7763884"
+          ],
+          "event": "search",
+          "query": "Những chủ thể khu vực tư nào thuộc đối tượng áp dụng khi kết nối, chia sẻ dữ liệu với CSDL quốc gia về dân cư?",
+          "results": [
+            {
+              "chunk_id": "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+              "method": "bm25_reference_aware",
+              "page": 10,
+              "rank": 1,
+              "score": 30.943395976636378,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "2. Đối tượng áp dụng\n      a) Các cơ quan nhà nước: Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính\nphủ, Ủy ban nhân dân các cấp.\n      b) Các cơ quan nhà nước khác, các tổ chức chính trị - xã hội cấp Trung\nương, các tổ chức xã hội, các tổ chức xã hội - nghề nghiệp cấp Trung ương, các\ndoanh nghiệp, tổ chức, cá nhân thuộc khu vực tư khi kết nối, chia sẻ dữ liệu với\nCơ sở dữ liệu quốc gia về dân cư phục vụ triển khai Đề án 06 thực hiện áp dụng\ntheo hướng dẫn này.\n3. Nguyên tắc áp dụng\n      a) Tuân thủ quy định của pháp luật.\n      b) Tận dụng tối đa hạ tầng kỹ thuật, ứng dụng, dịch vụ, trang thiết bị đã\nđược đầu tư, chỉ đầu tư mới khi đã hết niên hạn sử dụng, hoặc không đáp yêu cầu\nkỹ thuật trên cơ sở khảo sát, đánh giá hiện trạng được thực hiện tại bước lập đề\nán, dự án, nhiệm vụ ứng dụng công nghệ thông tin phục vụ triển khai Đề án 06.\n      c) Sử dụng thống nhất các nền tảng, ứng dụng, dịch vụ, cơ sở dữ liệu quốc\ngia dùng chung, đặc biệt là Cơ sở dữ liệu quốc gia về dân cư; tuyệt đối không đầu\ntư, mua sắm các hạng mục có chức năng trùng lặp với các nền tảng, ứng dụng,\ndịch vụ, cơ sở dữ liệu dùng chung quốc gia để tránh trùng lặp, gây lãng phí.\n      d) Dữ liệu dân cư là dữ liệu "
+            },
+            {
+              "chunk_id": "7e607cb1283efac17817cc8199422d2f2050734a06ea760bb7e4f99c49aec8f7",
+              "method": "bm25_reference_aware",
+              "page": 11,
+              "rank": 2,
+              "score": 23.79931116083041,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "III. CÁC THÀNH PHẦN CÔNG NGHỆ THÔNG TIN THIẾT YẾU PHỤC\nVỤ TRIỂN KHAI ĐỀ ÁN 06\n     1. Mô hình tổng thể Đề án 06 phục vụ chuyển đổi số quốc gia\n\n\n\n\nHình vẽ 1: Mô hình tổng thể các thành phần công nghệ thông tin của Đề án 06\n     Danh mục các thành phần công nghệ thông tin thiết yếu cần thiết:\n   Thành phần công                                                   Dùng\nTT nghệ thông tin Mô tả sơ bộ                                        chung\n   thiết yếu                                                        quốc gia\n                      - Mạng Truyền số liệu chuyên dùng của\n                      các cơ quan Đảng, Nhà nước phục vụ\n                      kết nối, tích hợp, chia sẻ dữ liệu giữa các\n                      cơ quan nhà nước, doanh nghiệp, tổng\n     Hạ tầng mạng, công ty nhà nước với CSDLQG về dân\n 1   đường truyền kết cư, Hệ thống định danh và xác thực điện           x\n     nối              tử.\n                      - Mạng Internet do các nhà cung cấp\n                      dịch vụ ISP cung cấp phục vụ kết nối\n                      thuộc tổ chức, doanh nghiệp thuộc khu\n                      vực tư với các cơ quan nhà nước.\n\n\n                                     9"
+            },
+            {
+              "chunk_id": "41863abd56d1985924495c0e6307dd9fc80bacbecbd4252aa8d9782cf7763884",
+              "method": "bm25_reference_aware",
+              "page": 34,
+              "rank": 3,
+              "score": 22.339470768153195,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                  2.2. Hệ thống hiển thị kết quả kiểm tra thông\n                  tin công dân trên giao diện phần mềm cho cán\n                  bộ công chức, viên chức, người lao động xử\n                  lý.\n                  2.3. Đối với các trường hợp xác thực thành\n                  công với CSDLQG về dân cư, sau khi hoàn\n                  thành việc xử lý nghiệp vụ theo quy định, hệ\n                  thống đồng bộ dữ liệu của công dân với\n                  CSDLQG về dân cư phục vụ làm giàu dữ liệu\n                  dân cư.\n\n     Việc kết nối, tích hợp, chia sẻ dữ liệu giữa các bộ, ngành, địa phương, tổ\nchức, doanh nghiệp với CSDLQG về dân cư thông qua Nền tảng tích hợp, chia sẻ\ndữ liệu quốc gia cần áp dụng theo hướng dẫn tại Văn bản số 677/BTTTT-THH\nngày 03/3/2022 của Bộ Thông tin và Truyền thông, các tài liệu hướng dẫn kỹ thuật\ndo Bộ Công an và Bộ Thông tin và Truyền thông phối hợp cung cấp.\n     Các chức năng cần bổ sung, hiệu chỉnh, phát triển các dịch vụ chia sẻ dữ liệu\ncủa CSDLQG về dân cư, CSDL quốc gia, CSDL chuyên ngành, hệ thống thông\ntin phục vụ quản lý, xử lý nghiệp vụ chuyên ngành thông qua Nền tảng tích hợp,\nchia sẻ dữ liệu quốc gia, Nền tảng tích hợp, chia sẻ "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Những chủ thể khu vực tư nào thuộc đối tượng áp dụng khi kết nối, chia sẻ dữ liệu với CSDL quốc gia về dân cư?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 45,
+          "cost": 4.59e-05,
+          "elapsed_seconds": 2.514033,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 126,
+          "total_tokens": 171
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Các chủ thể khu vực tư thuộc đối tượng áp dụng khi kết nối, chia sẻ dữ liệu với CSDL quốc gia về dân cư bao gồm các doanh nghiệp, tổ chức, cá nhân thuộc khu vực tư [fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5].",
+            "citations": [
+              "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5"
+            ]
+          },
+          "completion_tokens": 154,
+          "cost": 0.00031215,
+          "elapsed_seconds": 2.969632,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1465,
+          "total_tokens": 1619
+        }
+      ],
+      "query_id": "dev-02",
+      "status": "answered"
+    },
+    {
+      "answer": "Tài liệu cho phép đầu tư mới hạ tầng hoặc trang thiết bị khi đã hết niên hạn sử dụng hoặc không đáp ứng yêu cầu kỹ thuật, dựa trên khảo sát và đánh giá hiện trạng được thực hiện tại bước lập đề án, dự án, nhiệm vụ ứng dụng công nghệ thông tin phục vụ triển khai Đề án 06 [fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5].",
+      "citations": [
+        "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5"
+      ],
+      "elapsed_seconds": 8.772902,
+      "events": [
+        {
+          "context_ids": [
+            "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+            "a3b94320c1b451446a83d187edbdb396fc92b3425d9b5fd164f752d6dd90c040",
+            "c3a2e02ec2d9814c086216c042ee1cda4b549d0795207c93bd9cf0c18e16f1c1"
+          ],
+          "event": "search",
+          "query": "Khi nào tài liệu cho phép đầu tư mới hạ tầng hoặc trang thiết bị?",
+          "results": [
+            {
+              "chunk_id": "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+              "method": "bm25_reference_aware",
+              "page": 10,
+              "rank": 1,
+              "score": 18.00812446209339,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "2. Đối tượng áp dụng\n      a) Các cơ quan nhà nước: Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính\nphủ, Ủy ban nhân dân các cấp.\n      b) Các cơ quan nhà nước khác, các tổ chức chính trị - xã hội cấp Trung\nương, các tổ chức xã hội, các tổ chức xã hội - nghề nghiệp cấp Trung ương, các\ndoanh nghiệp, tổ chức, cá nhân thuộc khu vực tư khi kết nối, chia sẻ dữ liệu với\nCơ sở dữ liệu quốc gia về dân cư phục vụ triển khai Đề án 06 thực hiện áp dụng\ntheo hướng dẫn này.\n3. Nguyên tắc áp dụng\n      a) Tuân thủ quy định của pháp luật.\n      b) Tận dụng tối đa hạ tầng kỹ thuật, ứng dụng, dịch vụ, trang thiết bị đã\nđược đầu tư, chỉ đầu tư mới khi đã hết niên hạn sử dụng, hoặc không đáp yêu cầu\nkỹ thuật trên cơ sở khảo sát, đánh giá hiện trạng được thực hiện tại bước lập đề\nán, dự án, nhiệm vụ ứng dụng công nghệ thông tin phục vụ triển khai Đề án 06.\n      c) Sử dụng thống nhất các nền tảng, ứng dụng, dịch vụ, cơ sở dữ liệu quốc\ngia dùng chung, đặc biệt là Cơ sở dữ liệu quốc gia về dân cư; tuyệt đối không đầu\ntư, mua sắm các hạng mục có chức năng trùng lặp với các nền tảng, ứng dụng,\ndịch vụ, cơ sở dữ liệu dùng chung quốc gia để tránh trùng lặp, gây lãng phí.\n      d) Dữ liệu dân cư là dữ liệu "
+            },
+            {
+              "chunk_id": "a3b94320c1b451446a83d187edbdb396fc92b3425d9b5fd164f752d6dd90c040",
+              "method": "bm25_reference_aware",
+              "page": 29,
+              "rank": 2,
+              "score": 17.08547604624326,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "       tổ     chức, dân đến Hệ thống định danh và xác thực\n       doanh nghiệp điện tử.\n       bằng    ứng 4.2. Hệ thống của cơ quan, tổ chức, doanh\n       dụng VNeID nghiệp tiếp nhận, xử lý dữ liệu trả về từ Hệ\n                    thống định danh và xác thực điện tử và hiển\n                    thị trên giao diện phần mềm ứng dụng, tự\n                    động điền vào biểu mẫu điện tử phục vụ xử\n                    lý nghiệp vụ các bước tiếp theo.\nb) Trang thiết bị tại quầy giao dịch:\n      Căn cứ nhu cầu thực tế các cơ quan, tổ chức, doanh nghiêp chủ động đầu\ntư, mua sắm trang thiết bị, phương tiện phục vụ hoạt động tại quầy giao dịch:\nThiết bị, phương tiện đọc thẻ mã QR code trên ứng dụng VNeID, thẻ CCCD\ngắn chíp.\n4.3. Mô hình kết nối cho cơ quan tổ chức, doanh nghiệp\n      Căn cứ nhu cầu thực tế, hiện trạng hạ tầng kỹ thuật, việc kết nối các hệ\nthống của cơ quan, tổ chức, doanh nghiệp thuộc khu vực tư vào Hệ thống định\ndanh và xác thực điện tử áp dụng một trong phương án kết nối sau:\n      a) Phương án 1-Sử dụng VPN site to site:\n       Áp dụng đối với các cơ quan, tổ chức, doanh nghiệp có trang thiết bị phục\nvụ thiết lập kênh kết nối VPN site to site theo hướng dẫn của Bộ Công "
+            },
+            {
+              "chunk_id": "c3a2e02ec2d9814c086216c042ee1cda4b549d0795207c93bd9cf0c18e16f1c1",
+              "method": "bm25_reference_aware",
+              "page": 47,
+              "rank": 3,
+              "score": 15.980289953668795,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "        Có phương án quản                        Chú ý các máy chủ dùng\n                            Đầu tư hệ thống SAN,\n  10    lý sao lưu dự phòng                      SAN phải có Card kết nối\n                            SAN Switch.\n        tập trung                                vào SAN Switch.\n        Có phương án quản\n        lý phần mềm phòng     Đầu tư giải pháp\n        chống mã độc trên     AntiVirus có chức\n  11\n        các máy chủ/máy       năng quản lý tập trung\n        tính người dùng tập   hoặc hệ thống EDR.\n        trung\n        Có phương án Giải pháp/Thiết bị\n  12    phòng, chống thất DLP     (Data loss\n        thoát dữ liệu     prevention).\n        Có phương án duy\n        trì ít nhất 02 kết nối\n                                               Yêu cầu có kết nối dự\n        mạng Internet từ các Có kết nối mạng\n  13                                           phòng từ 02 ISP khác\n        ISP sử dụng hạ tầng Internet dự phòng.\n                                               nhau.\n        kết nối trong nước\n        khác nhau\n                          Giải pháp/Thiết bị\n        Có phương án quản\n                          PAM     (Privileged\n  14    lý tài khoản đặc\n         "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Khi nào tài liệu cho phép đầu tư mới hạ tầng hoặc trang thiết bị?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 33,
+          "cost": 3.69e-05,
+          "elapsed_seconds": 3.316112,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 114,
+          "total_tokens": 147
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Tài liệu cho phép đầu tư mới hạ tầng hoặc trang thiết bị khi đã hết niên hạn sử dụng hoặc không đáp ứng yêu cầu kỹ thuật, dựa trên khảo sát và đánh giá hiện trạng được thực hiện tại bước lập đề án, dự án, nhiệm vụ ứng dụng công nghệ thông tin phục vụ triển khai Đề án 06 [fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5].",
+            "citations": [
+              "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5"
+            ]
+          },
+          "completion_tokens": 183,
+          "cost": 0.00032535,
+          "elapsed_seconds": 5.455497,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1437,
+          "total_tokens": 1620
+        }
+      ],
+      "query_id": "dev-03",
+      "status": "answered"
+    },
+    {
+      "answer": "Người dân chỉ phải cung cấp thông tin, giấy tờ một lần cho các cơ quan nhà nước khi thực hiện các thủ tục hành chính [4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7].",
+      "citations": [
+        "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7"
+      ],
+      "elapsed_seconds": 13.715478,
+      "events": [
+        {
+          "context_ids": [
+            "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7",
+            "94d1990fa807aef71abfd0be3a2544332f99d37c6df15b1274365b85178b7b69",
+            "c7294c2d128725df0fb8b0c8b39365dc7f1fc432931e9c7003d2879ada865670"
+          ],
+          "event": "search",
+          "query": "Người dân phải cung cấp thông tin, giấy tờ bao nhiêu lần khi thực hiện thủ tục hành chính?",
+          "results": [
+            {
+              "chunk_id": "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7",
+              "method": "bm25_reference_aware",
+              "page": 10,
+              "rank": 1,
+              "score": 25.179411075709872,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "sắm các hạng mục có chức năng trùng lặp với các nền tảng, ứng dụng,\ndịch vụ, cơ sở dữ liệu dùng chung quốc gia để tránh trùng lặp, gây lãng phí.\n      d) Dữ liệu dân cư là dữ liệu gốc, các cơ sở dữ liệu khác liên quan đến công\ndân đã, đang và sẽ xây dựng phải căn cứ vào dữ liệu gốc và có sự kết nối, chia sẻ\nbảo đảm tiết kiệm, tránh lãng phí, tạo ra các giá trị mới.\n      đ) Người dân và doanh nghiệp là trung tâm của chuyển đổi số, người dân\nchỉ phải cung cấp thông tin, giấy tờ một lần cho các cơ quan nhà nước khi thực\nhiện các thủ tục hành chính.\n       e) Việc kết nối, tích hợp, khai thác Cơ sở dữ liệu quốc gia về dân cư phải\ngắn liền bảo đảm an toàn, an ninh thông tin trên môi trường số.\n\n\n\n\n                                        8"
+            },
+            {
+              "chunk_id": "94d1990fa807aef71abfd0be3a2544332f99d37c6df15b1274365b85178b7b69",
+              "method": "bm25_reference_aware",
+              "page": 21,
+              "rank": 2,
+              "score": 17.794501060041597,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                        8.6. Cho phép xem thống kê dung lượng\n                        đã sử dụng của kho lưu trữ dữ liệu điện\n                        tử của tôi.\n                        9.1. Hiển thị danh sách giấy tờ thường\n     Quản lý danh mục xuyên sử dụng phục vụ thực hiện\n     giấy tờ thường TTHC.\n                                                               Người quản\n9    xuyên sử dụng\n                                                               trị\n     phục vụ thực hiện 9.2. Hiển thị danh sách loại giấy tờ\n     thủ tục hành chính thường xuyên sử dụng phục vụ thực\n                        hiện TTHC.\n\n                      10.1. Thống kê tình hình sử dụng kho\n   Thống kê tình hình quản lý dữ liệu điện tử của tổ chức, cá\n   sử dụng kho quản nhân thuộc BNĐP.\n                                                              Người quản\n10 lý dữ liệu điện tử\n   của tổ chức, cá    10.2. Thống kê dung lượng đã sử dụng trị\n   nhân BNĐP          của kho quản lý dữ liệu điện tử của tổ\n                      chức, cá nhân thuộc BNĐP.\n\n     SỬ DỤNG KHO QUẢN LÝ DỮ LIỆU ĐIỆN TỬ CỦA TỔ CHỨC,\nIV\n     CÁ NHÂN\n\n   Thêm giấy tờ vào Khi công dân nộp hồ sơ trực tuyến có\n                        "
+            },
+            {
+              "chunk_id": "c7294c2d128725df0fb8b0c8b39365dc7f1fc432931e9c7003d2879ada865670",
+              "method": "bm25_reference_aware",
+              "page": 20,
+              "rank": 3,
+              "score": 15.990184906810368,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                kết quả giải quyết thủ tục hành chính\n                          (bao gồm các tài liệu được chứng thực\n                          điện tử) để bảo đảm giá trị pháp lý và\n      Quản lý kho lưu trữ\n                          hạn chế việc cập nhật lên hệ thống các\n8     dữ liệu điện tử của                                            Công dân\n                          tài liệu có thể chứa mã độc, vi rút nhằm\n      tôi\n                          bảo đảm an toàn, an ninh thông tin với\n                          HTTT giải quyết TTHC cấp bộ, cấp\n                          tỉnh, với các chức năng chính:\n                          8.1. Cho phép định nghĩa, hiển thị danh\n                          sách kho dữ liệu/thư mục/giấy tờ của cá\n\n                                      18"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Người dân phải cung cấp thông tin, giấy tờ bao nhiêu lần khi thực hiện thủ tục hành chính?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 39,
+          "cost": 4.14e-05,
+          "elapsed_seconds": 3.331885,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 120,
+          "total_tokens": 159
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Người dân chỉ phải cung cấp thông tin, giấy tờ một lần cho các cơ quan nhà nước khi thực hiện các thủ tục hành chính [4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7].",
+            "citations": [
+              "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7"
+            ]
+          },
+          "completion_tokens": 135,
+          "cost": 0.00025395,
+          "elapsed_seconds": 10.380565,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1153,
+          "total_tokens": 1288
+        }
+      ],
+      "query_id": "dev-04",
+      "status": "answered"
+    },
+    {
+      "answer": "Khu vực tư có thể sử dụng các loại kênh như kênh truyền riêng và mạng Internet để kết nối tới Hệ thống định danh và xác thực điện tử. Các cơ quan, tổ chức, doanh nghiệp thuộc khu vực tư cần chủ động thiết lập kênh truyền để kết nối, ưu tiên sử dụng kênh truyền riêng và áp dụng giải pháp xác thực, mã hóa theo hướng dẫn của Bộ Công an và Bộ Thông tin và Truyền thông [6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c].",
+      "citations": [
+        "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c"
+      ],
+      "elapsed_seconds": 5.906251,
+      "events": [
+        {
+          "context_ids": [
+            "a3b94320c1b451446a83d187edbdb396fc92b3425d9b5fd164f752d6dd90c040",
+            "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c",
+            "7e607cb1283efac17817cc8199422d2f2050734a06ea760bb7e4f99c49aec8f7"
+          ],
+          "event": "search",
+          "query": "Khu vực tư có thể dùng các loại kênh nào để kết nối tới Hệ thống định danh và xác thực điện tử?",
+          "results": [
+            {
+              "chunk_id": "a3b94320c1b451446a83d187edbdb396fc92b3425d9b5fd164f752d6dd90c040",
+              "method": "bm25_reference_aware",
+              "page": 29,
+              "rank": 1,
+              "score": 20.90535765908859,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "       tổ     chức, dân đến Hệ thống định danh và xác thực\n       doanh nghiệp điện tử.\n       bằng    ứng 4.2. Hệ thống của cơ quan, tổ chức, doanh\n       dụng VNeID nghiệp tiếp nhận, xử lý dữ liệu trả về từ Hệ\n                    thống định danh và xác thực điện tử và hiển\n                    thị trên giao diện phần mềm ứng dụng, tự\n                    động điền vào biểu mẫu điện tử phục vụ xử\n                    lý nghiệp vụ các bước tiếp theo.\nb) Trang thiết bị tại quầy giao dịch:\n      Căn cứ nhu cầu thực tế các cơ quan, tổ chức, doanh nghiêp chủ động đầu\ntư, mua sắm trang thiết bị, phương tiện phục vụ hoạt động tại quầy giao dịch:\nThiết bị, phương tiện đọc thẻ mã QR code trên ứng dụng VNeID, thẻ CCCD\ngắn chíp.\n4.3. Mô hình kết nối cho cơ quan tổ chức, doanh nghiệp\n      Căn cứ nhu cầu thực tế, hiện trạng hạ tầng kỹ thuật, việc kết nối các hệ\nthống của cơ quan, tổ chức, doanh nghiệp thuộc khu vực tư vào Hệ thống định\ndanh và xác thực điện tử áp dụng một trong phương án kết nối sau:\n      a) Phương án 1-Sử dụng VPN site to site:\n       Áp dụng đối với các cơ quan, tổ chức, doanh nghiệp có trang thiết bị phục\nvụ thiết lập kênh kết nối VPN site to site theo hướng dẫn của Bộ Công "
+            },
+            {
+              "chunk_id": "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c",
+              "method": "bm25_reference_aware",
+              "page": 15,
+              "rank": 2,
+              "score": 19.850721129217927,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "      - Đối với các hệ thống thông tin của Bộ Quốc phòng: Tham khảo theo Mô\nhình 03 tại Văn bản số 273/BTTTT-CBĐTW của Bộ Thông tin và Truyền thông\nngày 31/01/2020, kết hợp với các yếu tố đặc thù do Bộ Quốc phòng quy định.\n      b) Đối với các cơ quan, tổ chức, doanh nghiệp thuộc khu vực tư:\n       Kết nối đến Hệ thống định danh và xác thực điện tử phục vụ phát triển kinh\ntế xã hội, công dân số sử dụng kênh truyền riêng, mạng Internet. Căn cứ nhu cầu,\nhiện trạng, các cơ quan, tổ chức, doanh nghiệp chủ động thiết lập kênh truyền để\nkết nối, ưu tiên sử dụng kênh truyền riêng, áp dụng giải pháp xác thực, mã hoá\ntheo hướng dẫn của Bộ Công an và Bộ Thông tin và Truyền thông.\n3. Yêu cầu về nghiệp vụ và chức năng đối với các thành phần công nghệ thông\ntin phục vụ giải quyết thủ tục hành chính và cung cấp dịch vụ công trực tuyến\n3.1. Yêu cầu về nghiệp vụ\n       a) Về quy trình tiếp nhận, xử lý thủ tục hành chính: Tuân thủ các quy định\ntại: Nghị định số 45/2020/NĐ-CP của Chính phủ ngày 08/4/2020 về thực hiện thủ\ntục hành chính trên môi trường điện tử; Nghị định số 107/2021/NĐ-CP ngày\n06/12/2021 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số\n61/2018/NĐ-CP ngày 23/4/2018 của "
+            },
+            {
+              "chunk_id": "7e607cb1283efac17817cc8199422d2f2050734a06ea760bb7e4f99c49aec8f7",
+              "method": "bm25_reference_aware",
+              "page": 11,
+              "rank": 3,
+              "score": 19.760158533560382,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "III. CÁC THÀNH PHẦN CÔNG NGHỆ THÔNG TIN THIẾT YẾU PHỤC\nVỤ TRIỂN KHAI ĐỀ ÁN 06\n     1. Mô hình tổng thể Đề án 06 phục vụ chuyển đổi số quốc gia\n\n\n\n\nHình vẽ 1: Mô hình tổng thể các thành phần công nghệ thông tin của Đề án 06\n     Danh mục các thành phần công nghệ thông tin thiết yếu cần thiết:\n   Thành phần công                                                   Dùng\nTT nghệ thông tin Mô tả sơ bộ                                        chung\n   thiết yếu                                                        quốc gia\n                      - Mạng Truyền số liệu chuyên dùng của\n                      các cơ quan Đảng, Nhà nước phục vụ\n                      kết nối, tích hợp, chia sẻ dữ liệu giữa các\n                      cơ quan nhà nước, doanh nghiệp, tổng\n     Hạ tầng mạng, công ty nhà nước với CSDLQG về dân\n 1   đường truyền kết cư, Hệ thống định danh và xác thực điện           x\n     nối              tử.\n                      - Mạng Internet do các nhà cung cấp\n                      dịch vụ ISP cung cấp phục vụ kết nối\n                      thuộc tổ chức, doanh nghiệp thuộc khu\n                      vực tư với các cơ quan nhà nước.\n\n\n                                     9"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Khu vực tư có thể dùng các loại kênh nào để kết nối tới Hệ thống định danh và xác thực điện tử?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 43,
+          "cost": 4.44e-05,
+          "elapsed_seconds": 1.710701,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 124,
+          "total_tokens": 167
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Khu vực tư có thể sử dụng các loại kênh như kênh truyền riêng và mạng Internet để kết nối tới Hệ thống định danh và xác thực điện tử. Các cơ quan, tổ chức, doanh nghiệp thuộc khu vực tư cần chủ động thiết lập kênh truyền để kết nối, ưu tiên sử dụng kênh truyền riêng và áp dụng giải pháp xác thực, mã hóa theo hướng dẫn của Bộ Công an và Bộ Thông tin và Truyền thông [6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c].",
+            "citations": [
+              "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c"
+            ]
+          },
+          "completion_tokens": 203,
+          "cost": 0.00034455,
+          "elapsed_seconds": 4.192306,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1485,
+          "total_tokens": 1688
+        }
+      ],
+      "query_id": "dev-05",
+      "status": "answered"
+    },
+    {
+      "answer": "Khi công dân nộp hồ sơ trực tuyến, có thể ký số bằng một trong các hình thức: USB token, Sim PKI, Remote Signing hoặc hình thức ký số hợp lệ khác theo quy định của pháp luật [065585955990c38baa903927b08d7df5c96cfe6c4441cce7b816e78625ecf4ba].",
+      "citations": [
+        "065585955990c38baa903927b08d7df5c96cfe6c4441cce7b816e78625ecf4ba"
+      ],
+      "elapsed_seconds": 5.699093,
+      "events": [
+        {
+          "context_ids": [
+            "065585955990c38baa903927b08d7df5c96cfe6c4441cce7b816e78625ecf4ba",
+            "2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9",
+            "94d1990fa807aef71abfd0be3a2544332f99d37c6df15b1274365b85178b7b69"
+          ],
+          "event": "search",
+          "query": "Tài liệu liệt kê những hình thức ký số khi công dân nộp hồ sơ trực tuyến",
+          "results": [
+            {
+              "chunk_id": "065585955990c38baa903927b08d7df5c96cfe6c4441cce7b816e78625ecf4ba",
+              "method": "bm25_reference_aware",
+              "page": 20,
+              "rank": 1,
+              "score": 24.944881665007138,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                          được cấp bởi Hệ thống định danh và xác\n                          thực điện tử của Bộ Công an.\n                      Hệ thống cung cấp tính năng ký số đối\n                      với các TTHC có yêu cầu công dân ký\n                      số. Công dân có thể lựa chọn đăng ký\n                      dịch vụ của một trong các tổ chức cung\n                      cấp dịch vụ chứng thực chữ ký số công\n      Công dân nộp hồ\n5                     cộng đã được cấp phép và thực hiện ký Công dân\n      sơ trực tuyến\n                      số. Công dân có thể lựa chọn ký số bằng\n                      một trong các hình thức: USB token,\n                      Sim PKI, Remote Signing hoặc hình\n                      thức ký số hợp lệ khác theo quy định\n                      của pháp luật.\n                      6.1. Cán bộ, công chức, viên chức tiếp\n                      nhận hồ sơ trực tuyến có thể kiểm tra\n                      thông tin công dân thông qua kết nối với Cán    bộ,\n                                                               công chức,\n      Tiếp nhận hồ sơ CSDLQG về dân cư.\n6                                                              viên chức\n      trực tuyến "
+            },
+            {
+              "chunk_id": "2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9",
+              "method": "bm25_reference_aware",
+              "page": 22,
+              "rank": 2,
+              "score": 20.92038391846448,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "    cá nhân khi nộp\n    trực tuyến\n                        12.1. Cán bộ, công chức, viên chức tại\n   Lưu thành phần hồ bộ phận một cửa khi tiếp nhận hồ sơ\n   sơ đã ký số vào kho trực tuyến/trực tiếp có thể lưu giấy tờ đã\n   quản lý dữ liệu điện được ký số vào kho quản lý dữ liệu điện Cán      bộ,\n   tử của tổ chức, cá tử của tổ chức, cá nhân.                    công chức,\n12 nhân và lấy giấy tờ 12.2. Hệ thống sẽ dựa vào thông tin viên chức\n   từ kho quản lý dữ người dùng: CMND/CCCD, họ và tên, tại bộ phận\n   liệu điện tử của tổ ngày tháng năm sinh, giới tính để xác một cửa\n   chức, cá nhân để bổ định được kho của công dân và lưu giấy\n   sung vào hồ sơ       tờ đã ký số vào mục kho quản lý dữ liệu\n                        điện tử của người nộp.\n                        13.1. Cán bộ, công chức, viên chức tại\n                        bộ phận một cửa có thể lấy các giấy tờ\n                        từ kho quản lý dữ liệu điện tử của tổ\n   Thêm giấy tờ vào chức, cá nhân để đính kèm vào thành\n                                                               Cán     bộ,\n   thành phần hồ sơ từ phần hồ sơ.\n                                                               công chức,\n   kho quản lý dữ "
+            },
+            {
+              "chunk_id": "94d1990fa807aef71abfd0be3a2544332f99d37c6df15b1274365b85178b7b69",
+              "method": "bm25_reference_aware",
+              "page": 21,
+              "rank": 3,
+              "score": 20.247383712387016,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                        8.6. Cho phép xem thống kê dung lượng\n                        đã sử dụng của kho lưu trữ dữ liệu điện\n                        tử của tôi.\n                        9.1. Hiển thị danh sách giấy tờ thường\n     Quản lý danh mục xuyên sử dụng phục vụ thực hiện\n     giấy tờ thường TTHC.\n                                                               Người quản\n9    xuyên sử dụng\n                                                               trị\n     phục vụ thực hiện 9.2. Hiển thị danh sách loại giấy tờ\n     thủ tục hành chính thường xuyên sử dụng phục vụ thực\n                        hiện TTHC.\n\n                      10.1. Thống kê tình hình sử dụng kho\n   Thống kê tình hình quản lý dữ liệu điện tử của tổ chức, cá\n   sử dụng kho quản nhân thuộc BNĐP.\n                                                              Người quản\n10 lý dữ liệu điện tử\n   của tổ chức, cá    10.2. Thống kê dung lượng đã sử dụng trị\n   nhân BNĐP          của kho quản lý dữ liệu điện tử của tổ\n                      chức, cá nhân thuộc BNĐP.\n\n     SỬ DỤNG KHO QUẢN LÝ DỮ LIỆU ĐIỆN TỬ CỦA TỔ CHỨC,\nIV\n     CÁ NHÂN\n\n   Thêm giấy tờ vào Khi công dân nộp hồ sơ trực tuyến có\n                        "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Tài liệu liệt kê những hình thức ký số khi công dân nộp hồ sơ trực tuyến",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 36,
+          "cost": 3.945e-05,
+          "elapsed_seconds": 2.317029,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 119,
+          "total_tokens": 155
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Khi công dân nộp hồ sơ trực tuyến, có thể ký số bằng một trong các hình thức: USB token, Sim PKI, Remote Signing hoặc hình thức ký số hợp lệ khác theo quy định của pháp luật [065585955990c38baa903927b08d7df5c96cfe6c4441cce7b816e78625ecf4ba].",
+            "citations": [
+              "065585955990c38baa903927b08d7df5c96cfe6c4441cce7b816e78625ecf4ba"
+            ]
+          },
+          "completion_tokens": 144,
+          "cost": 0.0002835,
+          "elapsed_seconds": 3.379722,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1314,
+          "total_tokens": 1458
+        }
+      ],
+      "query_id": "dev-06",
+      "status": "answered"
+    },
+    {
+      "answer": "Kho quản lý dữ liệu điện tử của tổ chức, cá nhân chỉ lưu các tài liệu là kết quả giải quyết thủ tục hành chính (bao gồm các tài liệu được chứng thực điện tử) để bảo đảm giá trị pháp lý [9495d29632085b983e4dd7df0c2bb769ac33b247131364251d423a818953c3b3].",
+      "citations": [
+        "9495d29632085b983e4dd7df0c2bb769ac33b247131364251d423a818953c3b3"
+      ],
+      "elapsed_seconds": 5.173566,
+      "events": [
+        {
+          "context_ids": [
+            "94d1990fa807aef71abfd0be3a2544332f99d37c6df15b1274365b85178b7b69",
+            "2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9",
+            "9495d29632085b983e4dd7df0c2bb769ac33b247131364251d423a818953c3b3"
+          ],
+          "event": "search",
+          "query": "Kho quản lý dữ liệu điện tử của tổ chức, cá nhân chỉ lưu loại tài liệu nào?",
+          "results": [
+            {
+              "chunk_id": "94d1990fa807aef71abfd0be3a2544332f99d37c6df15b1274365b85178b7b69",
+              "method": "bm25_reference_aware",
+              "page": 21,
+              "rank": 1,
+              "score": 24.166843360458344,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                        8.6. Cho phép xem thống kê dung lượng\n                        đã sử dụng của kho lưu trữ dữ liệu điện\n                        tử của tôi.\n                        9.1. Hiển thị danh sách giấy tờ thường\n     Quản lý danh mục xuyên sử dụng phục vụ thực hiện\n     giấy tờ thường TTHC.\n                                                               Người quản\n9    xuyên sử dụng\n                                                               trị\n     phục vụ thực hiện 9.2. Hiển thị danh sách loại giấy tờ\n     thủ tục hành chính thường xuyên sử dụng phục vụ thực\n                        hiện TTHC.\n\n                      10.1. Thống kê tình hình sử dụng kho\n   Thống kê tình hình quản lý dữ liệu điện tử của tổ chức, cá\n   sử dụng kho quản nhân thuộc BNĐP.\n                                                              Người quản\n10 lý dữ liệu điện tử\n   của tổ chức, cá    10.2. Thống kê dung lượng đã sử dụng trị\n   nhân BNĐP          của kho quản lý dữ liệu điện tử của tổ\n                      chức, cá nhân thuộc BNĐP.\n\n     SỬ DỤNG KHO QUẢN LÝ DỮ LIỆU ĐIỆN TỬ CỦA TỔ CHỨC,\nIV\n     CÁ NHÂN\n\n   Thêm giấy tờ vào Khi công dân nộp hồ sơ trực tuyến có\n                        "
+            },
+            {
+              "chunk_id": "2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9",
+              "method": "bm25_reference_aware",
+              "page": 22,
+              "rank": 2,
+              "score": 22.19084833393877,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "    cá nhân khi nộp\n    trực tuyến\n                        12.1. Cán bộ, công chức, viên chức tại\n   Lưu thành phần hồ bộ phận một cửa khi tiếp nhận hồ sơ\n   sơ đã ký số vào kho trực tuyến/trực tiếp có thể lưu giấy tờ đã\n   quản lý dữ liệu điện được ký số vào kho quản lý dữ liệu điện Cán      bộ,\n   tử của tổ chức, cá tử của tổ chức, cá nhân.                    công chức,\n12 nhân và lấy giấy tờ 12.2. Hệ thống sẽ dựa vào thông tin viên chức\n   từ kho quản lý dữ người dùng: CMND/CCCD, họ và tên, tại bộ phận\n   liệu điện tử của tổ ngày tháng năm sinh, giới tính để xác một cửa\n   chức, cá nhân để bổ định được kho của công dân và lưu giấy\n   sung vào hồ sơ       tờ đã ký số vào mục kho quản lý dữ liệu\n                        điện tử của người nộp.\n                        13.1. Cán bộ, công chức, viên chức tại\n                        bộ phận một cửa có thể lấy các giấy tờ\n                        từ kho quản lý dữ liệu điện tử của tổ\n   Thêm giấy tờ vào chức, cá nhân để đính kèm vào thành\n                                                               Cán     bộ,\n   thành phần hồ sơ từ phần hồ sơ.\n                                                               công chức,\n   kho quản lý dữ "
+            },
+            {
+              "chunk_id": "9495d29632085b983e4dd7df0c2bb769ac33b247131364251d423a818953c3b3",
+              "method": "bm25_reference_aware",
+              "page": 20,
+              "rank": 3,
+              "score": 21.340222065419827,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                                       công chức,\n      Tiếp nhận hồ sơ CSDLQG về dân cư.\n6                                                              viên chức\n      trực tuyến      6.2. Hệ thống thông báo lại kết quả tiếp nhận và\n                      kiểm tra thông tin công dân thành trả kết quả\n                      công/thất bại cho cán bộ công chức,\n                      viên chức tiếp nhận hồ sơ.\n                      Cán bộ, công chức, viên chức có thể tìm Cán       bộ,\n                      kiếm thông tin công dân theo các công chức,\n      Tiếp nhận hồ sơ\n7                     trường: họ và tên, số CMND/CCCD, viên chức\n      trực tiếp\n                      ngày tháng năm sinh, giới tính, thực tiếp nhận và\n                      hiện số hóa biểu mẫu do người dân điền. trả kết quả\n\n      QUẢN LÝ KHO QUẢN LÝ DỮ LIỆU ĐIỆN TỬ CỦA TỔ CHỨC,\nIII\n      CÁ NHÂN\n                          Kho quản lý dữ liệu điện tử của tổ chức,\n                          cá nhân chỉ quản lý và lưu các tài liệu là\n                          kết quả giải quyết thủ tục hành chính\n                          (bao gồm các tài liệu được chứng thực\n                          điện tử) để bảo đảm giá trị pháp lý "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Kho quản lý dữ liệu điện tử của tổ chức, cá nhân chỉ lưu loại tài liệu nào?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 35,
+          "cost": 3.84e-05,
+          "elapsed_seconds": 2.068757,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 116,
+          "total_tokens": 151
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Kho quản lý dữ liệu điện tử của tổ chức, cá nhân chỉ lưu các tài liệu là kết quả giải quyết thủ tục hành chính (bao gồm các tài liệu được chứng thực điện tử) để bảo đảm giá trị pháp lý [9495d29632085b983e4dd7df0c2bb769ac33b247131364251d423a818953c3b3].",
+            "citations": [
+              "9495d29632085b983e4dd7df0c2bb769ac33b247131364251d423a818953c3b3"
+            ]
+          },
+          "completion_tokens": 142,
+          "cost": 0.00028815,
+          "elapsed_seconds": 3.103396,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1353,
+          "total_tokens": 1495
+        }
+      ],
+      "query_id": "dev-07",
+      "status": "answered"
+    },
+    {
+      "answer": "Cán bộ, công chức, viên chức tại bộ phận một cửa có thể thấy các giấy tờ mà công dân đã chia sẻ từ kho quản lý dữ liệu điện tử của tổ chức, cá nhân [chunk_id: 2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9], [chunk_id: bb126452c6af6c47ca071c8e85d43b17cc89cabf019e98d175c9906bc864f715], [chunk_id: 918b8d39afd1c3117ba9a2c9c2ecb9200841d9c572629fde2c5c410d89097e7b]. [2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9] [bb126452c6af6c47ca071c8e85d43b17cc89cabf019e98d175c9906bc864f715] [918b8d39afd1c3117ba9a2c9c2ecb9200841d9c572629fde2c5c410d89097e7b]",
+      "citations": [
+        "2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9",
+        "bb126452c6af6c47ca071c8e85d43b17cc89cabf019e98d175c9906bc864f715",
+        "918b8d39afd1c3117ba9a2c9c2ecb9200841d9c572629fde2c5c410d89097e7b"
+      ],
+      "elapsed_seconds": 13.004743,
+      "events": [
+        {
+          "context_ids": [
+            "2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9",
+            "bb126452c6af6c47ca071c8e85d43b17cc89cabf019e98d175c9906bc864f715",
+            "918b8d39afd1c3117ba9a2c9c2ecb9200841d9c572629fde2c5c410d89097e7b"
+          ],
+          "event": "search",
+          "query": "Khi lấy giấy tờ từ kho dữ liệu điện tử để bổ sung hồ sơ, cán bộ được nhìn thấy những giấy tờ nào?",
+          "results": [
+            {
+              "chunk_id": "2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9",
+              "method": "bm25_reference_aware",
+              "page": 22,
+              "rank": 1,
+              "score": 38.62044063329032,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "    cá nhân khi nộp\n    trực tuyến\n                        12.1. Cán bộ, công chức, viên chức tại\n   Lưu thành phần hồ bộ phận một cửa khi tiếp nhận hồ sơ\n   sơ đã ký số vào kho trực tuyến/trực tiếp có thể lưu giấy tờ đã\n   quản lý dữ liệu điện được ký số vào kho quản lý dữ liệu điện Cán      bộ,\n   tử của tổ chức, cá tử của tổ chức, cá nhân.                    công chức,\n12 nhân và lấy giấy tờ 12.2. Hệ thống sẽ dựa vào thông tin viên chức\n   từ kho quản lý dữ người dùng: CMND/CCCD, họ và tên, tại bộ phận\n   liệu điện tử của tổ ngày tháng năm sinh, giới tính để xác một cửa\n   chức, cá nhân để bổ định được kho của công dân và lưu giấy\n   sung vào hồ sơ       tờ đã ký số vào mục kho quản lý dữ liệu\n                        điện tử của người nộp.\n                        13.1. Cán bộ, công chức, viên chức tại\n                        bộ phận một cửa có thể lấy các giấy tờ\n                        từ kho quản lý dữ liệu điện tử của tổ\n   Thêm giấy tờ vào chức, cá nhân để đính kèm vào thành\n                                                               Cán     bộ,\n   thành phần hồ sơ từ phần hồ sơ.\n                                                               công chức,\n   kho quản lý dữ "
+            },
+            {
+              "chunk_id": "bb126452c6af6c47ca071c8e85d43b17cc89cabf019e98d175c9906bc864f715",
+              "method": "bm25_reference_aware",
+              "page": 22,
+              "rank": 2,
+              "score": 37.66334037353013,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                                         Cán     bộ,\n   thành phần hồ sơ từ phần hồ sơ.\n                                                               công chức,\n   kho quản lý dữ liệu\n                                                               viên chức\n   điện tử của tổ chức, 13.2. Hệ thống sẽ dựa vào thông tin\n13\n                                                               tại bộ phận\n   cá nhân khi công người dùng: CMND/CCCD, ngày,\n                                                               một cửa\n   dân nộp trực tiếp tháng, năm sinh và giới tính để xác định\n                        được kho quản lý dữ liệu điện tử của\n                        công dân đó. Cán bộ chỉ thấy được các\n                        giấy tờ mà công dân đã chia sẻ.\n                        14.1. Cán bộ, công chức, viên chức tại\n                        bộ phận một cửa tiếp nhận hồ sơ trực\n   Thêm giấy tờ vào tuyến có thể lấy các giấy tờ từ kho quản\n                                                               Cán     bộ,\n   thành phần hồ sơ từ lý dữ liệu điện tử của tổ chức, cá nhân\n                                                               công chức,\n   kho quản lý dữ liệu để đính kèm vào thành "
+            },
+            {
+              "chunk_id": "918b8d39afd1c3117ba9a2c9c2ecb9200841d9c572629fde2c5c410d89097e7b",
+              "method": "bm25_reference_aware",
+              "page": 22,
+              "rank": 3,
+              "score": 30.96449114683291,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": " thành phần hồ sơ từ lý dữ liệu điện tử của tổ chức, cá nhân\n                                                               công chức,\n   kho quản lý dữ liệu để đính kèm vào thành phần hồ sơ.\n14                                                             viên chức\n   điện tử của tổ chức, 14.2. Hệ thống sẽ dựa vào thông tin\n                                                               tại bộ phận\n   cá nhân khi công người dùng: CMND/CCCD, họ và tên,\n                                                               một cửa\n   dân nộp trực tuyến ngày tháng năm sinh, giới tính để xác\n                        định được kho của công dân và lấy giấy\n                        tờ mà cá nhân, tổ chức đã chia sẻ.\n\n   Đồng bộ kết quả Cho phép thực hiện đồng bộ kết quả giải Cán         bộ,\n   giải quyết TTHC quyết TTHC đã có trong hệ thống vào công chức,\n                        kho quản lý dữ liệu điện tử của tổ chức,\n15 đối với các hồ sơ cũ                                          viên chức\n   (hồ sơ đã tồn tại cá nhân. Có thể đồng bộ một hoặc nhiều tại bộ phận\n   trên hệ thống thông hồ sơ cùng lúc. Chỉ đồng bộ những hồ một cửa\n   tin một cửa điện tử, sơ đã trả kết quả cho công dân.\n\n              "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [
+            "2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9",
+            "bb126452c6af6c47ca071c8e85d43b17cc89cabf019e98d175c9906bc864f715",
+            "918b8d39afd1c3117ba9a2c9c2ecb9200841d9c572629fde2c5c410d89097e7b"
+          ],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Khi lấy giấy tờ từ kho dữ liệu điện tử để bổ sung hồ sơ, cán bộ được nhìn thấy những giấy tờ nào?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 44,
+          "cost": 4.515e-05,
+          "elapsed_seconds": 3.662144,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 125,
+          "total_tokens": 169
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Cán bộ, công chức, viên chức tại bộ phận một cửa có thể thấy các giấy tờ mà công dân đã chia sẻ từ kho quản lý dữ liệu điện tử của tổ chức, cá nhân [chunk_id: 2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9], [chunk_id: bb126452c6af6c47ca071c8e85d43b17cc89cabf019e98d175c9906bc864f715], [chunk_id: 918b8d39afd1c3117ba9a2c9c2ecb9200841d9c572629fde2c5c410d89097e7b].",
+            "citations": [
+              "2ca6ededd3174c12c4d659c6bc4ad94c9901bf7499afaa983ffac6a471cb6ee9",
+              "bb126452c6af6c47ca071c8e85d43b17cc89cabf019e98d175c9906bc864f715",
+              "918b8d39afd1c3117ba9a2c9c2ecb9200841d9c572629fde2c5c410d89097e7b"
+            ]
+          },
+          "completion_tokens": 315,
+          "cost": 0.0003819,
+          "elapsed_seconds": 9.339792,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1286,
+          "total_tokens": 1601
+        }
+      ],
+      "query_id": "dev-08",
+      "status": "answered"
+    },
+    {
+      "answer": "Ứng dụng được dùng để quét mã QR khi chia sẻ thông tin công dân là VNeID [96cd731e84e022cb367c31634afb165b921e0ab8067efc89c366c9b1594f9892][d979f4665f76436902baeb4d35e0d82d1c7869fa7449fd08017f29bdc5c46845].",
+      "citations": [
+        "96cd731e84e022cb367c31634afb165b921e0ab8067efc89c366c9b1594f9892",
+        "d979f4665f76436902baeb4d35e0d82d1c7869fa7449fd08017f29bdc5c46845"
+      ],
+      "elapsed_seconds": 17.526481,
+      "events": [
+        {
+          "context_ids": [
+            "96cd731e84e022cb367c31634afb165b921e0ab8067efc89c366c9b1594f9892",
+            "d979f4665f76436902baeb4d35e0d82d1c7869fa7449fd08017f29bdc5c46845",
+            "fd6a6515fb8769c37e5d76f1e9ad71768635e6756096012917084c54b131712e"
+          ],
+          "event": "search",
+          "query": "ứng dụng quét mã QR chia sẻ thông tin công dân Hình 3",
+          "results": [
+            {
+              "chunk_id": "96cd731e84e022cb367c31634afb165b921e0ab8067efc89c366c9b1594f9892",
+              "method": "bm25_reference_aware",
+              "page": 25,
+              "rank": 1,
+              "score": 15.326629080269896,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "CCCD gắn chíp, nhân viên tại quầy giao dịch yêu cầu công dân cung cấp giấy tờ\ntùy thân (như thẻ CCCD gắn chíp, CMND hoặc giấy tờ tuỳ thân khác) để thực\nhiện định danh, xác thực công dân theo quy định.\n     - Bước 3: Hệ thống định danh và xác thực điện tử tiếp nhận yêu cầu xác thực\ntừ hệ thống tổ chức, doanh nghiệp và thực hiện xác thực thông tin công dân.\n     - Bước 4: Hệ thống định danh và xác thực điện tử gửi lại kết quả xác thực về\nhệ thống của cơ quan, tổ chức, doanh nghiệp.\n     - Bước 5: Hệ thống của cơ quan, tổ chức, doanh nghiệp nhận kết quả xác\nthực thông tin công dân từ Hệ thống định danh và xác thực điện tử, hiển thị trên\ngiao diện phần mềm ứng dụng; nhân viên tại quầy thực hiện tiếp các quy trình\nnghiệp vụ của cơ quan, tổ chức, doanh nghiệp theo quy định.\n     b) Cung cấp thông tin công dân:\n     Cách 1:\n\n\n\n\n        Hình vẽ 3: Quy trình chia sẻ thông tin công dân thông qua việc\n                   quét mã QR code trên ứng dụng VNeID\n\n\n                                       23"
+            },
+            {
+              "chunk_id": "d979f4665f76436902baeb4d35e0d82d1c7869fa7449fd08017f29bdc5c46845",
+              "method": "bm25_reference_aware",
+              "page": 28,
+              "rank": 2,
+              "score": 20.677725615865207,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": " Hệ thống định danh và xác\n    liệu công dân\n                  thực điện tử.                                Công      dân,\n    thông     qua\n  3               3.2. Hệ thống của cơ quan, tổ chức, doanh nhân viên tại\n    quét mã QR\n                  nghiệp tiếp nhận, xử lý dữ liệu trả về từ Hệ quầy giao dịch\n    code của ứng\n                  thống định danh và xác thực điện tử và hiển\n    dụng VNeID\n                  thị trên giao diện phần mềm ứng dụng, tự\n                  động điền vào biểu mẫu điện tử… phục vụ\n                  xử lý nghiệp vụ các bước tiếp theo.\n    Chia sẻ dữ 4.1. Hệ thống cho phép tiếp nhận yêu cầu\n    liệu công dân chia sẻ dữ liệu công dân thông qua việc sử Công   dân,\n  4 thông     qua dụng ứng dụng VNeID để quét mã QR code nhân viên tại\n    quét QR code của cơ quan, tổ chức, doanh nghiệp và tự quầy giao dịch\n    của cơ quan, động gửi yêu cầu cung cấp thông tin công\n\n                                     26"
+            },
+            {
+              "chunk_id": "fd6a6515fb8769c37e5d76f1e9ad71768635e6756096012917084c54b131712e",
+              "method": "bm25_reference_aware",
+              "page": 6,
+              "rank": 3,
+              "score": 20.62501176125613,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "DANH MỤC HÌNH VẼ\nHình vẽ 1: Mô hình tổng thể các thành phần công nghệ thông tin của Đề án 06 ...... 9\nHình vẽ 2: Quy trình xác thực thông tin công dân phục vụ phát triển kinh tế-xã hội,\ncông dân số ............................................................................................................... 22\nHình vẽ 3: Quy trình chia sẻ thông tin công dân thông qua việc quét mã QR code\ntrên ứng dụng VNeID ............................................................................................... 23\nHình vẽ 4: Quy trình chia sẻ thông tin công dân thông qua sử dụng ứng dụng\nVNeID để quét mã QR code của cơ quan, tổ chức, doanh nghiệp .......................... 25\nHình vẽ 5: Mô hình kết nối kỹ thuật giữa cơ quan, tổ chức, doanh nghiệp và Hệ\nthống định danh và xác thực điện tử ........................................................................ 27\nHình vẽ 6: Quy trình xác thực, đồng bộ thông tin công dân giữa CSDLQG, CSDL\nchuyên ngành, HTTT phục vụ quản lý, nghiệp vụ của CQNN................................ 29\nHình vẽ 7: Mô hình kết nối CSDLQG về dân cư, Hệ thống định danh và xác thực\nđiện tử với Trung tâm thông tin, chỉ đạo điều hành của Chính phủ, Thủ tướng\nChính phủ "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "ứng dụng quét mã QR chia sẻ thông tin công dân Hình 3",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 31,
+          "cost": 3.66e-05,
+          "elapsed_seconds": 3.453847,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 120,
+          "total_tokens": 151
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Ứng dụng được dùng để quét mã QR khi chia sẻ thông tin công dân là VNeID [96cd731e84e022cb367c31634afb165b921e0ab8067efc89c366c9b1594f9892][d979f4665f76436902baeb4d35e0d82d1c7869fa7449fd08017f29bdc5c46845].",
+            "citations": [
+              "96cd731e84e022cb367c31634afb165b921e0ab8067efc89c366c9b1594f9892",
+              "d979f4665f76436902baeb4d35e0d82d1c7869fa7449fd08017f29bdc5c46845"
+            ]
+          },
+          "completion_tokens": 195,
+          "cost": 0.0003135,
+          "elapsed_seconds": 14.069255,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1310,
+          "total_tokens": 1505
+        }
+      ],
+      "query_id": "dev-09",
+      "status": "answered"
+    },
+    {
+      "answer": "Trung tâm thông tin, chỉ đạo điều hành của Chính phủ hướng tới chuyển phương thức điều hành từ văn bản giấy sang dựa trên dữ liệu số theo thời gian thực [c2e6a96d07b74baf295549076fa4a9ec73533047969ae0c296fd2caf27e422df].",
+      "citations": [
+        "c2e6a96d07b74baf295549076fa4a9ec73533047969ae0c296fd2caf27e422df"
+      ],
+      "elapsed_seconds": 75.31313,
+      "events": [
+        {
+          "context_ids": [
+            "c2e6a96d07b74baf295549076fa4a9ec73533047969ae0c296fd2caf27e422df",
+            "05ace471c5a025d93ab9d9a99b6c804c163553f863f7aa06190ac2545405c7b9",
+            "90c44a37f0174534f4e8a4d562cc01cb29d5eb1c88dcc4e3c88374341d236efb"
+          ],
+          "event": "search",
+          "query": "Trung tâm thông tin, chỉ đạo điều hành của Chính phủ chuyển phương thức điều hành từ văn bản giấy sang gì?",
+          "results": [
+            {
+              "chunk_id": "c2e6a96d07b74baf295549076fa4a9ec73533047969ae0c296fd2caf27e422df",
+              "method": "bm25_reference_aware",
+              "page": 14,
+              "rank": 1,
+              "score": 37.71001885896642,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "nh phủ, Thủ tướng Chính phủ là\n                            nền tảng, hạ tầng số cốt lõi trong công\n                            tác xây dựng Chính phủ điện tử, để quản\n       Trung tâm thông\n                            lý, thu thập thông tin, dữ liệu, thực hiện\n       tin, chỉ đạo điều\n                            phân tích, xử lý dữ liệu lớn phục vụ công\n 10    hành của Chính                                                     x\n                            tác chỉ đạo, điều hành của Chính phủ,\n       phủ, Thủ tướng\n                            Thủ tướng Chính phủ nhằm đổi mới,\n       Chính phủ\n                            thay đổi phương thức chỉ đạo, điều hành\n                            từ dựa trên thông tin, số liệu trên văn bản\n                            giấy chuyển sang dựa trên dữ liệu số\n                            theo thời gian thực.\n                        Tổng hợp các giải pháp về quản lý và kỹ\n       An toàn, an ninh thuật để bảo đảm an toàn, an ninh mạng\n 11\n       mạng             khi triển khai kết nối, khai thác cơ sở dữ\n                        liệu quốc gia về dân cư.\n2. Yêu cầu về hạ tầng mạng, đường truyền kết nối\n      a) Đối với cơ quan nhà nước, doanh nghiệp, "
+            },
+            {
+              "chunk_id": "05ace471c5a025d93ab9d9a99b6c804c163553f863f7aa06190ac2545405c7b9",
+              "method": "bm25_reference_aware",
+              "page": 14,
+              "rank": 2,
+              "score": 22.538910711619472,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                            đến các cơ quan, tổ chức ở địa phương\n                            trong cùng một lĩnh vực như: Hệ thống\n                            cấp phiếu lý lịch tư pháp trực tuyến, Hệ\n                            thống thông tin đăng ký và quản lý hộ\n                            tịch, Hệ thống cấp mã số đơn vị có quan\n                            hệ với ngân sách…\n                           Hệ thống do Bộ Thông tin và Truyền\n                           thông quản lý đáp ứng yêu cầu giám sát,\n       Hệ thống hỗ trợ\n                           điều hành an toàn, an ninh mạng phục\n       giám sát, điều hành\n  9                        vụ quá trình chuyển đổi số quốc gia, hỗ        x\n       an toàn, an ninh\n                           trợ nâng cao năng lực đảm bảo an toàn\n       mạng (GovSOC)\n                           thông tin mạng cho các chủ quản hệ\n                           thống thông tin.\n                            Trung tâm thông tin chỉ đạo, điều hành\n                            của Chính phủ, Thủ tướng Chính phủ là\n                            nền tảng, hạ tầng số cốt lõi trong công\n                            tác xây dựng Chính phủ điện tử, để quản\n       Trung "
+            },
+            {
+              "chunk_id": "90c44a37f0174534f4e8a4d562cc01cb29d5eb1c88dcc4e3c88374341d236efb",
+              "method": "bm25_reference_aware",
+              "page": 35,
+              "rank": 3,
+              "score": 22.324392449925604,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "ên sâu hạng giấy phép, ngày hết hạn…\n     - Các chỉ số liên quan tới nghề nghiệp dân cư: Chỉ số về nghề nghiệp theo\nđộ tuổi, giới tính, dân tộc, tôn giáo, tình trạng hôn nhân; Chỉ số về người thuộc\ndiện hưởng trợ cấp theo độ tuổi, giới tính, dân tộc, tôn giáo, tình trạng hôn nhân.\n     - Các chỉ số liên quan tới thuế, trách nhiệm tài chính của công dân: Chỉ số\nquy mô, phân bố, mật độ thuế theo độ tuổi, giới tính, dân tộc, tôn giáo, tình trạng\nhôn nhân; phân tích chuyên sâu về trạng thái hoạt động; theo cơ quan quản lý\nthuế; chỉ số phân tích về thuế đối với người lao động.\n      - Các chỉ số phân tích độ bao phủ thông tin tiêm chủng vắc xin COVID-19\ntrên toàn quốc, từng địa phương theo từng nhóm tuổi.\n6.2. Danh sách yêu cầu chức năng cần bổ sung, hiệu chỉnh\n\n\n\n\nHình vẽ 7: Mô hình kết nối CSDLQG về dân cư, Hệ thống định danh và xác thực\n      điện tử với Trung tâm thông tin, chỉ đạo điều hành của Chính phủ,\n                            Thủ tướng Chính phủ\n      CSDLQG về dân cư Hệ thống định danh và xác thực điện tử thực hiện kết\nnối, chia sẻ dữ liệu dữ liệu với Trung tâm thông tin, chỉ đạo điều hành của Chính\n                                         33"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Trung tâm thông tin, chỉ đạo điều hành của Chính phủ chuyển phương thức điều hành từ văn bản giấy sang gì?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 40,
+          "cost": 4.245e-05,
+          "elapsed_seconds": 69.936531,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 123,
+          "total_tokens": 163
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Trung tâm thông tin, chỉ đạo điều hành của Chính phủ hướng tới chuyển phương thức điều hành từ văn bản giấy sang dựa trên dữ liệu số theo thời gian thực [c2e6a96d07b74baf295549076fa4a9ec73533047969ae0c296fd2caf27e422df].",
+            "citations": [
+              "c2e6a96d07b74baf295549076fa4a9ec73533047969ae0c296fd2caf27e422df"
+            ]
+          },
+          "completion_tokens": 133,
+          "cost": 0.0002766,
+          "elapsed_seconds": 5.373861,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1312,
+          "total_tokens": 1445
+        }
+      ],
+      "query_id": "dev-10",
+      "status": "answered"
+    },
+    {
+      "answer": "GovSOC được Bộ Thông tin và Truyền thông quản lý [05ace471c5a025d93ab9d9a99b6c804c163553f863f7aa06190ac2545405c7b9].",
+      "citations": [
+        "05ace471c5a025d93ab9d9a99b6c804c163553f863f7aa06190ac2545405c7b9"
+      ],
+      "elapsed_seconds": 7.257799,
+      "events": [
+        {
+          "context_ids": [
+            "05ace471c5a025d93ab9d9a99b6c804c163553f863f7aa06190ac2545405c7b9",
+            "a12d4f091a125c04718bf3f21507012c666af1d8708008d3a7e869937b443a91",
+            "5ab44e46922da66afb557e8d764ef024f290343283191259098ae6babbb049e4"
+          ],
+          "event": "search",
+          "query": "GovSOC do cơ quan nào quản lý theo tài liệu?",
+          "results": [
+            {
+              "chunk_id": "05ace471c5a025d93ab9d9a99b6c804c163553f863f7aa06190ac2545405c7b9",
+              "method": "bm25_reference_aware",
+              "page": 14,
+              "rank": 1,
+              "score": 9.30278311310143,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                            đến các cơ quan, tổ chức ở địa phương\n                            trong cùng một lĩnh vực như: Hệ thống\n                            cấp phiếu lý lịch tư pháp trực tuyến, Hệ\n                            thống thông tin đăng ký và quản lý hộ\n                            tịch, Hệ thống cấp mã số đơn vị có quan\n                            hệ với ngân sách…\n                           Hệ thống do Bộ Thông tin và Truyền\n                           thông quản lý đáp ứng yêu cầu giám sát,\n       Hệ thống hỗ trợ\n                           điều hành an toàn, an ninh mạng phục\n       giám sát, điều hành\n  9                        vụ quá trình chuyển đổi số quốc gia, hỗ        x\n       an toàn, an ninh\n                           trợ nâng cao năng lực đảm bảo an toàn\n       mạng (GovSOC)\n                           thông tin mạng cho các chủ quản hệ\n                           thống thông tin.\n                            Trung tâm thông tin chỉ đạo, điều hành\n                            của Chính phủ, Thủ tướng Chính phủ là\n                            nền tảng, hạ tầng số cốt lõi trong công\n                            tác xây dựng Chính phủ điện tử, để quản\n       Trung "
+            },
+            {
+              "chunk_id": "a12d4f091a125c04718bf3f21507012c666af1d8708008d3a7e869937b443a91",
+              "method": "bm25_reference_aware",
+              "page": 17,
+              "rank": 2,
+              "score": 7.843971178548769,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "    giải quyết TTHC, hành chính (các tài liệu được ký số\n9                                                                cán     bộ,\n      chia sẻ trên toàn bởi công chức hoặc cơ quan nhà\n                                                                 công chức,\n      quốc              nước) vào kho danh mục và chia sẻ\n                                                                 viên chức\n                        với các BNĐP.\n                             Công dân có thể cấu hình liên kết tài\n                             khoản Cổng Dịch vụ công quốc gia\n      Liên kết tài khoản\n                             và tài khoản Hệ thống định danh và\n      của Cổng Dịch vụ\n                             xác thực điện tử của Bộ Công an, khi\n      công quốc gia và tài\n                             đó công dân có thể dùng tài khoản\n10    khoản Hệ thống                                               Công dân\n                             định danh điện tử do Bộ Công an\n      định danh và xác\n                             cung cấp để xem được danh sách hồ\n      thực điện tử của Bộ\n                             sơ, xem được kho quản lý dữ liệu\n      Công an\n                             điện tử của "
+            },
+            {
+              "chunk_id": "5ab44e46922da66afb557e8d764ef024f290343283191259098ae6babbb049e4",
+              "method": "bm25_reference_aware",
+              "page": 19,
+              "rank": 3,
+              "score": 7.73030198184265,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "liệu được ký số bởi\n  3    giải quyết TTHC                                          thống, hệ\n                       công chức hoặc cơ quan nhà nước) vào\n       từ cổng DVCQG                                            thống\n                       kho quản lý dữ liệu điện tử của tổ chức,\n                       cá nhân để có thể chia sẻ với các BNĐP.\n\n       ĐỊNH DANH VÀ XÁC THỰC ĐIỆN TỬ TRÊN HTTT GIẢI\n  II\n       QUYẾT TTHC CỦA BNĐP\n                          4.1. Công dân có thể đăng ký tài khoản\n       Đăng ký, đăng dịch vụ công thông qua tài khoản định\n       nhập bằng tài danh điện tử được cấp bởi Hệ thống\n  4    khoản định danh định danh và xác thực điện tử của Bộ Công dân\n       điện tử do Bộ Công Công an.\n       an cấp             4.2. Công dân có thể đăng nhập hệ\n                          thống bằng tài khoản định danh điện tử\n                                       17"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "GovSOC do cơ quan nào quản lý theo tài liệu?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 27,
+          "cost": 3.24e-05,
+          "elapsed_seconds": 4.131949,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 108,
+          "total_tokens": 135
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "GovSOC được Bộ Thông tin và Truyền thông quản lý [05ace471c5a025d93ab9d9a99b6c804c163553f863f7aa06190ac2545405c7b9].",
+            "citations": [
+              "05ace471c5a025d93ab9d9a99b6c804c163553f863f7aa06190ac2545405c7b9"
+            ]
+          },
+          "completion_tokens": 116,
+          "cost": 0.0002382,
+          "elapsed_seconds": 3.123894,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1124,
+          "total_tokens": 1240
+        }
+      ],
+      "query_id": "dev-11",
+      "status": "answered"
+    },
+    {
+      "answer": "Trong mô hình bảo đảm an toàn thông tin 4 lớp, lớp 2 yêu cầu tổ chức hoặc thuê doanh nghiệp giám sát, bảo vệ chuyên nghiệp để thực hiện giám sát, ứng cứu sự cố an toàn thông tin mạng và bảo vệ hệ thống thông tin thuộc quyền quản lý [846f67ad7d3c2cc69b614be8236e6d674969d08463d20fae9658217d3b775091].",
+      "citations": [
+        "846f67ad7d3c2cc69b614be8236e6d674969d08463d20fae9658217d3b775091"
+      ],
+      "elapsed_seconds": 10.612516,
+      "events": [
+        {
+          "context_ids": [
+            "846f67ad7d3c2cc69b614be8236e6d674969d08463d20fae9658217d3b775091",
+            "69b86a9fb5b26371f55f798b5f5b4f7c66b23a5b697d8a0b8a52543139e303e3",
+            "af77e71db8214b44fd45a69069f37ce42657a22023df3c48027bb1296a0e6820"
+          ],
+          "event": "search",
+          "query": "Trong mô hình bảo đảm an toàn thông tin 4 lớp, lớp 2 yêu cầu tổ chức hoặc thuê chủ thể nào?",
+          "results": [
+            {
+              "chunk_id": "846f67ad7d3c2cc69b614be8236e6d674969d08463d20fae9658217d3b775091",
+              "method": "bm25_reference_aware",
+              "page": 38,
+              "rank": 1,
+              "score": 29.079395403903572,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "7.3. Mô hình bảo đảm an toàn thông tin theo mô hình 4 lớp\n\n                                    1. Lực lượng tại chỗ\n       4 lớp\n        bảo                 2. Giám sát, bảo vệ chuyên nghiệp\n     đảm an\n       toàn            3. Kiểm tra, đánh giá an toàn thông tin chuyên nghiệp\n      thông\n        tin\n                    4. Kết nối, chia sẻ thông tin với hệ thống kỹ thuật quốc gia\n\n\n       Hình vẽ 9: Mô hình bảo đảm an toàn thông tin theo mô hình 4 lớp\n       Lớp 1: Lực lượng tại chỗ Chỉ định, kiện toàn đầu mối đơn vị chuyên trách về\nATTT mạng để làm tốt công tác tham mưu, tổ chức thực thi và kiểm tra, đôn đốc\nthực hiện các quy định của pháp luật về bảo đảm an toàn, an ninh mạng.\n       Lớp 2: Tổ chức hoặc thuê doanh nghiệp giám sát, bảo vệ chuyên nghiệp Tự\nthực hiện giám sát, ứng cứu sự cố ATTT mạng, bảo vệ hệ thống thông tin thuộc quyền\nquản lý hoặc lựa chọn/thuê tổ chức, doanh nghiệp có đủ năng lực để thực hiện cung\ncấp dịch vụ giám sát, ứng cứu sự cố, bảo vệ ATTT mạng.\n       Lớp 3: Tổ chức hoặc thuê doanh nghiệp độc lập kiểm tra, đánh giá định kỳ\nLựa chọn/thuê tổ chức, doanh nghiệp độc lập với tổ chức, doanh nghiệp giám sát,\nbảo vệ để định kỳ kiểm tra, đánh giá ATTT mạng đối "
+            },
+            {
+              "chunk_id": "69b86a9fb5b26371f55f798b5f5b4f7c66b23a5b697d8a0b8a52543139e303e3",
+              "method": "bm25_reference_aware",
+              "page": 39,
+              "rank": 2,
+              "score": 26.17725899339092,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "         Hình vẽ 10: Mô hình các yêu cầu về quản lý an toàn thông tin\n       Các yêu cầu cụ thể được xác định dựa vào cấp độ của hệ thống thông tin tương\nứng cần bảo vệ và được chia ra làm 05 nhóm: (1) Chính sách an toàn thông tin, (2)\nTổ chức bảo đảm an toàn thông tin, (3) Bảo đảm nguồn nhân lực, (4) Quản lý thiết\nkế, xây dựng hệ thống, (5) Quản lý vận hành an toàn hệ thống thông tin.\n7.5. Mô hình tham chiếu biện pháp kỹ thuật bảo đảm an toàn thông tin\n       Mô hình dưới đây mô tả các yêu cầu về kỹ thuật bảo đảm an toàn thông tin\ntheo tiêu chuẩn quốc gia TCVN 11930:2017.\n\n\n\n\n      Hình vẽ 11: Mô hình yêu cầu về kỹ thuật đảm bảo an toàn thông tin\n      Các yêu cầu cụ thể được xác định dựa vào cấp độ của hệ thống thông tin tương\nứng cần bảo vệ và được chia làm 04 nhóm: (1) An toàn hạ tầng mạng, (2) An toàn\nmáy chủ, (3) An toàn ứng dụng, (4) An toàn dữ liệu, chi tiết thảm khảo tại Phụ lục\nhướng dẫn này.\n7.6. Mô hình tham chiếu về giải pháp, công nghệ\n       Các sản phẩm cụ thể được phân chia làm 08 nhóm, bao gồm: (1) Sản phẩm an\ntoàn cho thiết bị đầu cuối; (2) Sản phẩm an toàn lớp mạng; (3) Sản phẩm an toàn lớp\nứng dụng; (4) Sản phẩm bảo vệ dữ liệu; (5) Nhóm giải pháp định hướng "
+            },
+            {
+              "chunk_id": "af77e71db8214b44fd45a69069f37ce42657a22023df3c48027bb1296a0e6820",
+              "method": "bm25_reference_aware",
+              "page": 4,
+              "rank": 3,
+              "score": 22.85940322575584,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "   6.1. Yêu cầu về nghiệp vụ ................................................................................. 32\n   6.2. Danh sách yêu cầu chức năng cần bổ sung, hiệu chỉnh ............................. 33\n7. Yêu cầu về an toàn, an ninh mạng .................................................................... 34\n   7.1. Yêu cầu chung ............................................................................................ 34\n   7.2. Mô hình tham chiếu bảo đảm an toàn thông tin......................................... 35\n   7.3. Mô hình bảo đảm an toàn thông tin theo mô hình 4 lớp ............................ 36\n   7.4. Mô hình tham chiếu về biện pháp quản lý an toàn thông tin .................... 36\n   7.5. Mô hình tham chiếu biện pháp kỹ thuật bảo đảm an toàn thông tin .......... 37\n   7.6. Mô hình tham chiếu về giải pháp, công nghệ ............................................ 37\n   7.7. Mô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng ............ 38\n   7.8. Danh mục phương án, thiết bị tối thiểu phục vụ bảo đảm an toàn, an ninh\n   mạng .................................................................................................................. 40\n8. Yêu cầu "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Trong mô hình bảo đảm an toàn thông tin 4 lớp, lớp 2 yêu cầu tổ chức hoặc thuê chủ thể nào?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 41,
+          "cost": 4.29e-05,
+          "elapsed_seconds": 1.190854,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 122,
+          "total_tokens": 163
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Trong mô hình bảo đảm an toàn thông tin 4 lớp, lớp 2 yêu cầu tổ chức hoặc thuê doanh nghiệp giám sát, bảo vệ chuyên nghiệp để thực hiện giám sát, ứng cứu sự cố an toàn thông tin mạng và bảo vệ hệ thống thông tin thuộc quyền quản lý [846f67ad7d3c2cc69b614be8236e6d674969d08463d20fae9658217d3b775091].",
+            "citations": [
+              "846f67ad7d3c2cc69b614be8236e6d674969d08463d20fae9658217d3b775091"
+            ]
+          },
+          "completion_tokens": 159,
+          "cost": 0.0002439,
+          "elapsed_seconds": 9.418506,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1502,
+          "total_tokens": 1661
+        }
+      ],
+      "query_id": "dev-12",
+      "status": "answered"
+    },
+    {
+      "answer": "Mô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng (SOC) bao gồm 03 thành phần cơ bản [05127974e60f1aa6152b7b34abbf720108e5799671c643c0eb2cbdb4b3f2f555].",
+      "citations": [
+        "05127974e60f1aa6152b7b34abbf720108e5799671c643c0eb2cbdb4b3f2f555"
+      ],
+      "elapsed_seconds": 8.02756,
+      "events": [
+        {
+          "context_ids": [
+            "05127974e60f1aa6152b7b34abbf720108e5799671c643c0eb2cbdb4b3f2f555",
+            "fbd7dce53325a113b9f39672cc9328d5ffe4811bfa8d25bd4fa22ab2e119ee04",
+            "9aae6d11e5876a98cabe2bd66e019280845533e6cdf399595ded8a8d98c46bf3"
+          ],
+          "event": "search",
+          "query": "Mô hình tham chiếu SOC gồm bao nhiêu thành phần cơ bản?",
+          "results": [
+            {
+              "chunk_id": "05127974e60f1aa6152b7b34abbf720108e5799671c643c0eb2cbdb4b3f2f555",
+              "method": "bm25_reference_aware",
+              "page": 40,
+              "rank": 1,
+              "score": 27.659042556687044,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "tích hợp, chia sẻ dữ liệu; (8) Sản phẩm nền tảng điện toán đám mây phục vụ chính\nphủ điện tử.\n\n\n\n\n           Hình vẽ 12: Mô hình tham chiếu về giải pháp và công nghệ\n7.7. Mô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng\n     Mô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng (SOC) bao\ngồm 03 thành phần cơ bản:\n\n\n\n\n      Hình vẽ 13: Mô hình Trung tâm điều hành an toàn, an ninh mạng SOC\n      7.7.1. Công nghệ\n      Công nghệ, giải pháp kỹ thuật được sử dụng trong SOC cần phải đáp ứng yêu\ncầu kỹ thuật theo quy định tại Điều 5, khoản 1 Thông tư số 31/2017/TT-BTTTT bao\ngồm nhưng không giới hạn các chức năng sau:\n      a) Chức năng quản trị: Chức năng phân tích tương quan (Correlation); Chức\nnăng lọc (Filters); Tạo các luật (Rules), Chức năng hiển thị (Dashboards), Chức năng\n                                        38"
+            },
+            {
+              "chunk_id": "fbd7dce53325a113b9f39672cc9328d5ffe4811bfa8d25bd4fa22ab2e119ee04",
+              "method": "bm25_reference_aware",
+              "page": 37,
+              "rank": 2,
+              "score": 19.654298125788824,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "    - Cổng kết nối vào mạng TSLCD đáp ứng các yêu cầu an toàn quy định tại\nThông tư số 12/2019/TT-BTTTT ngày 05/11/2019 của Bộ trưởng Bộ Thông tin\nvà Truyền thông sửa đổi, bổ sung một số điều của Thông tư số 27/2017/TT-\nBTTTT ngày 20/10/2017 quy định về quản lý, vận hành, kết nối, sử dụng và bảo\nđảm an toàn thông tin trên mạng Truyền số liệu chuyên dùng của các cơ quan\nĐảng, Nhà nước.\n7.2. Mô hình tham chiếu bảo đảm an toàn thông tin\n\n\n\n\n           Hình vẽ 8: Mô hình tham chiếu bảo đảm an toàn thông tin\n     Mô hình tham chiếu bảo đảm an toàn thông tin bao gồm các thành phần: (1)\nMô hình tổ chức “04 lớp” bảo đảm an toàn thông tin; (2) Mô hình tham chiếu về\nbiện pháp quản lý an toàn thông tin; (3) Mô hình tham chiếu biện pháp kỹ thuật\nbảo đảm an toàn thông tin; (4) Mô hình tham chiếu về giải pháp, công nghệ; (5)\nMô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng.\n     Bộ Thông tin và Truyền thông thiết lập hệ thống tiếp nhận dữ liệu giám sát\nan toàn thông tin tập trung để tiếp nhận dữ liệu chia sẻ từ bộ, ngành, địa phương.\nDữ liệu giám sát sẽ được chia sẻ trực tiếp cho hệ thống kỹ thuật quốc gia của\nBộ Công an và các hệ thống thông tin khác (theo đề nghị) phục vụ triển "
+            },
+            {
+              "chunk_id": "9aae6d11e5876a98cabe2bd66e019280845533e6cdf399595ded8a8d98c46bf3",
+              "method": "bm25_reference_aware",
+              "page": 6,
+              "rank": 3,
+              "score": 15.985305858352042,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": ".............. 29\nHình vẽ 7: Mô hình kết nối CSDLQG về dân cư, Hệ thống định danh và xác thực\nđiện tử với Trung tâm thông tin, chỉ đạo điều hành của Chính phủ, Thủ tướng\nChính phủ ................................................................................................................. 33\nHình vẽ 8: Mô hình tham chiếu bảo đảm an toàn thông tin ..................................... 35\nHình vẽ 9: Mô hình bảo đảm an toàn thông tin theo mô hình 4 lớp ........................ 36\nHình vẽ 10: Mô hình các yêu cầu về quản lý an toàn thông tin ............................... 37\nHình vẽ 11: Mô hình yêu cầu về kỹ thuật đảm bảo an toàn thông tin ..................... 37\nHình vẽ 12: Mô hình tham chiếu về giải pháp và công nghệ .................................. 38\nHình vẽ 13: Mô hình Trung tâm điều hành an toàn, an ninh mạng SOC ................... 38"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Mô hình tham chiếu SOC gồm bao nhiêu thành phần cơ bản?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 31,
+          "cost": 3.54e-05,
+          "elapsed_seconds": 4.445591,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 112,
+          "total_tokens": 143
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Mô hình tham chiếu Trung tâm điều hành an toàn, an ninh mạng (SOC) bao gồm 03 thành phần cơ bản [05127974e60f1aa6152b7b34abbf720108e5799671c643c0eb2cbdb4b3f2f555].",
+            "citations": [
+              "05127974e60f1aa6152b7b34abbf720108e5799671c643c0eb2cbdb4b3f2f555"
+            ]
+          },
+          "completion_tokens": 130,
+          "cost": 0.0002784,
+          "elapsed_seconds": 3.58012,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1336,
+          "total_tokens": 1466
+        }
+      ],
+      "query_id": "dev-13",
+      "status": "answered"
+    },
+    {
+      "answer": "Giải pháp phòng, chống thất thoát dữ liệu được nêu là sử dụng DLP (Data Loss Prevention) và duy trì ít nhất 02 kết nối mạng Internet từ các ISP khác nhau để đảm bảo tính dự phòng [1fc49bc752877894c54312c26], [ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26]. [1fc49bc752877894c54312c26d95e22f27ab10b8fb97cad2a1c3148273c0f2be]",
+      "citations": [
+        "1fc49bc752877894c54312c26d95e22f27ab10b8fb97cad2a1c3148273c0f2be",
+        "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26"
+      ],
+      "elapsed_seconds": 13.545761,
+      "events": [
+        {
+          "context_ids": [
+            "1fc49bc752877894c54312c26d95e22f27ab10b8fb97cad2a1c3148273c0f2be",
+            "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26",
+            "c3a2e02ec2d9814c086216c042ee1cda4b549d0795207c93bd9cf0c18e16f1c1"
+          ],
+          "event": "search",
+          "query": "Giải pháp phòng chống thất thoát dữ liệu",
+          "results": [
+            {
+              "chunk_id": "1fc49bc752877894c54312c26d95e22f27ab10b8fb97cad2a1c3148273c0f2be",
+              "method": "bm25_reference_aware",
+              "page": 44,
+              "rank": 1,
+              "score": 21.81164953892382,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "     Có phương án quản\n     lý phần mềm phòng       Đầu tư giải pháp\n     chống mã độc trên       AntiVirus có chức\n11\n     các máy chủ/máy         năng quản lý tập trung\n     tính người dùng tập     hoặc hệ thống EDR.\n     trung\n                                          Có thuyết minh phương\n                                          án phòng, chống thất\n     Có phương án Giải pháp/Thiết bị\n                                          thoát dữ liệu phù hợp\n12   phòng, chống thất DLP     (Data loss\n                                          trong HSĐXCĐ (trong\n     thoát dữ liệu     prevention).\n                                          trường hợp không đầu tư\n                                          giải pháp/thiết bị).\n     Có phương án duy\n     trì ít nhất 02 kết nối\n     mạng Internet từ các Có kết nối mạng Yêu cầu có kết nối dự\n13\n     ISP sử dụng hạ tầng Internet dự phòng. phòng.\n     kết nối trong nước\n     khác nhau\n     Cấp độ 4\n     Có phương án quản                        Yêu cầu cần có giải\n     lý truy cập, quản trị Giải pháp/Thiết bị pháp/thiết bị VPN hoặc\n1\n     hệ thống từ xa an VPN.                   chức năng VPN được tích\n     toàn                                    "
+            },
+            {
+              "chunk_id": "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26",
+              "method": "bm25_reference_aware",
+              "page": 45,
+              "rank": 2,
+              "score": 18.540180211167648,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": " trung\n     tính người dùng tập   hoặc hệ thống EDR.\n     trung\n     Có phương án Giải pháp/Thiết bị\n12   phòng, chống thất DLP     (Data loss\n     thoát dữ liệu     prevention).\n     Có phương án duy\n     trì ít nhất 02 kết nối\n                                            Yêu cầu có kết nối dự\n     mạng Internet từ các Có kết nối mạng\n13                                          phòng từ 02 ISP khác\n     ISP sử dụng hạ tầng Internet dự phòng.\n                                            nhau.\n     kết nối trong nước\n     khác nhau\n                       Giải pháp/Thiết bị\n     Có phương án quản\n                       PAM     (Privileged\n14   lý tài khoản đặc\n                       Access\n     quyền\n                       Management).\n     Cấp độ 5\n                                    43"
+            },
+            {
+              "chunk_id": "c3a2e02ec2d9814c086216c042ee1cda4b549d0795207c93bd9cf0c18e16f1c1",
+              "method": "bm25_reference_aware",
+              "page": 47,
+              "rank": 3,
+              "score": 17.993526266118376,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "        Có phương án quản                        Chú ý các máy chủ dùng\n                            Đầu tư hệ thống SAN,\n  10    lý sao lưu dự phòng                      SAN phải có Card kết nối\n                            SAN Switch.\n        tập trung                                vào SAN Switch.\n        Có phương án quản\n        lý phần mềm phòng     Đầu tư giải pháp\n        chống mã độc trên     AntiVirus có chức\n  11\n        các máy chủ/máy       năng quản lý tập trung\n        tính người dùng tập   hoặc hệ thống EDR.\n        trung\n        Có phương án Giải pháp/Thiết bị\n  12    phòng, chống thất DLP     (Data loss\n        thoát dữ liệu     prevention).\n        Có phương án duy\n        trì ít nhất 02 kết nối\n                                               Yêu cầu có kết nối dự\n        mạng Internet từ các Có kết nối mạng\n  13                                           phòng từ 02 ISP khác\n        ISP sử dụng hạ tầng Internet dự phòng.\n                                               nhau.\n        kết nối trong nước\n        khác nhau\n                          Giải pháp/Thiết bị\n        Có phương án quản\n                          PAM     (Privileged\n  14    lý tài khoản đặc\n         "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [
+            "1fc49bc752877894c54312c26d95e22f27ab10b8fb97cad2a1c3148273c0f2be"
+          ],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Giải pháp phòng chống thất thoát dữ liệu",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 25,
+          "cost": 3.225e-05,
+          "elapsed_seconds": 6.535861,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 115,
+          "total_tokens": 140
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Giải pháp phòng, chống thất thoát dữ liệu được nêu là sử dụng DLP (Data Loss Prevention) và duy trì ít nhất 02 kết nối mạng Internet từ các ISP khác nhau để đảm bảo tính dự phòng [1fc49bc752877894c54312c26], [ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26].",
+            "citations": [
+              "1fc49bc752877894c54312c26",
+              "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26"
+            ]
+          },
+          "completion_tokens": 173,
+          "cost": 0.0002013,
+          "elapsed_seconds": 7.008155,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1162,
+          "total_tokens": 1335
+        }
+      ],
+      "query_id": "dev-14",
+      "status": "answered"
+    },
+    {
+      "answer": "Tiêu chuẩn quốc gia TCVN 11930:2017 về Công nghệ thông tin - Các kỹ thuật an toàn - Yêu cầu cơ bản về an toàn hệ thống thông tin theo cấp độ là tiêu chuẩn bắt buộc áp dụng [af62e5bf4165e963eeb6868f4595fbfc20c840146e36bafee7023dc7aefb1740].",
+      "citations": [
+        "af62e5bf4165e963eeb6868f4595fbfc20c840146e36bafee7023dc7aefb1740"
+      ],
+      "elapsed_seconds": 6.577904,
+      "events": [
+        {
+          "context_ids": [
+            "af62e5bf4165e963eeb6868f4595fbfc20c840146e36bafee7023dc7aefb1740",
+            "e7b3f1da446e6edf1a691ee7519ee0afaa9aa5a316772b44f0060f23b20f5f0e",
+            "9144545b362b39e89023ed230b92fb96c42af128e6142e306bdc2fd277b4edbb"
+          ],
+          "event": "search",
+          "query": "Tiêu chuẩn yêu cầu cơ bản an toàn hệ thống thông tin cấp độ bắt buộc áp dụng",
+          "results": [
+            {
+              "chunk_id": "af62e5bf4165e963eeb6868f4595fbfc20c840146e36bafee7023dc7aefb1740",
+              "method": "bm25_reference_aware",
+              "page": 48,
+              "rank": 1,
+              "score": 27.903323057381808,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": " 125:2021/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc, định\ndạng dữ liệu phục vụ kết nối, tích hợp, chia sẻ dữ liệu giữa các hệ thống thông tin\nbáo cáo trong Hệ thống thông tin báo cáo quốc gia.\n       đ) TCVN 11930:2017: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn - Yêu cầu cơ bản về an toàn hệ thống thông tin theo cấp độ (bắt\nbuộc áp dụng).\n      e) Thông tư số 39/2017/TT-BTTTT ngày 15/12/2017 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành Danh mục tiêu chuẩn kỹ thuật về ứng dụng\ncông nghệ thông tin trong cơ quan nhà nước.\n       f) TCVN ISO/IEC 27001:2019: Tiêu chuẩn quốc gia về Công nghệ thông\ntin - Các kỹ thuật an toàn - Hệ thống quản lý an toàn thông tin - Các yêu cầu.\n       g) TCVN ISO/IEC 27002:2020 về Công nghệ thông tin - Các kỹ thuật an\ntoàn - Quy tắc thực hành Quản lý an toàn thông tin.\n      h) TCVN 9801-2:2015: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn mạng - Phần 2: Hướng dẫn thiết kế và triển kahi an toàn mạng\n(ISO/IEC 27033-2:2012).\n      i) TCVN 9801-2:2014: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn mạng - Phần 3: Các kịch bản kết nối mạng tham chiếu - Nguy cơ,\nkỹ thuật thiết kế và các "
+            },
+            {
+              "chunk_id": "e7b3f1da446e6edf1a691ee7519ee0afaa9aa5a316772b44f0060f23b20f5f0e",
+              "method": "bm25_reference_aware",
+              "page": 36,
+              "rank": 2,
+              "score": 17.39324536874974,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "ố liệu chuyên dùng cấp I, Mạng\nTruyền số liệu chuyên dùng cấp II có Hồ sơ đề xuất cấp độ (HSĐXCĐ) được thẩm\nđịnh và phê duyệt trước ngày 30/6/2022, triển khai đầy đủ phương án bảo đảm an\ntoàn HTTT theo cấp độ trước ngày 15/11/2022.\n     b) Hệ thống thông tin kết nối với CSDLQG về dân cư phục vụ triển khai Đề\nán 06 đáp ứng các yêu cầu an toàn sau:\n      - Hồ sơ đề xuất cấp độ của hệ thống được thẩm định và phê duyệt theo quy\nđịnh; Phương án bảo đảm an toàn thông tin trong Hồ sơ đề xuất cấp độ phải được\ntriển khai đáp ứng các yêu cầu an toàn theo quy định trước khi kết nối, chia sẻ dữ\nliệu với Cơ sở dữ liệu quốc gia về dân cư.\n     - Phương án bảo đảm an toàn thông tin phải đáp ứng các yêu cầu an toàn cấp\nđộ 3 trở lên, theo quy định tại Điều 19 Nghị định số 85/2016/NĐ-CP, Thông tư\nsố 03/2017/TT-BTTTT ngày 24/4/2017 của Bộ Thông tin và Truyền thông và\nTiêu chuẩn quốc gia TCVN 11930:2017 về Công nghệ thông tin - Các kỹ thuật\nan toàn - Yêu cầu cơ bản về an toàn hệ thống thông tin theo cấp độ.\n    - Hệ thống thông tin phải được kiểm tra, đánh giá an toàn thông tin bởi các\ncơ quan, đơn vị chức năng của Bộ Công an, Bộ Quốc phòng và Bộ Thông tin và\nTruyền thông trước khi kết nối, chia sẻ "
+            },
+            {
+              "chunk_id": "9144545b362b39e89023ed230b92fb96c42af128e6142e306bdc2fd277b4edbb",
+              "method": "bm25_reference_aware",
+              "page": 4,
+              "rank": 3,
+              "score": 15.915660477285876,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "tối thiểu phục vụ bảo đảm an toàn, an ninh\n   mạng .................................................................................................................. 40\n8. Yêu cầu hiệu năng, tính năng kỹ thuật khác ..................................................... 45\nIV. HƯỚNG DẪN TIÊU CHUẨN, QUY CHUẨN, HƯỚNG DẪN KỸ THUẬT,\nĐỊNH MỨC PHỤC VỤ TRIỂN KHAI ĐỀ ÁN 06 .............................................. 46\n1. Danh mục các tiêu chuẩn, quy chuẩn, hướng dẫn kỹ thuật cần áp dụng .......... 46\n2. Các định mức cần áp dụng ................................................................................ 47\nĐẦU MỐI PHỐI HỢP, HỖ TRỢ, HƯỚNG DẪN TRIỂN KHAI ....................... 49"
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "citation_markers_added": [],
+          "event": "answer"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Tiêu chuẩn yêu cầu cơ bản an toàn hệ thống thông tin cấp độ bắt buộc áp dụng",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 35,
+          "cost": 3.945e-05,
+          "elapsed_seconds": 1.52757,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 123,
+          "total_tokens": 158
+        },
+        {
+          "action": {
+            "action": "answer",
+            "answer": "Tiêu chuẩn quốc gia TCVN 11930:2017 về Công nghệ thông tin - Các kỹ thuật an toàn - Yêu cầu cơ bản về an toàn hệ thống thông tin theo cấp độ là tiêu chuẩn bắt buộc áp dụng [af62e5bf4165e963eeb6868f4595fbfc20c840146e36bafee7023dc7aefb1740].",
+            "citations": [
+              "af62e5bf4165e963eeb6868f4595fbfc20c840146e36bafee7023dc7aefb1740"
+            ]
+          },
+          "completion_tokens": 149,
+          "cost": 0.0002019,
+          "elapsed_seconds": 5.047384,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1454,
+          "total_tokens": 1603
+        }
+      ],
+      "query_id": "dev-15",
+      "status": "answered"
+    },
+    {
+      "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+      "citations": [],
+      "elapsed_seconds": 3.45566,
+      "events": [
+        {
+          "context_ids": [
+            "94d1990fa807aef71abfd0be3a2544332f99d37c6df15b1274365b85178b7b69",
+            "c7294c2d128725df0fb8b0c8b39365dc7f1fc432931e9c7003d2879ada865670",
+            "a45dfe3840eb11ee96ef55e0f775f07debd6690d32bc855959db7f11715071a0"
+          ],
+          "event": "search",
+          "query": "Tài liệu quy định blockchain lưu lịch sử định danh điện tử",
+          "results": [
+            {
+              "chunk_id": "94d1990fa807aef71abfd0be3a2544332f99d37c6df15b1274365b85178b7b69",
+              "method": "bm25_reference_aware",
+              "page": 21,
+              "rank": 1,
+              "score": 9.513560925113234,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                        8.6. Cho phép xem thống kê dung lượng\n                        đã sử dụng của kho lưu trữ dữ liệu điện\n                        tử của tôi.\n                        9.1. Hiển thị danh sách giấy tờ thường\n     Quản lý danh mục xuyên sử dụng phục vụ thực hiện\n     giấy tờ thường TTHC.\n                                                               Người quản\n9    xuyên sử dụng\n                                                               trị\n     phục vụ thực hiện 9.2. Hiển thị danh sách loại giấy tờ\n     thủ tục hành chính thường xuyên sử dụng phục vụ thực\n                        hiện TTHC.\n\n                      10.1. Thống kê tình hình sử dụng kho\n   Thống kê tình hình quản lý dữ liệu điện tử của tổ chức, cá\n   sử dụng kho quản nhân thuộc BNĐP.\n                                                              Người quản\n10 lý dữ liệu điện tử\n   của tổ chức, cá    10.2. Thống kê dung lượng đã sử dụng trị\n   nhân BNĐP          của kho quản lý dữ liệu điện tử của tổ\n                      chức, cá nhân thuộc BNĐP.\n\n     SỬ DỤNG KHO QUẢN LÝ DỮ LIỆU ĐIỆN TỬ CỦA TỔ CHỨC,\nIV\n     CÁ NHÂN\n\n   Thêm giấy tờ vào Khi công dân nộp hồ sơ trực tuyến có\n                        "
+            },
+            {
+              "chunk_id": "c7294c2d128725df0fb8b0c8b39365dc7f1fc432931e9c7003d2879ada865670",
+              "method": "bm25_reference_aware",
+              "page": 20,
+              "rank": 2,
+              "score": 9.465738611748458,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "                kết quả giải quyết thủ tục hành chính\n                          (bao gồm các tài liệu được chứng thực\n                          điện tử) để bảo đảm giá trị pháp lý và\n      Quản lý kho lưu trữ\n                          hạn chế việc cập nhật lên hệ thống các\n8     dữ liệu điện tử của                                            Công dân\n                          tài liệu có thể chứa mã độc, vi rút nhằm\n      tôi\n                          bảo đảm an toàn, an ninh thông tin với\n                          HTTT giải quyết TTHC cấp bộ, cấp\n                          tỉnh, với các chức năng chính:\n                          8.1. Cho phép định nghĩa, hiển thị danh\n                          sách kho dữ liệu/thư mục/giấy tờ của cá\n\n                                      18"
+            },
+            {
+              "chunk_id": "a45dfe3840eb11ee96ef55e0f775f07debd6690d32bc855959db7f11715071a0",
+              "method": "bm25_reference_aware",
+              "page": 16,
+              "rank": 3,
+              "score": 9.185613570437779,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "     Phân quyền xử lý       2.1. Quản trị hệ thống có thể phân\n     nghiệp vụ đối với      quyền quản trị cho tài khoản định\n     các tài khoản của Hệ   danh điện tử được cấp bởi Bộ Công\n     thống định danh và     an.                                 Quản trị hệ\n2    xác thực điện tử của                                       thống, hệ\n     Bộ Công an (cho tất    2.2. Hệ thống đưa ra cảnh báo nếu thống\n     cả các hợp phần của    không tìm thấy tài khoản của cán bộ\n     Cổng Dịch vụ công      từ Hệ thống định danh và xác thực\n     quốc gia)              của Bộ Công an.\n\n                         3.1. Công dân có thể cập nhật số\n                         CMND đã lưu trên hệ thống sang số\n                         CCCD bằng cách xác thực thông tin\n     Cập nhật thông tin số CMND và số CCCD trong\n3    số CCCD trong CSDLQG về dân cư.                        Công dân\n     thông tin tài khoản\n                         3.2. Hệ thống đưa ra thông báo nếu\n                         thông tin người dùng cần xác thực\n                         không đúng hoặc không có dữ liệu.\n                        4.1. Công dân có thể cập nhật dữ\n                        liệu cho tài khoản từ CSDLQG về\n              "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "event": "duplicate_search"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Tài liệu quy định blockchain lưu lịch sử định danh điện tử",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 28,
+          "cost": 3.36e-05,
+          "elapsed_seconds": 1.400615,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 112,
+          "total_tokens": 140
+        },
+        {
+          "action": {
+            "action": "search",
+            "query": "Tài liệu quy định blockchain lưu lịch sử định danh điện tử",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 29,
+          "cost": 0.0001113,
+          "elapsed_seconds": 2.052622,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1202,
+          "total_tokens": 1231
+        }
+      ],
+      "query_id": "dev-u01",
+      "status": "abstain"
+    },
+    {
+      "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+      "citations": [],
+      "elapsed_seconds": 15.524569,
+      "events": [
+        {
+          "context_ids": [
+            "af62e5bf4165e963eeb6868f4595fbfc20c840146e36bafee7023dc7aefb1740",
+            "c1db1f5bd7cd963ca03220df9f3c0d355c2b44f2394059e3c5c7e3bace68e27f",
+            "fd6a6515fb8769c37e5d76f1e9ad71768635e6756096012917084c54b131712e"
+          ],
+          "event": "search",
+          "query": "Thuật toán mã hóa lượng tử nào được bắt buộc cho kết nối CSDL dân cư?",
+          "results": [
+            {
+              "chunk_id": "af62e5bf4165e963eeb6868f4595fbfc20c840146e36bafee7023dc7aefb1740",
+              "method": "bm25_reference_aware",
+              "page": 48,
+              "rank": 1,
+              "score": 11.152298104547617,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": " 125:2021/BTTTT: Quy chuẩn kỹ thuật quốc gia về cấu trúc, định\ndạng dữ liệu phục vụ kết nối, tích hợp, chia sẻ dữ liệu giữa các hệ thống thông tin\nbáo cáo trong Hệ thống thông tin báo cáo quốc gia.\n       đ) TCVN 11930:2017: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn - Yêu cầu cơ bản về an toàn hệ thống thông tin theo cấp độ (bắt\nbuộc áp dụng).\n      e) Thông tư số 39/2017/TT-BTTTT ngày 15/12/2017 của Bộ trưởng Bộ\nThông tin và Truyền thông ban hành Danh mục tiêu chuẩn kỹ thuật về ứng dụng\ncông nghệ thông tin trong cơ quan nhà nước.\n       f) TCVN ISO/IEC 27001:2019: Tiêu chuẩn quốc gia về Công nghệ thông\ntin - Các kỹ thuật an toàn - Hệ thống quản lý an toàn thông tin - Các yêu cầu.\n       g) TCVN ISO/IEC 27002:2020 về Công nghệ thông tin - Các kỹ thuật an\ntoàn - Quy tắc thực hành Quản lý an toàn thông tin.\n      h) TCVN 9801-2:2015: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn mạng - Phần 2: Hướng dẫn thiết kế và triển kahi an toàn mạng\n(ISO/IEC 27033-2:2012).\n      i) TCVN 9801-2:2014: Tiêu chuẩn quốc gia về Công nghệ thông tin - Các\nkỹ thuật an toàn mạng - Phần 3: Các kịch bản kết nối mạng tham chiếu - Nguy cơ,\nkỹ thuật thiết kế và các "
+            },
+            {
+              "chunk_id": "c1db1f5bd7cd963ca03220df9f3c0d355c2b44f2394059e3c5c7e3bace68e27f",
+              "method": "bm25_reference_aware",
+              "page": 32,
+              "rank": 2,
+              "score": 10.262062359296232,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "QG về dân cư, sau khi hoàn thành quá\ntrình xử lý nghiệp vụ, hệ thống của bộ, ngành, địa phương, tổ chức tự động đồng\nbộ kết quả để làm giàu dữ liệu dân cư. Cán bộ, công chức, viên chức quản lý, vận\nhành CSDLQG về dân cư xét duyệt dữ liệu được đồng bộ trước khi cập nhật dữ\nliệu vào hệ thống theo quy định của Bộ Công an.\n      b) Xác thực, đồng bộ dữ liệu đã có phục vụ làm sạch dữ liệu của cơ quan\nnhà nước đồng thời làm giàu CSDLQG về dân cư thông qua kết nối tự động:\n     Mô tả kịch bản:\n     - Bước 1: CSDL quốc gia, CSDL chuyên ngành, phần mềm nghiệp vụ\ntự động gọi tới API mà hệ thống CSDLQG về dân cư cung cấp để gửi các thông\ntin công dân đã có trong hệ thống cần được xác thực, đồng bộ với CSDLQG về\ndân cư.\n     - Bước 2: Hệ thống CSDLQG về dân cư xử lý yêu cầu xác thực, đồng bộ\nthông tin công dân và trả lại kết quả xác thực, đồng bộ thông tin của công dân cho\nhệ thống CSDL quốc gia, CSDL chuyên ngành, phần mềm nghiệp vụ của cơ quan\nnhà nước.\n     - Bước 3: Hệ thống CSDL quốc gia, CSDL chuyên ngành, phần mềm nghiệp\nvụ của cơ quan nhà nước nhận gói tin, xử lý kết quả xác thực với CSDLQG về\ndân cư, lưu tạm vào hệ thống.\n      - Bước 4: Cán bộ, công chức, viên chức tại cơ quan nhà "
+            },
+            {
+              "chunk_id": "fd6a6515fb8769c37e5d76f1e9ad71768635e6756096012917084c54b131712e",
+              "method": "bm25_reference_aware",
+              "page": 6,
+              "rank": 3,
+              "score": 10.252057847444359,
+              "source": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+              "text": "DANH MỤC HÌNH VẼ\nHình vẽ 1: Mô hình tổng thể các thành phần công nghệ thông tin của Đề án 06 ...... 9\nHình vẽ 2: Quy trình xác thực thông tin công dân phục vụ phát triển kinh tế-xã hội,\ncông dân số ............................................................................................................... 22\nHình vẽ 3: Quy trình chia sẻ thông tin công dân thông qua việc quét mã QR code\ntrên ứng dụng VNeID ............................................................................................... 23\nHình vẽ 4: Quy trình chia sẻ thông tin công dân thông qua sử dụng ứng dụng\nVNeID để quét mã QR code của cơ quan, tổ chức, doanh nghiệp .......................... 25\nHình vẽ 5: Mô hình kết nối kỹ thuật giữa cơ quan, tổ chức, doanh nghiệp và Hệ\nthống định danh và xác thực điện tử ........................................................................ 27\nHình vẽ 6: Quy trình xác thực, đồng bộ thông tin công dân giữa CSDLQG, CSDL\nchuyên ngành, HTTT phục vụ quản lý, nghiệp vụ của CQNN................................ 29\nHình vẽ 7: Mô hình kết nối CSDLQG về dân cư, Hệ thống định danh và xác thực\nđiện tử với Trung tâm thông tin, chỉ đạo điều hành của Chính phủ, Thủ tướng\nChính phủ "
+            }
+          ],
+          "tool": "search_lexical"
+        },
+        {
+          "event": "model_abstain"
+        }
+      ],
+      "model_calls": [
+        {
+          "action": {
+            "action": "search",
+            "query": "Thuật toán mã hóa lượng tử nào được bắt buộc cho kết nối CSDL dân cư?",
+            "tool": "search_lexical"
+          },
+          "completion_tokens": 35,
+          "cost": 3.84e-05,
+          "elapsed_seconds": 12.551658,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 116,
+          "total_tokens": 151
+        },
+        {
+          "action": {
+            "action": "abstain"
+          },
+          "completion_tokens": 11,
+          "cost": 0.0002412,
+          "elapsed_seconds": 2.970685,
+          "finish_reason": "stop",
+          "model": "openai/gpt-4o-mini",
+          "prompt_tokens": 1564,
+          "total_tokens": 1575
+        }
+      ],
+      "query_id": "dev-u02",
+      "status": "abstain"
+    }
+  ]
+}

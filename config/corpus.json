@@ -1,0 +1,19 @@
+{
+  "document_id": "btttt-1552-de-an-06-v1.0",
+  "source_url": "https://onetouch.mic.gov.vn/tai-lieu/CHINH_PHU_SO/1552_BTTTT-THH.pdf",
+  "source_sha256": "f92551f03b06242b40d10f7c2c9c29a5f73b847acbfed5ae3c1699de50982a97",
+  "license": "Official public guidance; retain source attribution",
+  "license_url": "https://onetouch.mic.gov.vn/tai-lieu/TaiLieu_Chinh_Phu_So.html",
+  "version": "1.0 (Công văn 1552/BTTTT-THH, 2022-04-26)",
+  "language": "vi",
+  "chunk_size_chars": 1200,
+  "chunk_overlap_chars": 180,
+  "page_ranges": [
+    {"start": 3, "end": 4, "chapter": 0, "chapter_title": "Mục lục"},
+    {"start": 5, "end": 6, "chapter": 0, "chapter_title": "Danh mục từ viết tắt và hình vẽ"},
+    {"start": 7, "end": 8, "chapter": 1, "chapter_title": "Căn cứ pháp lý"},
+    {"start": 9, "end": 10, "chapter": 2, "chapter_title": "Phạm vi và đối tượng áp dụng"},
+    {"start": 11, "end": 47, "chapter": 3, "chapter_title": "Các thành phần công nghệ thông tin thiết yếu"},
+    {"start": 48, "end": 50, "chapter": 4, "chapter_title": "Tiêu chuẩn, quy chuẩn và định mức"}
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "candidate_k": 20,
+  "context_k": 3,
+  "methods": [
+    {
+      "answerable_questions": 5,
+      "context_evidence_rate": {
+        "N": 5,
+        "context_k": 3,
+        "n": 5,
+        "rate": 1.0
+      },
+      "elapsed_seconds": 0.002534,
+      "evidence_hit_at_3": {
+        "N": 5,
+        "n": 5,
+        "rate": 1.0
+      },
+      "hit_at_1": {
+        "N": 5,
+        "n": 2,
+        "rate": 0.4
+      },
+      "method": "bm25",
+      "traces": [
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": false,
+          "question_id": "test-01",
+          "results": [
+            {
+              "chunk_id": "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+              "page": 10,
+              "rank": 1,
+              "score": 15.04348538
+            },
+            {
+              "chunk_id": "aa83c07df41a49477b1163b3791eb4fbdc991452e294ba57721819846f1645d4",
+              "page": 3,
+              "rank": 2,
+              "score": 14.00286258
+            },
+            {
+              "chunk_id": "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7",
+              "page": 10,
+              "rank": 3,
+              "score": 11.85967084
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": false,
+          "question_id": "test-02",
+          "results": [
+            {
+              "chunk_id": "fbd7dce53325a113b9f39672cc9328d5ffe4811bfa8d25bd4fa22ab2e119ee04",
+              "page": 37,
+              "rank": 1,
+              "score": 15.24233895
+            },
+            {
+              "chunk_id": "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c",
+              "page": 15,
+              "rank": 2,
+              "score": 14.42756436
+            },
+            {
+              "chunk_id": "69b86a9fb5b26371f55f798b5f5b4f7c66b23a5b697d8a0b8a52543139e303e3",
+              "page": 39,
+              "rank": 3,
+              "score": 13.23902717
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-03",
+          "results": [
+            {
+              "chunk_id": "e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9",
+              "page": 47,
+              "rank": 1,
+              "score": 20.99144949
+            },
+            {
+              "chunk_id": "e61a966f498966de4eb9767c3d8ab4a079dc69605227d4d74e83007daee0b748",
+              "page": 42,
+              "rank": 2,
+              "score": 15.20826986
+            },
+            {
+              "chunk_id": "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458",
+              "page": 36,
+              "rank": 3,
+              "score": 14.38389406
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": false,
+          "question_id": "test-04",
+          "results": [
+            {
+              "chunk_id": "d14f7f1b05aa46371feebb9805e367cde312b59abe20a46ea48c5f9b97e1ccfd",
+              "page": 8,
+              "rank": 1,
+              "score": 18.57466419
+            },
+            {
+              "chunk_id": "24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c",
+              "page": 48,
+              "rank": 2,
+              "score": 17.58125467
+            },
+            {
+              "chunk_id": "cead2014d7c8b354f6bf17d24d0ba3d06fbbd68a0e93c7e6aa7281e7468c4a45",
+              "page": 31,
+              "rank": 3,
+              "score": 13.45826965
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-05",
+          "results": [
+            {
+              "chunk_id": "5c52681e5f580f795edd1e93dccfe8d130e16885360ade29e9c7ec14b3234f1c",
+              "page": 49,
+              "rank": 1,
+              "score": 22.72019805
+            },
+            {
+              "chunk_id": "b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7",
+              "page": 9,
+              "rank": 2,
+              "score": 13.77884832
+            },
+            {
+              "chunk_id": "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458",
+              "page": 36,
+              "rank": 3,
+              "score": 12.97825365
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "answerable_questions": 5,
+      "context_evidence_rate": {
+        "N": 5,
+        "context_k": 3,
+        "n": 5,
+        "rate": 1.0
+      },
+      "elapsed_seconds": 0.000143,
+      "evidence_hit_at_3": {
+        "N": 5,
+        "n": 5,
+        "rate": 1.0
+      },
+      "hit_at_1": {
+        "N": 5,
+        "n": 2,
+        "rate": 0.4
+      },
+      "method": "bm25_reference_aware",
+      "traces": [
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": false,
+          "question_id": "test-01",
+          "results": [
+            {
+              "chunk_id": "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+              "page": 10,
+              "rank": 1,
+              "score": 15.04348538
+            },
+            {
+              "chunk_id": "aa83c07df41a49477b1163b3791eb4fbdc991452e294ba57721819846f1645d4",
+              "page": 3,
+              "rank": 2,
+              "score": 14.00286258
+            },
+            {
+              "chunk_id": "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7",
+              "page": 10,
+              "rank": 3,
+              "score": 11.85967084
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": false,
+          "question_id": "test-02",
+          "results": [
+            {
+              "chunk_id": "fbd7dce53325a113b9f39672cc9328d5ffe4811bfa8d25bd4fa22ab2e119ee04",
+              "page": 37,
+              "rank": 1,
+              "score": 15.24233895
+            },
+            {
+              "chunk_id": "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c",
+              "page": 15,
+              "rank": 2,
+              "score": 14.42756436
+            },
+            {
+              "chunk_id": "69b86a9fb5b26371f55f798b5f5b4f7c66b23a5b697d8a0b8a52543139e303e3",
+              "page": 39,
+              "rank": 3,
+              "score": 13.23902717
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-03",
+          "results": [
+            {
+              "chunk_id": "e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9",
+              "page": 47,
+              "rank": 1,
+              "score": 20.99144949
+            },
+            {
+              "chunk_id": "e61a966f498966de4eb9767c3d8ab4a079dc69605227d4d74e83007daee0b748",
+              "page": 42,
+              "rank": 2,
+              "score": 15.20826986
+            },
+            {
+              "chunk_id": "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458",
+              "page": 36,
+              "rank": 3,
+              "score": 14.38389406
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": false,
+          "question_id": "test-04",
+          "results": [
+            {
+              "chunk_id": "d14f7f1b05aa46371feebb9805e367cde312b59abe20a46ea48c5f9b97e1ccfd",
+              "page": 8,
+              "rank": 1,
+              "score": 18.57466419
+            },
+            {
+              "chunk_id": "24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c",
+              "page": 48,
+              "rank": 2,
+              "score": 17.58125467
+            },
+            {
+              "chunk_id": "cead2014d7c8b354f6bf17d24d0ba3d06fbbd68a0e93c7e6aa7281e7468c4a45",
+              "page": 31,
+              "rank": 3,
+              "score": 13.45826965
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-05",
+          "results": [
+            {
+              "chunk_id": "5c52681e5f580f795edd1e93dccfe8d130e16885360ade29e9c7ec14b3234f1c",
+              "page": 49,
+              "rank": 1,
+              "score": 22.72019805
+            },
+            {
+              "chunk_id": "b2980b19ba6e948eaa085705ffa9f1ea24901f94731668274e556d280a438cb7",
+              "page": 9,
+              "rank": 2,
+              "score": 13.77884832
+            },
+            {
+              "chunk_id": "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458",
+              "page": 36,
+              "rank": 3,
+              "score": 12.97825365
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "answerable_questions": 5,
+      "context_evidence_rate": {
+        "N": 5,
+        "context_k": 3,
+        "n": 5,
+        "rate": 1.0
+      },
+      "elapsed_seconds": 6.986284,
+      "evidence_hit_at_3": {
+        "N": 5,
+        "n": 5,
+        "rate": 1.0
+      },
+      "hit_at_1": {
+        "N": 5,
+        "n": 5,
+        "rate": 1.0
+      },
+      "method": "dense",
+      "traces": [
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-01",
+          "results": [
+            {
+              "chunk_id": "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7",
+              "page": 10,
+              "rank": 1,
+              "score": 0.6077888
+            },
+            {
+              "chunk_id": "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+              "page": 10,
+              "rank": 2,
+              "score": 0.55882916
+            },
+            {
+              "chunk_id": "bd048e2dab782f3bbc160ed1ad87d60d960f9c5575b2da726f3296f3964fbf34",
+              "page": 49,
+              "rank": 3,
+              "score": 0.50966549
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-02",
+          "results": [
+            {
+              "chunk_id": "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c",
+              "page": 15,
+              "rank": 1,
+              "score": 0.59385033
+            },
+            {
+              "chunk_id": "fbd7dce53325a113b9f39672cc9328d5ffe4811bfa8d25bd4fa22ab2e119ee04",
+              "page": 37,
+              "rank": 2,
+              "score": 0.58178135
+            },
+            {
+              "chunk_id": "9aae6d11e5876a98cabe2bd66e019280845533e6cdf399595ded8a8d98c46bf3",
+              "page": 6,
+              "rank": 3,
+              "score": 0.57442236
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-03",
+          "results": [
+            {
+              "chunk_id": "e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9",
+              "page": 47,
+              "rank": 1,
+              "score": 0.57005969
+            },
+            {
+              "chunk_id": "9acb9df68909492b10b8ab2e8cd987afbb9d65e24a97ac072270673e011e4fd4",
+              "page": 41,
+              "rank": 2,
+              "score": 0.5613239
+            },
+            {
+              "chunk_id": "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26",
+              "page": 45,
+              "rank": 3,
+              "score": 0.54724699
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-04",
+          "results": [
+            {
+              "chunk_id": "24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c",
+              "page": 48,
+              "rank": 1,
+              "score": 0.51756074
+            },
+            {
+              "chunk_id": "cead2014d7c8b354f6bf17d24d0ba3d06fbbd68a0e93c7e6aa7281e7468c4a45",
+              "page": 31,
+              "rank": 2,
+              "score": 0.50871126
+            },
+            {
+              "chunk_id": "8a2b369ae0fe296ad12274263e725cb6dc498d56a728d9b432824d001ed891a0",
+              "page": 9,
+              "rank": 3,
+              "score": 0.50546666
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-05",
+          "results": [
+            {
+              "chunk_id": "5c52681e5f580f795edd1e93dccfe8d130e16885360ade29e9c7ec14b3234f1c",
+              "page": 49,
+              "rank": 1,
+              "score": 0.5700853
+            },
+            {
+              "chunk_id": "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458",
+              "page": 36,
+              "rank": 2,
+              "score": 0.5365701
+            },
+            {
+              "chunk_id": "516be3f09970ff5004dd1fb6160f9cdeb5a1779f20c8dbf3870181132c349476",
+              "page": 23,
+              "rank": 3,
+              "score": 0.53032602
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "answerable_questions": 5,
+      "context_evidence_rate": {
+        "N": 5,
+        "context_k": 3,
+        "n": 5,
+        "rate": 1.0
+      },
+      "elapsed_seconds": 0.001061,
+      "evidence_hit_at_3": {
+        "N": 5,
+        "n": 5,
+        "rate": 1.0
+      },
+      "hit_at_1": {
+        "N": 5,
+        "n": 4,
+        "rate": 0.8
+      },
+      "method": "hybrid_rrf",
+      "traces": [
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": false,
+          "question_id": "test-01",
+          "results": [
+            {
+              "chunk_id": "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+              "page": 10,
+              "rank": 1,
+              "score": 0.03252247
+            },
+            {
+              "chunk_id": "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7",
+              "page": 10,
+              "rank": 2,
+              "score": 0.03226646
+            },
+            {
+              "chunk_id": "aa83c07df41a49477b1163b3791eb4fbdc991452e294ba57721819846f1645d4",
+              "page": 3,
+              "rank": 3,
+              "score": 0.03041475
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-02",
+          "results": [
+            {
+              "chunk_id": "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c",
+              "page": 15,
+              "rank": 1,
+              "score": 0.03252247
+            },
+            {
+              "chunk_id": "fbd7dce53325a113b9f39672cc9328d5ffe4811bfa8d25bd4fa22ab2e119ee04",
+              "page": 37,
+              "rank": 2,
+              "score": 0.03252247
+            },
+            {
+              "chunk_id": "9aae6d11e5876a98cabe2bd66e019280845533e6cdf399595ded8a8d98c46bf3",
+              "page": 6,
+              "rank": 3,
+              "score": 0.03149802
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-03",
+          "results": [
+            {
+              "chunk_id": "e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9",
+              "page": 47,
+              "rank": 1,
+              "score": 0.03278689
+            },
+            {
+              "chunk_id": "8edd21104c6b848dfb84d08c4eebbe725a7ec1eac64517ae101008cabf911499",
+              "page": 41,
+              "rank": 2,
+              "score": 0.03100962
+            },
+            {
+              "chunk_id": "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26",
+              "page": 45,
+              "rank": 3,
+              "score": 0.0305789
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-04",
+          "results": [
+            {
+              "chunk_id": "24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c",
+              "page": 48,
+              "rank": 1,
+              "score": 0.03252247
+            },
+            {
+              "chunk_id": "d14f7f1b05aa46371feebb9805e367cde312b59abe20a46ea48c5f9b97e1ccfd",
+              "page": 8,
+              "rank": 2,
+              "score": 0.03201844
+            },
+            {
+              "chunk_id": "cead2014d7c8b354f6bf17d24d0ba3d06fbbd68a0e93c7e6aa7281e7468c4a45",
+              "page": 31,
+              "rank": 3,
+              "score": 0.03200205
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-05",
+          "results": [
+            {
+              "chunk_id": "5c52681e5f580f795edd1e93dccfe8d130e16885360ade29e9c7ec14b3234f1c",
+              "page": 49,
+              "rank": 1,
+              "score": 0.03278689
+            },
+            {
+              "chunk_id": "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458",
+              "page": 36,
+              "rank": 2,
+              "score": 0.03200205
+            },
+            {
+              "chunk_id": "516be3f09970ff5004dd1fb6160f9cdeb5a1779f20c8dbf3870181132c349476",
+              "page": 23,
+              "rank": 3,
+              "score": 0.03102453
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "answerable_questions": 5,
+      "context_evidence_rate": {
+        "N": 5,
+        "context_k": 3,
+        "n": 5,
+        "rate": 1.0
+      },
+      "elapsed_seconds": 0.000563,
+      "evidence_hit_at_3": {
+        "N": 5,
+        "n": 5,
+        "rate": 1.0
+      },
+      "hit_at_1": {
+        "N": 5,
+        "n": 3,
+        "rate": 0.6
+      },
+      "method": "hybrid_rrf_lexical_2x",
+      "traces": [
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": false,
+          "question_id": "test-01",
+          "results": [
+            {
+              "chunk_id": "fdae6ee25a0493db1bb3a6c19b28cfba4e3f02ebf17a0abc3d97cc53f6fb99e5",
+              "page": 10,
+              "rank": 1,
+              "score": 0.04891592
+            },
+            {
+              "chunk_id": "4d54d151c971b7ef4d84e578dbf49679710151cdeb4b0e8ec4e7d25be17809b7",
+              "page": 10,
+              "rank": 2,
+              "score": 0.04813947
+            },
+            {
+              "chunk_id": "aa83c07df41a49477b1163b3791eb4fbdc991452e294ba57721819846f1645d4",
+              "page": 3,
+              "rank": 3,
+              "score": 0.04654378
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": false,
+          "question_id": "test-02",
+          "results": [
+            {
+              "chunk_id": "fbd7dce53325a113b9f39672cc9328d5ffe4811bfa8d25bd4fa22ab2e119ee04",
+              "page": 37,
+              "rank": 1,
+              "score": 0.04891592
+            },
+            {
+              "chunk_id": "6db8e22e855363d8ca43ba487f51fa0eb33668f150a45a8024e4e0e44ad7319c",
+              "page": 15,
+              "rank": 2,
+              "score": 0.04865151
+            },
+            {
+              "chunk_id": "9aae6d11e5876a98cabe2bd66e019280845533e6cdf399595ded8a8d98c46bf3",
+              "page": 6,
+              "rank": 3,
+              "score": 0.04712302
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-03",
+          "results": [
+            {
+              "chunk_id": "e3dc8e0caff6c24dead8149aad6f8a6769fc4e437171dce7db5639cad3eebbc9",
+              "page": 47,
+              "rank": 1,
+              "score": 0.04918033
+            },
+            {
+              "chunk_id": "8edd21104c6b848dfb84d08c4eebbe725a7ec1eac64517ae101008cabf911499",
+              "page": 41,
+              "rank": 2,
+              "score": 0.04639423
+            },
+            {
+              "chunk_id": "ac20a070b001708028416f731cd75e0b0bbccc3b75a3c46f39feadc04a19ec26",
+              "page": 45,
+              "rank": 3,
+              "score": 0.04528478
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-04",
+          "results": [
+            {
+              "chunk_id": "24d26a221ccc69e9247cd62f083a49033cd88d991a80b49eab859a0defa3097c",
+              "page": 48,
+              "rank": 1,
+              "score": 0.04865151
+            },
+            {
+              "chunk_id": "d14f7f1b05aa46371feebb9805e367cde312b59abe20a46ea48c5f9b97e1ccfd",
+              "page": 8,
+              "rank": 2,
+              "score": 0.04841189
+            },
+            {
+              "chunk_id": "cead2014d7c8b354f6bf17d24d0ba3d06fbbd68a0e93c7e6aa7281e7468c4a45",
+              "page": 31,
+              "rank": 3,
+              "score": 0.04787506
+            }
+          ]
+        },
+        {
+          "context_has_evidence": true,
+          "evidence_hit_at_3": true,
+          "hit_at_1": true,
+          "question_id": "test-05",
+          "results": [
+            {
+              "chunk_id": "5c52681e5f580f795edd1e93dccfe8d130e16885360ade29e9c7ec14b3234f1c",
+              "page": 49,
+              "rank": 1,
+              "score": 0.04918033
+            },
+            {
+              "chunk_id": "4d46a3c5c7341a3cf6784cf46ea46c29b41d3b4c6073fe2fc90af42245390458",
+              "page": 36,
+              "rank": 2,
+              "score": 0.04787506
+            },
+            {
+              "chunk_id": "516be3f09970ff5004dd1fb6160f9cdeb5a1779f20c8dbf3870181132c349476",
+              "page": 23,
+              "rank": 3,
+              "score": 0.04617605
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "query_embedding": {
+    "estimated_cost_usd": 8.9e-07,
+    "prompt_tokens": 89,
+    "requested_model": "baai/bge-m3",
+    "response_models": [
+      "parasail-bge-m3"
+    ],
+    "total_tokens": 89
+  },
+  "rrf_k": 60,
+  "split": "test"
+}
